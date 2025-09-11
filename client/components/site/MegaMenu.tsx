@@ -248,13 +248,12 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
 
   return (
     <div
-      className={`absolute left-1/2 top-full z-50 w-[min(96vw,1440px)] -translate-x-1/2 pt-4 ${open ? "block" : "hidden"}`}
+      className={`fixed inset-x-0 top-[72px] z-50 w-full ${open ? "block" : "hidden"}`}
       aria-hidden={!open}
     >
       <div
         ref={panelRef}
-        className="w-full bg-[#EBF2FE] shadow-2xl"
-        style={{ height: "449px" }}
+        className="w-full h-[449px] bg-[#EBF2FE] shadow-2xl"
       >
         {/* Menu Content */}
         <div className="flex px-16 py-8 justify-center items-start gap-8">
