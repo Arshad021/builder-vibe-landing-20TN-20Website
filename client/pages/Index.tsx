@@ -29,21 +29,25 @@ export default function Index() {
               </Link>
             </div>
           </div>
-          <div className="relative flex-1">
-            <div className="relative h-[638px]">
-              {/* Main image */}
+          <div className="flex-1">
+            {/* Mobile hero image */}
+            <img
+              src="https://api.builder.io/api/v1/image/assets/TEMP/b879fabe2944a804c205068acbb184b66a1a03d0?width=848"
+              alt=""
+              className="mb-6 h-64 w-full rounded-2xl object-cover md:hidden"
+            />
+            {/* Desktop collage */}
+            <div className="relative hidden h-[638px] md:block">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/b879fabe2944a804c205068acbb184b66a1a03d0?width=848"
                 alt=""
                 className="absolute left-[92px] top-0 h-[638px] w-[424px] rounded-2xl object-cover"
               />
-              {/* Top right image */}
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/36d4d519aff18cba8cd7b36c69836aff1536271a?width=488"
                 alt=""
                 className="absolute left-[364px] top-16 h-[244px] w-[244px] rounded-2xl object-cover"
               />
-              {/* Bottom left image */}
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/b3ac33bd245cb7944dbdb1b5161a44fb521f4db9?width=608"
                 alt=""
