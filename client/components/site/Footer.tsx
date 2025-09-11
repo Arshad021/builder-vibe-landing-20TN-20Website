@@ -2,10 +2,10 @@ import { Link } from "react-router-dom";
 
 export default function Footer() {
   return (
-    <footer className="bg-white px-16 py-20">
-      <div className="mx-auto max-w-[1280px] space-y-20">
+    <footer className="bg-white px-6 md:px-16 py-12 md:py-20">
+      <div className="mx-auto max-w-[1280px] space-y-12 md:space-y-20">
         {/* Newsletter Section */}
-        <div className="flex items-start justify-between">
+        <div className="flex flex-col items-start justify-between gap-6 md:flex-row">
           <div className="max-w-[560px] flex-1">
             <h3 className="font-montserrat text-lg font-semibold text-[#0C0801]">
               Subscribe to updates
@@ -14,7 +14,7 @@ export default function Footer() {
               Stay informed about our latest services and insights.
             </p>
           </div>
-          <div className="w-[400px] space-y-3">
+          <div className="w-full md:w-[400px] space-y-3">
             <div className="flex gap-4">
               <div className="flex-1 border-b border-[rgba(12,8,1,0.15)] py-2">
                 <input
@@ -240,7 +240,7 @@ export default function Footer() {
           <div className="h-px w-full bg-[rgba(12,8,1,0.15)]"></div>
 
           {/* Logo and Credits */}
-          <div className="flex items-center justify-between">
+          <div className="flex flex-col items-start justify-between gap-4 md:flex-row">
             <Link to="/" className="flex h-9 w-[84px] items-center justify-center">
               <svg width="70" height="36" viewBox="0 0 71 37" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_9234_500)">
