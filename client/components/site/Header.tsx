@@ -83,7 +83,7 @@ export default function Header() {
         {/* Backdrop to cover page when mega menu is open (desktop) */}
         {open && (
           <div
-            className="fixed inset-0 top-[72px] z-40 bg-white/80 backdrop-blur-[2px]"
+            className="fixed inset-0 top-[72px] z-40 bg-[#EBF2FE]"
             onClick={() => setOpen(false)}
             aria-hidden
           />
