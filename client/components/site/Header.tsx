@@ -43,7 +43,7 @@ export default function Header() {
 
   return (
     <header className="w-full bg-[#EBF2FE] relative z-50">
-      <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-16">
+      <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-4 md:px-16">
         <div className="flex items-center gap-6">
           <Link to="/" className="flex h-9 w-[84px] items-center justify-center">
             <svg width="70" height="36" viewBox="0 0 71 37" fill="none" xmlns="http://www.w3.org/2000/svg">
