@@ -19,6 +19,17 @@ export default function Header() {
     return () => document.removeEventListener("keydown", onEsc);
   }, [mobileOpen]);
 
+  // Prevent background scroll when mobile menu is open
+  useEffect(() => {
+    const root = document.documentElement;
+    if (mobileOpen) {
+      root.classList.add("overflow-hidden");
+    } else {
+      root.classList.remove("overflow-hidden");
+    }
+    return () => root.classList.remove("overflow-hidden");
+  }, [mobileOpen]);
+
   // Prevent background scroll when desktop mega menu is open
   useEffect(() => {
     const root = document.documentElement;
@@ -115,8 +126,8 @@ export default function Header() {
 
       {/* Mobile menu */}
       {mobileOpen && (
-        <div className="border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE] md:hidden">
-          <div className="mx-auto max-w-[1440px] space-y-1 px-16 py-3">
+        <div className="fixed inset-0 top-[72px] z-50 border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE] md:hidden overflow-y-auto">
+          <div className="mx-auto max-w-[1440px] space-y-1 px-6 py-4">
             <NavLink to="/" className={navLinkClass} end onClick={() => setMobileOpen(false)}>
               Home Page
             </NavLink>
@@ -130,34 +141,36 @@ export default function Header() {
               <summary className="cursor-pointer list-none px-4 py-2 text-base font-normal font-montserrat text-[#0C0801] hover:text-[#0C0801]/80">
                 More Links
               </summary>
-              <div className="grid grid-cols-1 gap-2 px-4 pb-3">
+              <div className="grid grid-cols-1 gap-2 px-2 pb-3">
                 {[
-                  ["About", "/p/about"],
                   ["Blog", "/p/blog"],
+                  ["Testimonials", "/p/testimonials"],
+                  ["FAQs", "/p/faqs"],
+                  ["Events", "/p/events"],
+                  ["Social Media", "/p/social"],
+                  ["Newsletter", "/p/newsletter"],
+                  ["Support", "/p/support"],
+                  ["Resources", "/p/resources"],
                   ["Careers", "/p/careers"],
                   ["Contact", "/p/contact"],
-                  ["Docs", "/p/docs"],
-                  ["Changelog", "/p/changelog"],
-                  ["Help Center", "/p/help"],
-                  ["Status", "/p/status"],
                 ].map(([label, to]) => (
-                  <Link key={to} to={to} onClick={() => setMobileOpen(false)} className="rounded-md px-2 py-2 text-sm font-montserrat text-[#0C0801] hover:bg-white/50">
+                  <Link key={to} to={to} onClick={() => setMobileOpen(false)} className="rounded-md px-3 py-2 text-base font-montserrat text-[#0C0801] hover:bg-white/50">
                     {label}
                   </Link>
                 ))}
               </div>
             </details>
-            <div className="flex flex-col gap-2 pt-2">
+            <div className="flex flex-col gap-3 pt-3 pb-8">
               <Link
                 to="/p/contact"
-                className="rounded-full border border-[rgba(12,8,1,0.15)] px-4 py-2 text-center text-base font-normal font-montserrat text-[#0C0801]"
+                className="rounded-full border border-[rgba(12,8,1,0.15)] px-4 py-3 text-center text-base font-medium font-montserrat text-[#0C0801]"
                 onClick={() => setMobileOpen(false)}
               >
                 Contact
               </Link>
               <Link
                 to="/p/explore"
-                className="rounded-full bg-[#3B82F6] border border-[#3B82F6] px-4 py-2 text-center text-base font-normal font-montserrat text-white"
+                className="rounded-full bg-[#3B82F6] border border-[#3B82F6] px-4 py-3 text-center text-base font-medium font-montserrat text-white"
                 onClick={() => setMobileOpen(false)}
               >
                 Explore
