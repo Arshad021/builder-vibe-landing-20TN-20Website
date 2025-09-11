@@ -253,10 +253,10 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
     >
       <div
         ref={panelRef}
-        className="w-full h-[449px] bg-[#EBF2FE] shadow-2xl"
+        className="w-full bg-[#EBF2FE] shadow-2xl max-h-[calc(100vh-72px)] min-h-[449px] overflow-y-auto"
       >
         {/* Menu Content */}
-        <div className="flex px-16 py-8 justify-center items-start gap-8">
+        <div className="mx-auto max-w-[1440px] flex px-16 py-8 justify-center items-start gap-8">
           {menuSections.map((section, sectionIndex) => (
             <div key={section.title} className="flex flex-col items-start gap-4 flex-1">
               {/* Section Header */}
@@ -295,7 +295,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
         </div>
 
         {/* Footer Section */}
-        <div className="flex px-16 py-4 justify-between items-start border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]">
+        <div className="mx-auto max-w-[1440px] flex px-16 py-4 justify-between items-start border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]">
           <div className="flex items-start gap-2">
             <div className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
               Ready to elevate your business?
