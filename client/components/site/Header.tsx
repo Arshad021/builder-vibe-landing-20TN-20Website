@@ -80,6 +80,15 @@ export default function Header() {
           </nav>
         </div>
 
+        {/* Backdrop to cover page when mega menu is open (desktop) */}
+        {open && (
+          <div
+            className="fixed inset-0 top-[72px] z-40 bg-white/80 backdrop-blur-[2px]"
+            onClick={() => setOpen(false)}
+            aria-hidden
+          />
+        )}
+
         <div className="hidden items-center gap-4 md:flex">
           <Link
             to="/p/contact"
