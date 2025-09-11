@@ -5,10 +5,10 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-white px-16 py-28">
-        <div className="mx-auto flex max-w-[1280px] items-center gap-16">
+      <section className="bg-white px-6 md:px-16 py-16 md:py-28">
+        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-center gap-10 md:gap-16">
           <div className="flex-1">
-            <h1 className="max-w-xl font-alata text-[72px] font-normal leading-[120%] tracking-[-0.72px] text-[#0C0801]">
+            <h1 className="max-w-xl font-alata text-[36px] md:text-[72px] font-normal leading-[120%] tracking-[-0.72px] text-[#0C0801]">
               Empowering Your Digital Transformation Journey
             </h1>
             <p className="mt-6 max-w-xl font-montserrat text-lg font-normal leading-[150%] text-[#0C0801]">
@@ -55,8 +55,8 @@ export default function Index() {
       </section>
 
       {/* Features Section */}
-      <section className="bg-white px-16 py-28">
-        <div className="mx-auto flex max-w-[1280px] items-center gap-20">
+      <section className="bg-white px-6 md:px-16 py-16 md:py-28">
+        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-start gap-10 md:gap-20">
           {/* Left side - Features list */}
           <div className="flex-1">
             <div className="space-y-8">
@@ -199,14 +199,14 @@ export default function Index() {
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/9e52876df6b406deb4eeb28e1f107bd6eddae30a?width=1200"
               alt=""
-              className="h-[640px] w-full rounded-2xl object-cover"
+              className="h-64 w-full rounded-2xl object-cover md:h-[640px]"
             />
           </div>
         </div>
       </section>
 
       {/* Trusted by section */}
-      <section className="bg-white px-16 py-20">
+      <section className="bg-white px-6 md:px-16 py-12 md:py-20">
         <div className="mx-auto max-w-[1280px] text-center">
           <h2 className="font-montserrat text-lg font-bold text-[#0C0801]">
             Trusted by industry leaders worldwide
@@ -221,7 +221,7 @@ export default function Index() {
       </section>
 
       {/* Services Section - Dark Blue */}
-      <section className="bg-[#173462] px-16 py-28">
+      <section className="bg-[#173462] px-6 md:px-16 py-16 md:py-28">
         <div className="mx-auto max-w-[1280px] text-center">
           <div className="mx-auto max-w-[768px]">
             <div className="mb-4">
@@ -354,12 +354,12 @@ export default function Index() {
       </section>
 
       {/* Business Potential Section */}
-      <section className="bg-white px-16 py-28">
-        <div className="mx-auto flex max-w-[1280px] items-center gap-20">
+      <section className="bg-white px-6 md:px-16 py-16 md:py-28">
+        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-start gap-10 md:gap-20">
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/1153c415766d1f905923d36d24bac3b9e04208d6?width=1200"
             alt=""
-            className="h-[640px] flex-1 rounded-2xl object-cover"
+            className="h-64 flex-1 rounded-2xl object-cover md:h-[640px]"
           />
           <div className="flex-1">
             <h2 className="font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px] text-[#0C0801]">
@@ -373,8 +373,8 @@ export default function Index() {
       </section>
 
       {/* AI Section - Dark Blue */}
-      <section className="bg-[#173462] px-16 py-28">
-        <div className="mx-auto flex max-w-[1280px] items-center gap-20">
+      <section className="bg-[#173462] px-6 md:px-16 py-16 md:py-28">
+        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-start gap-10 md:gap-20">
           <div className="flex-1">
             <h2 className="font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px] text-white">
               Harnessing Agentic AI and Analytics for Transformative Enterprise Solutions
@@ -413,7 +413,7 @@ export default function Index() {
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/bd99efbf4c6c21d1b1ffdf012b404184e4d97ccf?width=1200"
             alt=""
-            className="h-[640px] flex-1 rounded-2xl object-cover"
+            className="h-64 flex-1 rounded-2xl object-cover md:h-[640px]"
           />
         </div>
       </section>
@@ -475,7 +475,7 @@ export default function Index() {
       </section>
 
       {/* Blog Section */}
-      <section className="bg-white px-16 py-28">
+      <section className="bg-white px-6 md:px-16 py-16 md:py-28">
         <div className="mx-auto max-w-[1280px]">
           <div className="mx-auto max-w-[768px] text-center">
             <div className="mb-4">
