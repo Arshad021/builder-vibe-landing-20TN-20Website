@@ -248,7 +248,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
 
   return (
     <div
-      className={`absolute left-1/2 top-full z-40 w-[min(96vw,1440px)] -translate-x-1/2 pt-4 ${open ? "block" : "hidden"}`}
+      className={`absolute left-1/2 top-full z-50 w-[min(96vw,1440px)] -translate-x-1/2 pt-4 ${open ? "block" : "hidden"}`}
       aria-hidden={!open}
     >
       <div
