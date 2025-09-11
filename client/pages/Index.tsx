@@ -5,51 +5,51 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-white px-6 md:px-16 py-16 md:py-28">
-        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-center gap-10 md:gap-16">
-          <div className="flex-1">
-            <h1 className="max-w-xl font-alata text-[36px] md:text-[72px] font-normal leading-[120%] tracking-[-0.72px] text-[#0C0801]">
+      <section className="bg-white px-5 md:px-16 py-16 md:py-28">
+        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-center gap-12 md:gap-16">
+          <div className="flex-1 order-2 md:order-1">
+            <h1 className="font-alata text-[44px] md:text-[72px] font-normal leading-[120%] tracking-[-0.44px] text-[#0C0801]">
               Empowering Your Digital Transformation Journey
             </h1>
-            <p className="mt-6 max-w-xl font-montserrat text-lg font-normal leading-[150%] text-[#0C0801]">
+            <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-[#0C0801]">
               At TecNext, we drive measurable business impact through innovative digital solutions. Join us in redefining excellence in your enterprise.
             </p>
-            <div className="mt-8 flex items-start gap-4">
+            <div className="mt-6 flex flex-col md:flex-row items-start gap-4">
               <Link
                 to="/p/learn-more"
-                className="rounded-full border border-[#3B82F6] bg-[#3B82F6] px-3 py-[6px] font-montserrat text-base font-medium text-white hover:opacity-90"
+                className="w-full md:w-auto text-center rounded-full border border-[#3B82F6] bg-[#3B82F6] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-white hover:opacity-90"
               >
                 Learn More
               </Link>
               <Link
                 to="/p/contact"
-                className="rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-base font-medium text-[#0C0801] hover:bg-gray-50"
+                className="w-full md:w-auto text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
               >
                 Contact
               </Link>
             </div>
           </div>
-          <div className="flex-1">
+          <div className="flex-1 order-1 md:order-2 w-full">
             {/* Mobile hero image */}
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/b879fabe2944a804c205068acbb184b66a1a03d0?width=848"
-              alt=""
-              className="mb-6 h-64 w-full rounded-2xl object-cover md:hidden"
+              src="https://api.builder.io/api/v1/image/assets/TEMP/0eff36f822db83c55c9e1aa1f252989cc3478709?width=472"
+              alt="Digital transformation hero image"
+              className="w-full h-[343px] rounded-2xl object-cover md:hidden"
             />
             {/* Desktop collage */}
             <div className="relative hidden h-[638px] md:block">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b879fabe2944a804c205068acbb184b66a1a03d0?width=848"
+                src="https://api.builder.io/api/v1/image/assets/TEMP/0eff36f822db83c55c9e1aa1f252989cc3478709?width=472"
                 alt=""
                 className="absolute left-[92px] top-0 h-[638px] w-[424px] rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/36d4d519aff18cba8cd7b36c69836aff1536271a?width=488"
+                src="https://api.builder.io/api/v1/image/assets/TEMP/6a2bc38e8c481916604d52ad28f546719431ffa1?width=262"
                 alt=""
                 className="absolute left-[364px] top-16 h-[244px] w-[244px] rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/b3ac33bd245cb7944dbdb1b5161a44fb521f4db9?width=608"
+                src="https://api.builder.io/api/v1/image/assets/TEMP/9363dbc7ba53d1e945626a7a1b6d7ab1e9a36a20?width=326"
                 alt=""
                 className="absolute left-0 top-[372px] h-[202px] w-[304px] rounded-2xl object-cover"
               />
