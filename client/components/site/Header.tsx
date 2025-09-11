@@ -19,8 +19,19 @@ export default function Header() {
     return () => document.removeEventListener("keydown", onEsc);
   }, [mobileOpen]);
 
+  // Prevent background scroll when desktop mega menu is open
+  useEffect(() => {
+    const root = document.documentElement;
+    if (open) {
+      root.classList.add("overflow-hidden");
+    } else {
+      root.classList.remove("overflow-hidden");
+    }
+    return () => root.classList.remove("overflow-hidden");
+  }, [open]);
+
   return (
-    <header className="w-full bg-[#EBF2FE]">
+    <header className="w-full bg-[#EBF2FE] relative z-50">
       <div className="mx-auto flex h-[72px] max-w-[1440px] items-center justify-between px-16">
         <div className="flex items-center gap-6">
           <Link to="/" className="flex h-9 w-[84px] items-center justify-center">
