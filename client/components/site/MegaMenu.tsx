@@ -253,7 +253,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
     >
       <div
         ref={panelRef}
-        className="w-full bg-white shadow-2xl"
+        className="w-full bg-[#EBF2FE] shadow-2xl"
         style={{ height: "449px" }}
       >
         {/* Menu Content */}
