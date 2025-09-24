@@ -116,7 +116,7 @@ export default function Header() {
             <NavLink to="/" className={navLinkClass} end>
               Home Page
             </NavLink>
-            <NavLink to="/p/services" className={navLinkClass}>
+            <NavLink to="/services" className={navLinkClass}>
               Our Services
             </NavLink>
             <NavLink to="/about" className={navLinkClass}>
