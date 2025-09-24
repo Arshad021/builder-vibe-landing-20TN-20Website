@@ -10,6 +10,20 @@ export default function Index() {
     const amount = el.clientWidth * 0.9;
     el.scrollBy({ left: dir * amount, behavior: "smooth" });
   };
+
+  const trustedLogos = [
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F72a20a0728e84d37a41bd7cee1de2a0e?format=webp&width=800", alt: "Zeekr" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F50a790f1ad7b44a5a9cf2440ba9d9a2a?format=webp&width=800", alt: "Alektiar" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fa6db15645fd84942a60dcdb9df3b1847?format=webp&width=800", alt: "Lotus" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fae40e420439c42868d92cd156aa02e51?format=webp&width=800", alt: "QA Arabia" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Faee8a736238046bba0539768585871a3?format=webp&width=800", alt: "Geely" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fc9508ece851649528adf48fee807f24e?format=webp&width=800", alt: "Wallan Group" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F86dc88f4b6d8470bb232713e5f1817fd?format=webp&width=800", alt: "Wallan Group (alt)" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fadc9ff8a3c7f4bcdbb24c3373b5f8da1?format=webp&width=800", alt: "Hyundai" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fa4df0237029a4cf9b19498ce39e38db3?format=webp&width=800", alt: "Logo White" },
+    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F7ee854673e8e410e88532bfdcfc9c494?format=webp&width=800", alt: "Logo 1" }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -224,9 +238,15 @@ export default function Index() {
             Trusted by industry leaders worldwide
           </h2>
           <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:gap-8">
-            {/* Logo placeholders - adjusted for mobile */}
-            {Array.from({ length: 8 }).map((_, i) => (
-              <div key={i} className="h-12 md:h-14 w-[120px] md:w-[140px] rounded bg-gray-100"></div>
+            {trustedLogos.map((logo) => (
+              <div key={logo.alt} className="h-12 md:h-14 w-[120px] md:w-[140px] rounded bg-gray-100 flex items-center justify-center p-2">
+                <img
+                  src={logo.src}
+                  alt={logo.alt}
+                  loading="lazy"
+                  className="max-h-10 md:max-h-12 w-auto object-contain"
+                />
+              </div>
             ))}
           </div>
         </div>
