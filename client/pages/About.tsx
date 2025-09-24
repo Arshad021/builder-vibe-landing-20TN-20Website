@@ -407,46 +407,6 @@ export default function About() {
         </div>
       </section>
 
-      {/* Newsletter Section */}
-      <section className="bg-white px-4 py-16 md:px-16 md:py-20">
-        <div className="mx-auto max-w-[1280px] flex flex-col items-start gap-20">
-          <div className="flex justify-between items-start w-full">
-            <div className="max-w-[560px] flex flex-col items-start flex-1">
-              <h3 className="w-full text-[#0C0801] font-montserrat text-lg font-semibold leading-[150%]">
-                Subscribe to updates
-              </h3>
-              <p className="w-full text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
-                Stay informed about our latest services and insights.
-              </p>
-            </div>
-            <div className="w-[400px] flex flex-col items-start gap-3 self-stretch">
-              <div className="flex items-start gap-4 w-full">
-                <div className="flex py-2 items-center gap-2 flex-1 border-b border-[rgba(12,8,1,0.15)]">
-                  <input
-                    type="email"
-                    placeholder="Your email here"
-                    className="flex-1 text-[rgba(12,8,1,0.6)] font-montserrat text-base font-normal leading-[150%] bg-transparent border-none outline-none"
-                  />
-                </div>
-                <button className="flex justify-center items-center gap-2 rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-base font-medium text-[#0C0801] hover:bg-gray-50">
-                  Subscribe
-                </button>
-              </div>
-              <div className="flex items-start gap-1 w-full">
-                <span className="text-[#0C0801] font-montserrat text-xs font-normal leading-[150%]">
-                  By subscribing you agree to our
-                </span>
-                <Link
-                  to="/p/privacy-policy"
-                  className="text-[#0C0801] font-roboto text-xs font-normal leading-[150%] underline hover:no-underline"
-                >
-                  Privacy Policy
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
