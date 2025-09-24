@@ -277,7 +277,7 @@ export default function About() {
                 Learn More
               </Link>
               <Link
-                to="/p/contact"
+                to="/contact"
                 className="flex justify-center items-center gap-2 rounded-full font-montserrat text-base font-medium text-[#0C0801] hover:opacity-80"
               >
                 Contact
