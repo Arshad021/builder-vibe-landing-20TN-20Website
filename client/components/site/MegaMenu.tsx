@@ -172,6 +172,12 @@ const menuSections: MenuSection[] = [
     items: [
       {
         icon: SearchInsightsIcon,
+        title: "Our Services",
+        description: "Explore our comprehensive digital solutions",
+        to: "/services"
+      },
+      {
+        icon: SearchInsightsIcon,
         title: "About Us",
         description: "Learn about our mission, values, and team",
         to: "/about"
