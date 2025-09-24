@@ -31,7 +31,7 @@ const mobileMenuSections = [
     items: [
       { icon: CubeIcon, title: "Cybersecurity Solutions", href: "/p/cybersecurity" },
       { icon: CubeIcon, title: "Project Success", href: "/p/project-success" },
-      { icon: CubeIcon, title: "Contact Us", href: "/p/contact" },
+      { icon: CubeIcon, title: "Contact Us", href: "/contact" },
       { icon: CubeIcon, title: "Careers", href: "/p/careers" }
     ]
   },
@@ -152,7 +152,7 @@ export default function Header() {
 
         <div className="hidden items-center gap-4 md:flex">
           <Link
-            to="/p/contact"
+            to="/contact"
             className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 text-base font-normal font-montserrat text-[#0C0801] hover:bg-gray-50"
           >
             Contact
@@ -319,7 +319,7 @@ export default function Header() {
             {/* Bottom buttons */}
             <div className="space-y-4 px-0 pt-6 pb-20">
               <Link
-                to="/p/contact"
+                to="/contact"
                 className="flex w-full items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 text-xs font-medium font-montserrat text-[#0C0801]"
                 onClick={() => setMobileOpen(false)}
               >
