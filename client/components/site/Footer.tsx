@@ -110,7 +110,7 @@ export default function Footer() {
             <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">Contact Us</h4>
             <div className="space-y-0">
               <div className="py-2">
-                <Link to="/p/contact" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                <Link to="/contact" className="font-montserrat text-sm text-[#0C0801] hover:underline">
                   Get in Touch
                 </Link>
               </div>
