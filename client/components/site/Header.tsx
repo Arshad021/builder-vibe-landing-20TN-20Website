@@ -216,8 +216,8 @@ export default function Header() {
               >
                 Home Page
               </NavLink>
-              <NavLink 
-                to="/p/services" 
+              <NavLink
+                to="/services"
                 className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
                 onClick={() => setMobileOpen(false)}
               >
