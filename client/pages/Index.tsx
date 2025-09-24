@@ -1,7 +1,15 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
+import { useRef } from "react";
 
 export default function Index() {
+  const showcaseRef = useRef<HTMLDivElement>(null);
+  const scrollShowcase = (dir: number) => {
+    const el = showcaseRef.current;
+    if (!el) return;
+    const amount = el.clientWidth * 0.9;
+    el.scrollBy({ left: dir * amount, behavior: "smooth" });
+  };
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -434,7 +442,7 @@ export default function Index() {
           </div>
 
           <div className="mt-8 md:mt-20 space-y-8 md:space-y-12">
-            <div className="flex gap-6 overflow-x-auto">
+            <div className="flex gap-6 overflow-x-auto" ref={showcaseRef}>
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/c2a251beb9fc70f7d8e87e5d059d760dc2fd16ba?width=628"
                 alt=""
@@ -465,10 +473,10 @@ export default function Index() {
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]/20"></div>
               </div>
               <div className="flex gap-4">
-                <button className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
+                <button onClick={() => scrollShowcase(-1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
                   <ChevronLeft className="h-6 w-6 text-[#0C0801]" />
                 </button>
-                <button className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
+                <button onClick={() => scrollShowcase(1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
                   <ChevronRight className="h-6 w-6 text-[#0C0801]" />
                 </button>
               </div>
