@@ -157,7 +157,7 @@ const menuSections: MenuSection[] = [
         icon: ContactSupportIcon,
         title: "Contact Us",
         description: "Get in touch for a consultation today",
-        to: "/p/contact"
+        to: "/contact"
       },
       {
         icon: JoinIcon,
