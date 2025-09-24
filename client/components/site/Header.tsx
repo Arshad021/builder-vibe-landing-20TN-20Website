@@ -38,6 +38,7 @@ const mobileMenuSections = [
   {
     title: "More Information",
     items: [
+      { icon: CubeIcon, title: "About Us", href: "/about" },
       { icon: CubeIcon, title: "Blog", href: "/p/blog" },
       { icon: CubeIcon, title: "Testimonials", href: "/p/testimonials" },
       { icon: CubeIcon, title: "FAQs", href: "/p/faqs" },
