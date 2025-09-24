@@ -22,7 +22,7 @@ export default function Index() {
                 Learn More
               </Link>
               <Link
-                to="/p/contact"
+                to="/contact"
                 className="w-full md:w-auto text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
               >
                 Contact
@@ -142,7 +142,7 @@ export default function Index() {
                   </p>
                   <div className="pt-2">
                     <Link
-                      to="/p/contact"
+                      to="/contact"
                       className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
                     >
                       Contact
