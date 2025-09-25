@@ -233,72 +233,102 @@ const menuSections: MenuSection[] = [
     ]
   },
   {
-    title: "More Information",
+    title: "Resources & Learning",
     items: [
       {
         icon: SearchInsightsIcon,
-        title: "Our Services",
-        description: "Explore our comprehensive digital solutions",
-        to: "/services"
+        title: "Knowledge Base",
+        description: "Comprehensive guides and documentation",
+        to: "/p/knowledge-base"
       },
       {
-        icon: SearchInsightsIcon,
-        title: "About Us",
-        description: "Learn about our mission, values, and team",
-        to: "/about"
-      },
-      {
-        icon: SearchInsightsIcon,
-        title: "Blog",
-        description: "Insights and updates from our experts",
+        icon: NewsIcon,
+        title: "Blog & Insights",
+        description: "Industry insights and thought leadership",
         to: "/p/blog"
       },
       {
-        icon: FeedbackIcon,
-        title: "Testimonials",
-        description: "What our clients say about us",
-        to: "/p/testimonials"
+        icon: EventUpcomingIcon,
+        title: "Webinars & Events",
+        description: "Join our upcoming digital events",
+        to: "/p/events"
+      },
+      {
+        icon: ToolsLevelIcon,
+        title: "Case Studies",
+        description: "Real-world success stories and outcomes",
+        to: "/p/case-studies"
+      },
+      {
+        icon: SearchInsightsIcon,
+        title: "White Papers",
+        description: "In-depth research and industry reports",
+        to: "/p/white-papers"
       },
       {
         icon: QuestionExchangeIcon,
-        title: "FAQs",
-        description: "Find answers to common questions",
+        title: "FAQs & Support",
+        description: "Get answers to frequently asked questions",
         to: "/p/faqs"
       },
       {
-        icon: EventUpcomingIcon,
-        title: "Events",
-        description: "Join us at our upcoming events",
-        to: "/p/events"
+        icon: FeedbackIcon,
+        title: "Client Testimonials",
+        description: "Hear from our satisfied customers",
+        to: "/p/testimonials"
       }
     ]
   },
   {
-    title: "Connect With Us",
+    title: "Company & Contact",
     items: [
       {
         icon: SearchInsightsIcon,
-        title: "Social Media",
-        description: "Follow us for updates and insights",
-        to: "/p/social"
+        title: "About TecNext",
+        description: "Our mission, vision, and company values",
+        to: "/about"
+      },
+      {
+        icon: JoinIcon,
+        title: "Leadership Team",
+        description: "Meet our executives and advisors",
+        to: "/p/leadership"
+      },
+      {
+        icon: ContactSupportIcon,
+        title: "Contact Us",
+        description: "Get in touch for consultations and support",
+        to: "/contact"
+      },
+      {
+        icon: JoinIcon,
+        title: "Careers & Jobs",
+        description: "Join our growing team of innovators",
+        to: "/p/careers"
       },
       {
         icon: NewsIcon,
-        title: "Newsletter",
-        description: "Subscribe for the latest news and offers",
-        to: "/p/newsletter"
+        title: "Press & Media",
+        description: "Latest news, press releases, and media kit",
+        to: "/p/press"
       },
       {
         icon: SupportIcon,
-        title: "Support",
-        description: "We're here to help you with inquiries",
-        to: "/p/support"
+        title: "Partner Program",
+        description: "Become a TecNext technology partner",
+        to: "/p/partners"
+      },
+      {
+        icon: SearchInsightsIcon,
+        title: "Investor Relations",
+        description: "Financial information and investor updates",
+        to: "/p/investors"
       },
       {
         icon: ToolsLevelIcon,
-        title: "Resources",
-        description: "Access valuable tools and documentation",
-        to: "/p/resources"
+        title: "Legal & Privacy",
+        description: "Terms of service and privacy policies",
+        to: "/p/legal"
       }
     ]
   }
@@ -333,7 +363,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
         className="w-full bg-[#EBF2FE] shadow-2xl max-h-[calc(100vh-72px)] min-h-[449px] overflow-y-auto"
       >
         {/* Menu Content */}
-        <div className="mx-auto max-w-[1440px] flex px-16 py-8 justify-center items-start gap-8">
+        <div className="mx-auto max-w-[1440px] flex px-16 py-8 justify-center items-start gap-6">
           {menuSections.map((section, sectionIndex) => (
             <div key={section.title} className="flex flex-col items-start gap-4 flex-1">
               {/* Section Header */}
