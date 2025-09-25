@@ -132,8 +132,8 @@ const menuSections: MenuSection[] = [
       },
       {
         icon: EnterpriseIcon,
-        title: "Customer Experience Excellence",
-        description: "Elevate customer interactions and satisfaction",
+        title: "Customer Experience",
+        description: "Enhancing customer satisfaction through innovation",
         to: "/p/customer-experience"
       },
     ]
@@ -212,10 +212,10 @@ const menuSections: MenuSection[] = [
         to: "/p/blog"
       },
       {
-        icon: EventUpcomingIcon,
-        title: "Events",
-        description: "Join us at our upcoming events",
-        to: "/p/events"
+        icon: FeedbackIcon,
+        title: "Testimonials",
+        description: "What our clients say about us",
+        to: "/p/testimonials"
       },
       {
         icon: QuestionExchangeIcon,
@@ -224,10 +224,10 @@ const menuSections: MenuSection[] = [
         to: "/p/faqs"
       },
       {
-        icon: FeedbackIcon,
-        title: "Client Testimonials",
-        description: "Hear from our satisfied customers",
-        to: "/p/testimonials"
+        icon: EventUpcomingIcon,
+        title: "Events",
+        description: "Join us at our upcoming events",
+        to: "/p/events"
       },
     ]
   },
