@@ -402,6 +402,42 @@ const menuSections: MenuSection[] = [
         title: "Client Testimonials",
         description: "Hear from our satisfied customers",
         to: "/p/testimonials"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Best Practices",
+        description: "Guidelines and best practices for cybersecurity",
+        to: "/p/security-best-practices"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Threat Research",
+        description: "Latest threat research and intelligence reports",
+        to: "/p/threat-research"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Certifications",
+        description: "Industry certifications and compliance guides",
+        to: "/p/security-certifications"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Cybersecurity Tools",
+        description: "Free security tools and utilities",
+        to: "/p/security-tools"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Podcasts",
+        description: "Listen to our cybersecurity podcast series",
+        to: "/p/security-podcasts"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Workshops",
+        description: "Hands-on cybersecurity training workshops",
+        to: "/p/security-workshops"
       }
     ]
   },
