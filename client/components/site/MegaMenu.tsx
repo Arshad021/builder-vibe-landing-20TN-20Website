@@ -288,10 +288,11 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
     >
       <div
         ref={panelRef}
-        className="w-full bg-[#EBF2FE] shadow-2xl max-h-[calc(100vh-72px)] min-h-[449px] overflow-y-auto"
+        className="w-full bg-[#EBF2FE] shadow-2xl max-h-[calc(100vh-72px)] min-h-[449px] overflow-y-auto overflow-x-hidden"
       >
         {/* Menu Content */}
-        <div className="mx-auto max-w-[1440px] flex px-16 py-8 justify-center items-start gap-6">
+        <div className="mx-auto max-w-[1440px] px-4 sm:px-8 lg:px-16 py-8">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 items-start">
           {menuSections.map((section, sectionIndex) => (
             <div key={section.title} className="flex flex-col items-start gap-4 flex-1">
               {/* Section Header */}
@@ -307,7 +308,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
                     <Link
                       key={item.title}
                       to={item.to}
-                      className="flex w-[312px] h-[61px] py-2 items-start gap-3 hover:bg-gray-50 transition-colors"
+                      className="flex w-full min-h-[61px] py-2 items-start gap-3 hover:bg-gray-50 transition-colors"
                       onClick={onClose}
                     >
                       <div className="w-6 h-6 flex-shrink-0">
@@ -327,6 +328,7 @@ export default function MegaMenu({ open, onClose }: { open: boolean; onClose: ()
               </div>
             </div>
           ))}
+          </div>
         </div>
 
         {/* Footer Section */}
