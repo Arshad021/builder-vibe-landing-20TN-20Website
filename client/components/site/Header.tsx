@@ -21,6 +21,7 @@ const mobileMenuSections = [
     title: "Explore Our Services",
     items: [
       { icon: CubeIcon, title: "Digital Strategy", href: "/p/digital-strategy" },
+      { icon: CubeIcon, title: "Digital Transformation Strategy", href: "/digital-transmissions" },
       { icon: CubeIcon, title: "eCommerce Suite", href: "/p/ecommerce" },
       { icon: CubeIcon, title: "Data Analytics", href: "/p/analytics" },
       { icon: CubeIcon, title: "Customer Experience", href: "/p/customer-experience" }
@@ -122,9 +123,6 @@ export default function Header() {
             </NavLink>
             <NavLink to="/about" className={navLinkClass}>
               About Us
-            </NavLink>
-            <NavLink to="/digital-transmissions" className={navLinkClass}>
-              Digital Transmissions
             </NavLink>
             <div
               className="relative"
@@ -234,13 +232,6 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
               >
                 About Us
-              </NavLink>
-              <NavLink
-                to="/digital-transmissions"
-                className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
-                onClick={() => setMobileOpen(false)}
-              >
-                Digital Transmissions
               </NavLink>
 
               {/* More Links Dropdown */}
