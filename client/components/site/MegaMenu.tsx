@@ -253,6 +253,78 @@ const menuSections: MenuSection[] = [
         title: "API & Integrations",
         description: "Connect your systems seamlessly",
         to: "/p/api-integrations"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Penetration Testing",
+        description: "Identify vulnerabilities through ethical hacking",
+        to: "/p/penetration-testing"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Audits",
+        description: "Comprehensive security assessments and audits",
+        to: "/p/security-audits"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Incident Response",
+        description: "24/7 incident response and forensics services",
+        to: "/p/incident-response"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Compliance Management",
+        description: "GDPR, HIPAA, SOX, and regulatory compliance",
+        to: "/p/compliance"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Vulnerability Management",
+        description: "Continuous vulnerability scanning and remediation",
+        to: "/p/vulnerability-management"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Security Awareness Training",
+        description: "Educate your team on cybersecurity best practices",
+        to: "/p/security-training"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Threat Intelligence",
+        description: "Advanced threat intelligence and monitoring",
+        to: "/p/threat-intelligence"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Network Security",
+        description: "Firewalls, IDS/IPS, and network protection",
+        to: "/p/network-security"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Endpoint Security",
+        description: "Protect devices and endpoints from threats",
+        to: "/p/endpoint-security"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Identity & Access Management",
+        description: "Secure identity and access control solutions",
+        to: "/p/identity-access-management"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Data Loss Prevention",
+        description: "Prevent sensitive data breaches and leaks",
+        to: "/p/data-loss-prevention"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Encryption Services",
+        description: "End-to-end encryption for data protection",
+        to: "/p/encryption-services"
       }
     ]
   },
