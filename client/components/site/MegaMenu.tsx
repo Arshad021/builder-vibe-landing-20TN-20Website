@@ -114,12 +114,6 @@ const menuSections: MenuSection[] = [
     items: [
       {
         icon: StrategyIcon,
-        title: "Digital Transformation Strategy",
-        description: "Empowering your business through digital transformation",
-        to: "/digital-transmissions"
-      },
-      {
-        icon: StrategyIcon,
         title: "Digital Strategy",
         description: "Transforming your business for the digital age",
         to: "/p/digital-strategy"
@@ -129,6 +123,12 @@ const menuSections: MenuSection[] = [
         title: "eCommerce Suite",
         description: "Boost your online sales with our expertise",
         to: "/p/ecommerce"
+      },
+      {
+        icon: StrategyIcon,
+        title: "Digital Transmissions",
+        description: "Empowering your business through digital transformation",
+        to: "/digital-transmissions"
       },
       {
         icon: AnalyticsIcon,
