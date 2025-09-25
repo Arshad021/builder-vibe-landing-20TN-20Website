@@ -218,6 +218,36 @@ const menuSections: MenuSection[] = [
         title: "Education Technology",
         description: "Digital learning and campus solutions",
         to: "/p/education"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Government & Defense Security",
+        description: "High-security solutions for public sector",
+        to: "/p/government-security"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Critical Infrastructure Protection",
+        description: "Secure critical systems and infrastructure",
+        to: "/p/critical-infrastructure"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Small Business Security",
+        description: "Affordable security for small enterprises",
+        to: "/p/small-business-security"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Cloud Security Solutions",
+        description: "Secure your cloud infrastructure and data",
+        to: "/p/cloud-security"
+      },
+      {
+        icon: SecurityIcon,
+        title: "IoT Security",
+        description: "Protect Internet of Things devices and networks",
+        to: "/p/iot-security"
       }
     ]
   },
