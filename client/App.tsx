@@ -14,6 +14,7 @@ import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
 import DigitalTransmissions from "./pages/DigitalTransmissions";
 import ECommerceSuite from "./pages/ECommerceSuite";
+import DataAnalytics from "./pages/DataAnalytics";
 import Header from "./components/site/Header";
 import Footer from "./components/site/Footer";
 
