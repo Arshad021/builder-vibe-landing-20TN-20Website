@@ -160,30 +160,6 @@ const menuSections: MenuSection[] = [
         description: "Transform data into actionable insights",
         to: "/p/business-intelligence"
       },
-      {
-        icon: SecurityIcon,
-        title: "Zero Trust Architecture",
-        description: "Never trust, always verify security framework",
-        to: "/p/zero-trust"
-      },
-      {
-        icon: TaskIcon,
-        title: "DevSecOps Solutions",
-        description: "Integrate security into your development pipeline",
-        to: "/p/devsecops"
-      },
-      {
-        icon: EnterpriseIcon,
-        title: "Enterprise Security",
-        description: "Enterprise-grade security for large organizations",
-        to: "/p/enterprise-security"
-      },
-      {
-        icon: AnalyticsIcon,
-        title: "Security Analytics",
-        description: "Advanced analytics for threat detection",
-        to: "/p/security-analytics"
-      }
     ]
   },
   {
@@ -219,36 +195,6 @@ const menuSections: MenuSection[] = [
         description: "Digital learning and campus solutions",
         to: "/p/education"
       },
-      {
-        icon: SecurityIcon,
-        title: "Government & Defense Security",
-        description: "High-security solutions for public sector",
-        to: "/p/government-security"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Critical Infrastructure Protection",
-        description: "Secure critical systems and infrastructure",
-        to: "/p/critical-infrastructure"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Small Business Security",
-        description: "Affordable security for small enterprises",
-        to: "/p/small-business-security"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Cloud Security Solutions",
-        description: "Secure your cloud infrastructure and data",
-        to: "/p/cloud-security"
-      },
-      {
-        icon: SecurityIcon,
-        title: "IoT Security",
-        description: "Protect Internet of Things devices and networks",
-        to: "/p/iot-security"
-      }
     ]
   },
   {
@@ -256,8 +202,8 @@ const menuSections: MenuSection[] = [
     items: [
       {
         icon: SecurityIcon,
-        title: "Technology Risk Management & Cybersecurity",
-        description: "Comprehensive cybersecurity and risk management solutions",
+        title: "Cybersecurity Solutions",
+        description: "Protecting your business from digital threats",
         to: "/p/cybersecurity"
       },
       {
@@ -284,78 +230,6 @@ const menuSections: MenuSection[] = [
         description: "Connect your systems seamlessly",
         to: "/p/api-integrations"
       },
-      {
-        icon: SecurityIcon,
-        title: "Penetration Testing",
-        description: "Identify vulnerabilities through ethical hacking",
-        to: "/p/penetration-testing"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Security Audits",
-        description: "Comprehensive security assessments and audits",
-        to: "/p/security-audits"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Incident Response",
-        description: "24/7 incident response and forensics services",
-        to: "/p/incident-response"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Compliance Management",
-        description: "GDPR, HIPAA, SOX, and regulatory compliance",
-        to: "/p/compliance"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Vulnerability Management",
-        description: "Continuous vulnerability scanning and remediation",
-        to: "/p/vulnerability-management"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Security Awareness Training",
-        description: "Educate your team on cybersecurity best practices",
-        to: "/p/security-training"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Threat Intelligence",
-        description: "Advanced threat intelligence and monitoring",
-        to: "/p/threat-intelligence"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Network Security",
-        description: "Firewalls, IDS/IPS, and network protection",
-        to: "/p/network-security"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Endpoint Security",
-        description: "Protect devices and endpoints from threats",
-        to: "/p/endpoint-security"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Identity & Access Management",
-        description: "Secure identity and access control solutions",
-        to: "/p/identity-access-management"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Data Loss Prevention",
-        description: "Prevent sensitive data breaches and leaks",
-        to: "/p/data-loss-prevention"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Encryption Services",
-        description: "End-to-end encryption for data protection",
-        to: "/p/encryption-services"
-      }
     ]
   },
   {
@@ -403,42 +277,6 @@ const menuSections: MenuSection[] = [
         description: "Hear from our satisfied customers",
         to: "/p/testimonials"
       },
-      {
-        icon: SecurityIcon,
-        title: "Security Best Practices",
-        description: "Guidelines and best practices for cybersecurity",
-        to: "/p/security-best-practices"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Threat Research",
-        description: "Latest threat research and intelligence reports",
-        to: "/p/threat-research"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Security Certifications",
-        description: "Industry certifications and compliance guides",
-        to: "/p/security-certifications"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Cybersecurity Tools",
-        description: "Free security tools and utilities",
-        to: "/p/security-tools"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Security Podcasts",
-        description: "Listen to our cybersecurity podcast series",
-        to: "/p/security-podcasts"
-      },
-      {
-        icon: SecurityIcon,
-        title: "Security Workshops",
-        description: "Hands-on cybersecurity training workshops",
-        to: "/p/security-workshops"
-      }
     ]
   },
   {
