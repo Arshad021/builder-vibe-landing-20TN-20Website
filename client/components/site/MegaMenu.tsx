@@ -126,7 +126,7 @@ const menuSections: MenuSection[] = [
       },
       {
         icon: StrategyIcon,
-        title: "Digital Transmissions",
+        title: "Digital Transmission Strategy",
         description: "Empowering your business through digital transformation",
         to: "/digital-transmissions"
       },

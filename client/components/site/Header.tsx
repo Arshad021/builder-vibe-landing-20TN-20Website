@@ -21,7 +21,7 @@ const mobileMenuSections = [
     title: "Explore Our Services",
     items: [
       { icon: CubeIcon, title: "Digital Strategy", href: "/p/digital-strategy" },
-      { icon: CubeIcon, title: "Digital Transformation Strategy", href: "/digital-transmissions" },
+      { icon: CubeIcon, title: "Digital Transmission Strategy", href: "/digital-transmissions" },
       { icon: CubeIcon, title: "eCommerce Suite", href: "/p/ecommerce" },
       { icon: CubeIcon, title: "Data Analytics", href: "/p/analytics" },
       { icon: CubeIcon, title: "Customer Experience", href: "/p/customer-experience" }
