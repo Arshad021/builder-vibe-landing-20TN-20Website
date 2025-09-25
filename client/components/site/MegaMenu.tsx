@@ -125,12 +125,6 @@ const menuSections: MenuSection[] = [
         to: "/p/ecommerce"
       },
       {
-        icon: StrategyIcon,
-        title: "Digital Transmission Strategy",
-        description: "Empowering your business through digital transformation",
-        to: "/digital-transmissions"
-      },
-      {
         icon: AnalyticsIcon,
         title: "Data Analytics",
         description: "Unlock insights to drive better decisions",
@@ -141,24 +135,6 @@ const menuSections: MenuSection[] = [
         title: "Customer Experience Excellence",
         description: "Elevate customer interactions and satisfaction",
         to: "/p/customer-experience"
-      },
-      {
-        icon: SecurityIcon,
-        title: "AI & Machine Learning",
-        description: "Harness the power of artificial intelligence",
-        to: "/p/ai-ml"
-      },
-      {
-        icon: TaskIcon,
-        title: "Cloud Solutions",
-        description: "Scalable and secure cloud infrastructure",
-        to: "/p/cloud-solutions"
-      },
-      {
-        icon: AnalyticsIcon,
-        title: "Business Intelligence",
-        description: "Transform data into actionable insights",
-        to: "/p/business-intelligence"
       },
     ]
   },
@@ -214,61 +190,37 @@ const menuSections: MenuSection[] = [
       },
       {
         icon: ContactSupportIcon,
-        title: "Consulting Services",
-        description: "Expert guidance for your digital journey",
-        to: "/p/consulting"
+        title: "Contact Us",
+        description: "Get in touch for a consultation today",
+        to: "/contact"
       },
       {
         icon: JoinIcon,
-        title: "Training & Workshops",
-        description: "Upskill your team with our expert training",
-        to: "/p/training"
-      },
-      {
-        icon: ToolsLevelIcon,
-        title: "API & Integrations",
-        description: "Connect your systems seamlessly",
-        to: "/p/api-integrations"
+        title: "Careers",
+        description: "Join our team and grow with us",
+        to: "/p/careers"
       },
     ]
   },
   {
-    title: "Resources & Learning",
+    title: "More Information",
     items: [
       {
         icon: SearchInsightsIcon,
-        title: "Knowledge Base",
-        description: "Comprehensive guides and documentation",
-        to: "/p/knowledge-base"
-      },
-      {
-        icon: NewsIcon,
-        title: "Blog & Insights",
-        description: "Industry insights and thought leadership",
+        title: "Blog",
+        description: "Insights and updates from our experts",
         to: "/p/blog"
       },
       {
         icon: EventUpcomingIcon,
-        title: "Webinars & Events",
-        description: "Join our upcoming digital events",
+        title: "Events",
+        description: "Join us at our upcoming events",
         to: "/p/events"
       },
       {
-        icon: ToolsLevelIcon,
-        title: "Case Studies",
-        description: "Real-world success stories and outcomes",
-        to: "/p/case-studies"
-      },
-      {
-        icon: SearchInsightsIcon,
-        title: "White Papers",
-        description: "In-depth research and industry reports",
-        to: "/p/white-papers"
-      },
-      {
         icon: QuestionExchangeIcon,
-        title: "FAQs & Support",
-        description: "Get answers to frequently asked questions",
+        title: "FAQs",
+        description: "Find answers to common questions",
         to: "/p/faqs"
       },
       {
@@ -280,55 +232,31 @@ const menuSections: MenuSection[] = [
     ]
   },
   {
-    title: "Company & Contact",
+    title: "Connect With Us",
     items: [
       {
         icon: SearchInsightsIcon,
-        title: "About TecNext",
-        description: "Our mission, vision, and company values",
-        to: "/about"
-      },
-      {
-        icon: JoinIcon,
-        title: "Leadership Team",
-        description: "Meet our executives and advisors",
-        to: "/p/leadership"
-      },
-      {
-        icon: ContactSupportIcon,
-        title: "Contact Us",
-        description: "Get in touch for consultations and support",
-        to: "/contact"
-      },
-      {
-        icon: JoinIcon,
-        title: "Careers & Jobs",
-        description: "Join our growing team of innovators",
-        to: "/p/careers"
+        title: "Social Media",
+        description: "Follow us for updates and insights",
+        to: "/p/social"
       },
       {
         icon: NewsIcon,
-        title: "Press & Media",
-        description: "Latest news, press releases, and media kit",
-        to: "/p/press"
+        title: "Newsletter",
+        description: "Subscribe for the latest news and offers",
+        to: "/p/newsletter"
       },
       {
         icon: SupportIcon,
-        title: "Partner Program",
-        description: "Become a TecNext technology partner",
-        to: "/p/partners"
-      },
-      {
-        icon: SearchInsightsIcon,
-        title: "Investor Relations",
-        description: "Financial information and investor updates",
-        to: "/p/investors"
+        title: "Support",
+        description: "We're here to help you with inquiries",
+        to: "/p/support"
       },
       {
         icon: ToolsLevelIcon,
-        title: "Legal & Privacy",
-        description: "Terms of service and privacy policies",
-        to: "/p/legal"
+        title: "Resources",
+        description: "Access valuable tools and documentation",
+        to: "/p/resources"
       }
     ]
   }
