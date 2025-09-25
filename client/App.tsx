@@ -12,6 +12,7 @@ import Services from "./pages/Services";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import Placeholder from "./pages/Placeholder";
+import DigitalTransmissions from "./pages/DigitalTransmissions";
 import Header from "./components/site/Header";
 import Footer from "./components/site/Footer";
 
