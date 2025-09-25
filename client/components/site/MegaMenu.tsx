@@ -138,9 +138,62 @@ const menuSections: MenuSection[] = [
       },
       {
         icon: EnterpriseIcon,
-        title: "Customer Experience",
-        description: "Enhancing customer satisfaction through innovation",
+        title: "Customer Experience Excellence",
+        description: "Elevate customer interactions and satisfaction",
         to: "/p/customer-experience"
+      },
+      {
+        icon: SecurityIcon,
+        title: "AI & Machine Learning",
+        description: "Harness the power of artificial intelligence",
+        to: "/p/ai-ml"
+      },
+      {
+        icon: TaskIcon,
+        title: "Cloud Solutions",
+        description: "Scalable and secure cloud infrastructure",
+        to: "/p/cloud-solutions"
+      },
+      {
+        icon: AnalyticsIcon,
+        title: "Business Intelligence",
+        description: "Transform data into actionable insights",
+        to: "/p/business-intelligence"
+      }
+    ]
+  },
+  {
+    title: "Industry Solutions",
+    items: [
+      {
+        icon: SecurityIcon,
+        title: "Healthcare Technology",
+        description: "Digital solutions for healthcare providers",
+        to: "/p/healthcare"
+      },
+      {
+        icon: ShopIcon,
+        title: "Financial Services",
+        description: "Fintech solutions for modern banking",
+        to: "/p/financial-services"
+      },
+      {
+        icon: EnterpriseIcon,
+        title: "Manufacturing 4.0",
+        description: "Smart manufacturing and IoT solutions",
+        to: "/p/manufacturing"
+      },
+      {
+        icon: AnalyticsIcon,
+        title: "Retail & eCommerce",
+        description: "Next-generation retail experiences",
+        to: "/p/retail"
+      },
+      {
+        icon: TaskIcon,
+        title: "Education Technology",
+        description: "Digital learning and campus solutions",
+        to: "/p/education"
       }
     ]
   },
@@ -161,15 +214,21 @@ const menuSections: MenuSection[] = [
       },
       {
         icon: ContactSupportIcon,
-        title: "Contact Us",
-        description: "Get in touch for a consultation today",
-        to: "/contact"
+        title: "Consulting Services",
+        description: "Expert guidance for your digital journey",
+        to: "/p/consulting"
       },
       {
         icon: JoinIcon,
-        title: "Careers",
-        description: "Join our team and grow with us",
-        to: "/p/careers"
+        title: "Training & Workshops",
+        description: "Upskill your team with our expert training",
+        to: "/p/training"
+      },
+      {
+        icon: ToolsLevelIcon,
+        title: "API & Integrations",
+        description: "Connect your systems seamlessly",
+        to: "/p/api-integrations"
       }
     ]
   },
