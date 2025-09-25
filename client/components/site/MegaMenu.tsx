@@ -202,8 +202,8 @@ const menuSections: MenuSection[] = [
     items: [
       {
         icon: SecurityIcon,
-        title: "Cybersecurity Solutions",
-        description: "Protecting your business from digital threats",
+        title: "Technology Risk Management & Cybersecurity",
+        description: "Comprehensive cybersecurity and risk management solutions",
         to: "/p/cybersecurity"
       },
       {
