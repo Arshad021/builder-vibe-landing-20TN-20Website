@@ -123,6 +123,9 @@ export default function Header() {
             <NavLink to="/about" className={navLinkClass}>
               About Us
             </NavLink>
+            <NavLink to="/digital-transmissions" className={navLinkClass}>
+              Digital Transmissions
+            </NavLink>
             <div
               className="relative"
               onMouseEnter={() => setOpen(true)}
