@@ -213,8 +213,8 @@ export default function Header() {
           <div className="flex flex-col px-5 py-4 pb-20 h-[calc(100vh-64px)] overflow-y-auto">
             {/* Main navigation links */}
             <div className="flex flex-col gap-6 mb-6">
-              <NavLink 
-                to="/" 
+              <NavLink
+                to="/"
                 className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
                 onClick={() => setMobileOpen(false)}
                 end
@@ -234,6 +234,13 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
               >
                 About Us
+              </NavLink>
+              <NavLink
+                to="/digital-transmissions"
+                className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
+                onClick={() => setMobileOpen(false)}
+              >
+                Digital Transmissions
               </NavLink>
 
               {/* More Links Dropdown */}
