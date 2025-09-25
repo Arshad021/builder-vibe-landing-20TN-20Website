@@ -159,6 +159,30 @@ const menuSections: MenuSection[] = [
         title: "Business Intelligence",
         description: "Transform data into actionable insights",
         to: "/p/business-intelligence"
+      },
+      {
+        icon: SecurityIcon,
+        title: "Zero Trust Architecture",
+        description: "Never trust, always verify security framework",
+        to: "/p/zero-trust"
+      },
+      {
+        icon: TaskIcon,
+        title: "DevSecOps Solutions",
+        description: "Integrate security into your development pipeline",
+        to: "/p/devsecops"
+      },
+      {
+        icon: EnterpriseIcon,
+        title: "Enterprise Security",
+        description: "Enterprise-grade security for large organizations",
+        to: "/p/enterprise-security"
+      },
+      {
+        icon: AnalyticsIcon,
+        title: "Security Analytics",
+        description: "Advanced analytics for threat detection",
+        to: "/p/security-analytics"
       }
     ]
   },
