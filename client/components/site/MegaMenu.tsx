@@ -114,6 +114,12 @@ const menuSections: MenuSection[] = [
     items: [
       {
         icon: StrategyIcon,
+        title: "Digital Transformation Strategy",
+        description: "Empowering your business through digital transformation",
+        to: "/digital-transmissions"
+      },
+      {
+        icon: StrategyIcon,
         title: "Digital Strategy",
         description: "Transforming your business for the digital age",
         to: "/p/digital-strategy"
