@@ -16,6 +16,7 @@ import DigitalTransmissions from "./pages/DigitalTransmissions";
 import ECommerceSuite from "./pages/ECommerceSuite";
 import DataAnalytics from "./pages/DataAnalytics";
 import CustomerExperience from "./pages/CustomerExperience";
+import Cybersecurity from "./pages/Cybersecurity";
 import Header from "./components/site/Header";
 import Footer from "./components/site/Footer";
 
