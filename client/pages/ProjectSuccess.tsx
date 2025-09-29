@@ -623,7 +623,11 @@ export default function ProjectSuccess() {
             </blockquote>
             <div className="flex flex-col items-center gap-4">
               <div className="w-16 h-16 rounded-full overflow-hidden">
-                <img src="https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg" alt="Jane Doe portrait" className="w-full h-full object-cover" />
+                <img
+                  src="https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg"
+                  alt="Jane Doe portrait"
+                  className="w-full h-full object-cover"
+                />
               </div>
               <div className="text-center">
                 <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
