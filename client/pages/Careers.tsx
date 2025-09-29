@@ -133,9 +133,9 @@ export default function Careers() {
           src="https://images.pexels.com/photos/5716031/pexels-photo-5716031.jpeg"
           alt="Diverse professionals collaborating in a modern office"
         />
-        <div className="flex py-20 px-16 justify-center items-start gap-20 self-stretch absolute inset-0 bg-gradient-to-t from-black/40 to-transparent">
+        <div className="flex py-20 px-4 md:px-16 justify-center items-start gap-20 self-stretch absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/40">
           <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1">
-            <div className="flex items-start gap-20 self-stretch">
+            <div className="flex items-start gap-6 md:gap-20 self-stretch bg-black/40 backdrop-blur-sm p-4 md:p-8 rounded-2xl">
               <div className="flex flex-col items-start flex-1">
                 <div className="self-stretch text-white font-alata text-[72px] font-normal leading-[120%] tracking-[-0.72px]">
                   Join Our Team and Shape the Future
