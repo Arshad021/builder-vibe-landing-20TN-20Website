@@ -130,8 +130,8 @@ export default function Careers() {
       <section className="flex h-[1024px] flex-col items-center self-stretch bg-white relative">
         <img
           className="flex-1 self-stretch object-cover"
-          src="https://api.builder.io/api/v1/image/assets/TEMP/25229cdd0309beaca1ffcc44e44a772bbd6a491c?width=2880"
-          alt="Team collaboration"
+          src="https://images.pexels.com/photos/5716031/pexels-photo-5716031.jpeg"
+          alt="Diverse professionals collaborating in a modern office"
         />
         <div className="flex py-20 px-16 justify-center items-start gap-20 self-stretch absolute inset-0 bg-gradient-to-t from-black/40 to-transparent">
           <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1">
@@ -216,8 +216,8 @@ export default function Careers() {
             </div>
             <img
               className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
-              alt="Team collaboration"
+              src="https://images.pexels.com/photos/23496705/pexels-photo-23496705.jpeg"
+              alt="Team reviewing plans and discussing ideas in a modern office"
             />
           </div>
         </div>
@@ -344,8 +344,8 @@ export default function Careers() {
             </div>
             <img
               className="h-[400px] flex-1 aspect-[3/2] rounded-2xl object-cover"
-              src="https://api.builder.io/api/v1/image/assets/TEMP/7631aa7a08030975dd659ad065c99314e39d7dca?width=1200"
-              alt="Team working together"
+              src="https://images.pexels.com/photos/8485600/pexels-photo-8485600.jpeg"
+              alt="Coworkers collaborating with laptop and materials in an office"
             />
           </div>
         </div>
