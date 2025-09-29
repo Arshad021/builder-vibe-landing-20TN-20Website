@@ -7,7 +7,7 @@ export default function CustomerExperience() {
       <section 
         className="flex h-[369px] px-16 py-28 flex-col items-center gap-20 self-stretch relative"
         style={{
-          background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("https://api.builder.io/api/v1/image/assets/TEMP/85b8e6c434e0507ae0f008fc8bddab4ec0777453?width=2880") lightgray 50% / cover no-repeat'
+          background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("https://images.pexels.com/photos/8867405/pexels-photo-8867405.jpeg") lightgray 50% / cover no-repeat'
         }}
       >
         <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1 self-stretch">
@@ -76,10 +76,10 @@ export default function CustomerExperience() {
                 </Button>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Customer experience illustration" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/29521529/pexels-photo-29521529.jpeg"
+              alt="Team mapping customer journeys with sticky notes on a whiteboard"
             />
           </div>
         </div>
@@ -145,10 +145,10 @@ export default function CustomerExperience() {
             </div>
           </div>
         </div>
-        <img 
-          className="h-[738px] self-stretch aspect-[640/369] rounded-2xl object-cover" 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/6cfbb6acd1e71e1ff9491aa169ff3ff61d81bae1?width=2560" 
-          alt="Omnichannel support illustration" 
+        <img
+          className="h-[738px] self-stretch aspect-[640/369] rounded-2xl object-cover"
+          src="https://images.pexels.com/photos/3799124/pexels-photo-3799124.jpeg"
+          alt="Customer engaging across channels using laptop and smartphone"
         />
       </section>
 
@@ -184,10 +184,10 @@ export default function CustomerExperience() {
                 </Button>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Customer insights illustration" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+              alt="Business analytics report with charts and KPIs on desk"
             />
           </div>
         </div>
@@ -307,10 +307,10 @@ export default function CustomerExperience() {
                 </p>
               </div>
               <div className="flex py-12 flex-col items-start gap-2 self-stretch">
-                <img 
-                  className="h-[480px] self-stretch aspect-[8/5] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/a6b9013370bafde07b022fb99154a15f97c273e0?width=1536" 
-                  alt="Results illustration" 
+                <img
+                  className="h-[480px] self-stretch aspect-[8/5] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/11894045/pexels-photo-11894045.jpeg"
+                  alt="Five-star customer rating displayed on a tablet screen"
                 />
                 <div className="flex items-start gap-2 self-stretch">
                   <div className="w-0.5 self-stretch bg-[rgba(12,8,1,0.15)]"></div>
