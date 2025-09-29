@@ -42,7 +42,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/fa539b180204ed917c99c860ab57d7a66c62cf6f?width=789" 
+                    src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg" 
                     alt="Digital Transformation Strategy" 
                     className="w-full h-full object-cover"
                   />
@@ -60,7 +60,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c7e4646340ffb947ffa148847e98c780e7472c40?width=789" 
+                    src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg" 
                     alt="eCommerce Excellence Suite" 
                     className="w-full h-full object-cover"
                   />
@@ -78,7 +78,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/68355d725b0e1cc14c7c0a41bf3577f02f72c6c3?width=789" 
+                    src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg" 
                     alt="Data & Analytics Intelligence" 
                     className="w-full h-full object-cover"
                   />
@@ -99,7 +99,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/c07fe0d3d7e1fb582bc13d0df69b427cfacc86c5?width=789" 
+                    src="https://images.pexels.com/photos/6869043/pexels-photo-6869043.jpeg" 
                     alt="Customer Experience Excellence" 
                     className="w-full h-full object-cover"
                   />
@@ -117,7 +117,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/cc161c31b0235fccda847e6872b8ccf3b1395958?width=789" 
+                    src="https://images.pexels.com/photos/30965500/pexels-photo-30965500.jpeg" 
                     alt="Technology Risk Management & Cybersecurity" 
                     className="w-full h-full object-cover"
                   />
@@ -135,7 +135,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
-                    src="https://api.builder.io/api/v1/image/assets/TEMP/354b21512f057dd445b3b6f176ea44204071acd0?width=789" 
+                    src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg" 
                     alt="Project Success Enablement" 
                     className="w-full h-full object-cover"
                   />
@@ -222,9 +222,9 @@ const Services = () => {
               </div>
             </div>
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="Digital transformation illustration" 
+              <img
+                src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+                alt="Digital transformation team collaborating in office"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -237,9 +237,9 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="eCommerce transformation illustration" 
+              <img
+                src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg"
+                alt="eCommerce planning and online shopping on tablet"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -358,9 +358,9 @@ const Services = () => {
               </div>
             </div>
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="Data analytics illustration" 
+              <img
+                src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+                alt="Data analytics dashboard and report"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -373,9 +373,9 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="Customer experience illustration" 
+              <img
+                src="https://images.pexels.com/photos/6869043/pexels-photo-6869043.jpeg"
+                alt="Customer experience delivery team smiling with packages"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -468,9 +468,9 @@ const Services = () => {
               </div>
             </div>
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="Cybersecurity illustration" 
+              <img
+                src="https://images.pexels.com/photos/30965500/pexels-photo-30965500.jpeg"
+                alt="Cybersecurity concept with SECURITY tiles"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -483,9 +483,9 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/f59b35908a15d96d195db973f0b88e648f9132f9?width=1200" 
-                alt="Project success illustration" 
+              <img
+                src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
+                alt="Project success planning at whiteboard"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -561,7 +561,7 @@ const Services = () => {
       <section 
         className="py-28 px-4 md:px-16 bg-cover bg-center relative"
         style={{ 
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/bccdbe00095437fee79368ea8c7df459844a69b7?width=2880')"
+          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg')"
         }}
       >
         <div className="max-w-7xl mx-auto">
