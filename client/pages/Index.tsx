@@ -54,25 +54,25 @@ export default function Index() {
           <div className="flex-1 order-1 md:order-2 w-full">
             {/* Mobile hero image */}
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/0eff36f822db83c55c9e1aa1f252989cc3478709?width=472"
-              alt="Digital transformation hero image"
+              src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+              alt="Business professionals discussing data charts in a modern office"
               className="w-full h-[343px] rounded-2xl object-cover md:hidden"
             />
             {/* Desktop collage */}
             <div className="relative hidden h-[638px] md:block">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/0eff36f822db83c55c9e1aa1f252989cc3478709?width=472"
-                alt="Team collaborating on digital transformation"
+                src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+                alt="Business professionals discussing data charts in a modern office"
                 className="absolute left-[92px] top-0 h-[638px] w-[424px] rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/6a2bc38e8c481916604d52ad28f546719431ffa1?width=262"
-                alt="Analytics dashboard"
+                src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+                alt="Business analytics report on desk"
                 className="absolute left-[364px] top-16 h-[244px] w-[244px] rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/9363dbc7ba53d1e945626a7a1b6d7ab1e9a36a20?width=326"
-                alt="Customer engagement illustration"
+                src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
+                alt="Team planning and success roadmap at whiteboard"
                 className="absolute left-0 top-[372px] h-[202px] w-[304px] rounded-2xl object-cover"
               />
             </div>
