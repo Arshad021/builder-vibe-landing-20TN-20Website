@@ -165,7 +165,7 @@ export default function ProjectSuccess() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative flex items-center justify-center min-h-[369px] px-16 py-28 bg-gradient-to-b from-black/50 to-black/50"
+        className="relative flex items-center justify-center min-h-[369px] px-4 md:px-16 py-28 bg-gradient-to-b from-black/80 via-black/60 to-black/40"
         style={{
           backgroundImage:
             "url('https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg')",
@@ -174,7 +174,7 @@ export default function ProjectSuccess() {
         }}
       >
         <div className="max-w-[1280px] w-full">
-          <div className="max-w-[768px] space-y-6">
+          <div className="max-w-[768px] space-y-6 bg-black/40 backdrop-blur-sm p-4 md:p-8 rounded-2xl">
             <h1 className="text-white font-alata text-7xl font-normal leading-[120%] tracking-[-0.72px]">
               Achieve Project Success
             </h1>
