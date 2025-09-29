@@ -70,6 +70,22 @@ export default function Footer() {
               </div>
               <div className="py-2">
                 <Link
+                  to="/p/digital-strategy"
+                  className="font-montserrat text-sm text-[#0C0801] hover:underline"
+                >
+                  Digital Strategy
+                </Link>
+              </div>
+              <div className="py-2">
+                <Link
+                  to="/digital-transmissions"
+                  className="font-montserrat text-sm text-[#0C0801] hover:underline"
+                >
+                  Digital Transmissions
+                </Link>
+              </div>
+              <div className="py-2">
+                <Link
                   to="/p/ecommerce"
                   className="font-montserrat text-sm text-[#0C0801] hover:underline"
                 >
