@@ -55,6 +55,29 @@ const SelfImprovementIconLarge = () => (
   </svg>
 );
 
+const CASE_STUDIES = [
+  {
+    title: "AlEktiar Portal Case Study",
+    url: "https://cdn.builder.io/o/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F2b089119417e4e4ba068ad1dcbfc83c5?alt=media&token=fdf54650-d8f4-479b-90e0-6a7e8fea6c62&apiKey=7bb87cd5bb024b629afd2d6c4ad7eecb",
+  },
+  {
+    title: "Buy Geely Case Study",
+    url: "https://cdn.builder.io/o/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fc9054eb80e0644af9c4e68bb6b4d8487?alt=media&token=cdf44fcf-9906-4ea9-8245-fc1c51011b11&apiKey=7bb87cd5bb024b629afd2d6c4ad7eecb",
+  },
+  {
+    title: "Geely KSA Centralized Leads Dashboard Case Study",
+    url: "https://cdn.builder.io/o/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F3298ce12272344938a2f54c623a115b8?alt=media&token=baf3a83c-4ad0-45a6-9950-6d12039c0eeb&apiKey=7bb87cd5bb024b629afd2d6c4ad7eecb",
+  },
+  {
+    title: "Hyudnai Click to Buy Case Study",
+    url: "https://cdn.builder.io/o/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fad22c08847fe46f597c3276cf8daab55?alt=media&token=6d615fc2-0023-45fc-a596-5b7bcf0bf694&apiKey=7bb87cd5bb024b629afd2d6c4ad7eecb",
+  },
+  {
+    title: "Renault Wallan – Digital Performance Dashboard Case Study",
+    url: "https://cdn.builder.io/o/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F08293aee31f348faacc1144b176f60a2?alt=media&token=eebb2e74-5614-469f-8712-26a3a5af97cb&apiKey=7bb87cd5bb024b629afd2d6c4ad7eecb",
+  },
+];
+
 export default function ProjectSuccess() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -384,6 +407,45 @@ export default function ProjectSuccess() {
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Case Studies Section */}
+      <section className="py-28 px-16 bg-[#F2F2F2]">
+        <div className="max-w-[1280px] mx-auto space-y-8">
+          <div className="space-y-4">
+            <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
+              Case Studies
+            </div>
+            <h2 className="text-[#0C0801] font-alata text-5xl font-normal leading-[120%] tracking-[-0.52px]">
+              Project Success Stories
+            </h2>
+            <p className="text-[#0C0801] font-montserrat text-lg font-normal leading-[150%] max-w-[768px]">
+              Explore detailed case studies showcasing measurable outcomes and successful project deliveries across industries.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {CASE_STUDIES.map((item) => (
+              <div key={item.title} className="rounded-2xl bg-white border border-black/10 p-6 flex flex-col justify-between">
+                <div className="space-y-3">
+                  <h3 className="text-[#0C0801] font-alata text-2xl font-normal leading-[130%] tracking-[-0.2px]">
+                    {item.title}
+                  </h3>
+                  <p className="text-[#0C0801] font-montserrat text-sm font-normal leading-[150%]">
+                    Download the full DOCX case study.
+                  </p>
+                </div>
+                <div className="mt-6">
+                  <Button asChild className="rounded-full">
+                    <a href={item.url} target="_blank" rel="noopener noreferrer" aria-label={`Download ${item.title}`}>
+                      View Case Study
+                    </a>
+                  </Button>
+                </div>
+              </div>
+            ))}
           </div>
         </div>
       </section>
