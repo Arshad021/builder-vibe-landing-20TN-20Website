@@ -8,7 +8,7 @@ export default function Cybersecurity() {
         <div 
           className="h-[369px] flex items-center justify-center px-16 py-28 bg-cover bg-center bg-no-repeat relative"
           style={{
-            backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/85b8e6c434e0507ae0f008fc8bddab4ec0777453?width=2880')"
+            backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/225769/pexels-photo-225769.jpeg')"
           }}
         >
           <div className="max-w-[1280px] w-full flex flex-col gap-20">
@@ -84,10 +84,10 @@ export default function Cybersecurity() {
                 </Button>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Risk Assessment Services" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+              alt="Team reviewing risk assessment charts and cybersecurity metrics"
             />
           </div>
         </div>
@@ -97,10 +97,10 @@ export default function Cybersecurity() {
       <div className="flex py-28 px-16 flex-col items-center gap-20 bg-white">
         <div className="max-w-[1280px] w-full flex flex-col gap-20">
           <div className="flex items-center gap-20">
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Cybersecurity Strategy" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/4973899/pexels-photo-4973899.jpeg"
+              alt="Laptop showing lock icon representing cybersecurity strategy"
             />
             <div className="flex flex-col gap-8 flex-1">
               <div className="flex flex-col gap-6">
@@ -144,10 +144,10 @@ export default function Cybersecurity() {
                 At TecNext, we provide comprehensive incident response and management services to help organizations swiftly address and recover from security breaches. Our expert team ensures that your business minimizes damage and restores operations efficiently, safeguarding your digital assets.
               </p>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Incident Response" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/5380595/pexels-photo-5380595.jpeg"
+              alt="Analyst monitoring multiple screens in a security operations center"
             />
           </div>
         </div>
@@ -174,10 +174,10 @@ export default function Cybersecurity() {
           <div className="flex flex-col gap-16">
             <div className="flex items-start gap-12">
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/3895a933f2b3b53c23ad71d294464ff0a174d161?width=789" 
-                  alt="Compliance Management" 
+                <img
+                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/8962519/pexels-photo-8962519.jpeg"
+                  alt="Compliance documents and audit checklist on desk"
                 />
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[#0C0801] font-alata text-[36px] font-normal leading-[130%] tracking-[-0.36px]">
@@ -189,10 +189,10 @@ export default function Cybersecurity() {
                 </div>
               </div>
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34a5cb27985e43bd7922e93bc0dc7a1640636c78?width=789" 
-                  alt="Security Training" 
+                <img
+                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/1181394/pexels-photo-1181394.jpeg"
+                  alt="Team participating in security awareness training session"
                 />
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[#0C0801] font-alata text-[36px] font-normal leading-[130%] tracking-[-0.36px]">
@@ -204,10 +204,10 @@ export default function Cybersecurity() {
                 </div>
               </div>
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/2b03173019a59a9ef01d7cd64f5783603f709235?width=789" 
-                  alt="Continuous Monitoring" 
+                <img
+                  className="h-60 aspect-[394.67/240.00] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg"
+                  alt="Engineer monitoring servers in a modern data center"
                 />
                 <div className="flex flex-col gap-6">
                   <h3 className="text-[#0C0801] font-alata text-[36px] font-normal leading-[130%] tracking-[-0.36px]">
@@ -246,7 +246,7 @@ export default function Cybersecurity() {
             </h3>
             <div className="flex w-[300px] flex-col items-center gap-4">
               <div className="w-16 h-16 rounded-full bg-gray-300 overflow-hidden">
-                <img src="https://via.placeholder.com/64x64" alt="Alex Johnson" className="w-full h-full object-cover" />
+                <img src="https://images.pexels.com/photos/31422830/pexels-photo-31422830.png" alt="Alex Johnson portrait" className="w-full h-full object-cover" />
               </div>
               <div className="flex flex-col items-start">
                 <div className="text-[#0C0801] text-center font-montserrat text-base font-semibold leading-[150%]">
