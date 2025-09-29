@@ -40,7 +40,7 @@ export default function ECommerceSuite() {
       <section 
         className="relative h-[369px] flex items-center justify-center bg-cover bg-center"
         style={{
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/85b8e6c434e0507ae0f008fc8bddab4ec0777453?width=2880')"
+          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg?auto=compress&cs=tinysrgb&w=2880&dpr=2')"
         }}
       >
         <div className="max-w-[1280px] w-full px-16 flex flex-col items-start gap-20">
@@ -110,8 +110,8 @@ export default function ECommerceSuite() {
               </div>
             </div>
             <div className="flex-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
+              <img
+                src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1200&dpr=2"
                 alt="eCommerce analytics dashboard"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
@@ -125,8 +125,8 @@ export default function ECommerceSuite() {
         <div className="max-w-[1280px] mx-auto">
           <div className="flex items-center gap-20">
             <div className="flex-1">
-              <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
+              <img
+                src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1200&dpr=2"
                 alt="eCommerce platform interface"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
@@ -202,7 +202,7 @@ export default function ECommerceSuite() {
             </div>
             <div className="flex-1">
               <img 
-                src="https://api.builder.io/api/v1/image/assets/TEMP/3732fe94c4096ba2b810c420528ce5083f06bc07?width=1200"
+                src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg?auto=compress&cs=tinysrgb&w=1200&dpr=2"
                 alt="Shopping experience interface"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
@@ -317,8 +317,8 @@ export default function ECommerceSuite() {
           <div className="flex flex-col gap-16">
             <div className="flex items-start gap-12">
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/69c0de347a3c9edd37c788e5930d5ea17280484b?width=789"
+                <img
+                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=789&dpr=2"
                   alt="Consultation process"
                   className="w-full h-60 object-cover rounded-2xl"
                 />
@@ -333,8 +333,8 @@ export default function ECommerceSuite() {
               </div>
               
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/a6671d4caed5002aa60a9decde63463e8a5e2735?width=789"
+                <img
+                  src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=789&dpr=2"
                   alt="Strategy development"
                   className="w-full h-60 object-cover rounded-2xl"
                 />
@@ -349,8 +349,8 @@ export default function ECommerceSuite() {
               </div>
               
               <div className="flex flex-col gap-8 flex-1">
-                <img 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/faca0c3628018ad986c622061b0852dac956f2ba?width=789"
+                <img
+                  src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=789&dpr=2"
                   alt="Implementation process"
                   className="w-full h-60 object-cover rounded-2xl"
                 />
@@ -382,7 +382,7 @@ export default function ECommerceSuite() {
       <section 
         className="py-28 px-16 bg-cover bg-center relative"
         style={{
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/f25f8b96b7f6566cd79944b17d23f44353459604?width=2880')"
+          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=2880&dpr=2')"
         }}
       >
         <div className="max-w-[1280px] mx-auto flex flex-col gap-20">
