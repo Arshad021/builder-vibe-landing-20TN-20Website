@@ -223,8 +223,8 @@ export default function Index() {
           {/* Right side - Large image */}
           <div className="flex-1">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/88b5ce4d4cc6830793cb54a5f42d6661139652e7?width=670"
-              alt="Operations dashboard"
+              src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Modern office workspace with computers showing business analytics dashboards"
               className="h-64 w-full rounded-2xl object-cover md:h-[640px]"
             />
           </div>
@@ -439,8 +439,8 @@ export default function Index() {
           </div>
           <div className="flex-1 order-1 md:order-2">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/5914e91683b71309e337644fabe70754b6bfc89a?width=670"
-              alt="Business potential graphic"
+              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+              alt="Business team collaborating on digital transformation strategy in modern office"
               className="h-64 md:h-[640px] w-full rounded-2xl object-cover"
             />
           </div>
@@ -484,8 +484,8 @@ export default function Index() {
             </div>
           </div>
           <img
-            src="https://api.builder.io/api/v1/image/assets/TEMP/57694efceb54dfce2e49224173b0cc33a07dd2ec?width=670"
-            alt="AI analytics illustration"
+            src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+            alt="AI and machine learning analytics dashboard with data visualization"
             className="h-64 md:h-[640px] flex-1 rounded-2xl object-cover"
           />
         </div>
@@ -506,23 +506,23 @@ export default function Index() {
           <div className="mt-8 md:mt-20 space-y-8 md:space-y-12">
             <div className="flex gap-6 overflow-x-auto" ref={showcaseRef}>
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/c2a251beb9fc70f7d8e87e5d059d760dc2fd16ba?width=628"
-                alt=""
+                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Digital transformation project showcase - modern business workspace"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/a4850e2a89a98f982e6c66f6d25b9a509c9b0596?width=628"
-                alt=""
+                src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Successful project implementation - team celebrating achievement"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=628"
-                alt=""
+                src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Technology integration project showcase - advanced analytics platform"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/ad33659c33381eac40061641b81f19d65a13ad9f?width=628"
-                alt=""
+                src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="Digital transformation success story - business growth metrics"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
             </div>
@@ -567,8 +567,8 @@ export default function Index() {
               {/* Blog Card 1 */}
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/07ae88a5344f931d9b50f470a9d9da1465f99cea?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="AI and machine learning technology for business growth"
                   className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
                 />
                 <div className="space-y-4">
@@ -599,8 +599,8 @@ export default function Index() {
               {/* Blog Card 2 */}
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/cbb24b3f595564242815d3a0a70de526ecae1602?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="Online shopping and eCommerce platform interface"
                   className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
                 />
                 <div className="space-y-4">
@@ -631,8 +631,8 @@ export default function Index() {
               {/* Blog Card 3 */}
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/ae7ab37d474183e00c0e08ab48a220fcc7a7c3c7?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                  alt="Data analytics and decision making dashboard with charts and graphs"
                   className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
                 />
                 <div className="space-y-4">
