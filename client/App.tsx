@@ -38,10 +38,16 @@ const App = () => (
               <Route path="/services" element={<Services />} />
               <Route path="/about" element={<About />} />
               <Route path="/contact" element={<Contact />} />
-              <Route path="/digital-transmissions" element={<DigitalTransmissions />} />
+              <Route
+                path="/digital-transmissions"
+                element={<DigitalTransmissions />}
+              />
               <Route path="/p/ecommerce" element={<ECommerceSuite />} />
               <Route path="/p/analytics" element={<DataAnalytics />} />
-              <Route path="/p/customer-experience" element={<CustomerExperience />} />
+              <Route
+                path="/p/customer-experience"
+                element={<CustomerExperience />}
+              />
               <Route path="/p/cybersecurity" element={<Cybersecurity />} />
               <Route path="/p/project-success" element={<ProjectSuccess />} />
               <Route path="/p/careers" element={<Careers />} />

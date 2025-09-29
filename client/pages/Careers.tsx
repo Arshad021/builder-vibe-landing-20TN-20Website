@@ -10,7 +10,12 @@ const StarRating = () => (
   </div>
 );
 
-const TestimonialCard = ({ name, role, quote, company }: {
+const TestimonialCard = ({
+  name,
+  role,
+  quote,
+  company,
+}: {
   name: string;
   role: string;
   quote: string;
@@ -38,7 +43,14 @@ const TestimonialCard = ({ name, role, quote, company }: {
   </div>
 );
 
-const JobCard = ({ title, department, description, location, schedule, type }: {
+const JobCard = ({
+  title,
+  department,
+  description,
+  location,
+  schedule,
+  type,
+}: {
   title: string;
   department: string;
   description: string;
@@ -93,30 +105,33 @@ export default function Careers() {
     name: "",
     email: "",
     message: "",
-    agreeTerms: false
+    agreeTerms: false,
   });
 
-  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleInputChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value, type } = e.target;
-    setFormData(prev => ({
+    setFormData((prev) => ({
       ...prev,
-      [name]: type === 'checkbox' ? (e.target as HTMLInputElement).checked : value
+      [name]:
+        type === "checkbox" ? (e.target as HTMLInputElement).checked : value,
     }));
   };
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    console.log('Form submitted:', formData);
+    console.log("Form submitted:", formData);
   };
 
   return (
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="flex h-[1024px] flex-col items-center self-stretch bg-white relative">
-        <img 
-          className="flex-1 self-stretch object-cover" 
-          src="https://api.builder.io/api/v1/image/assets/TEMP/25229cdd0309beaca1ffcc44e44a772bbd6a491c?width=2880" 
-          alt="Team collaboration" 
+        <img
+          className="flex-1 self-stretch object-cover"
+          src="https://api.builder.io/api/v1/image/assets/TEMP/25229cdd0309beaca1ffcc44e44a772bbd6a491c?width=2880"
+          alt="Team collaboration"
         />
         <div className="flex py-20 px-16 justify-center items-start gap-20 self-stretch absolute inset-0 bg-gradient-to-t from-black/40 to-transparent">
           <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1">
@@ -128,7 +143,10 @@ export default function Careers() {
               </div>
               <div className="flex flex-col items-start gap-8 flex-1">
                 <div className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
-                  We foster a collaborative and innovative work environment at TecNext, where every team member's contribution is valued. Explore our diverse career opportunities and join a journey that drives digital transformation.
+                  We foster a collaborative and innovative work environment at
+                  TecNext, where every team member's contribution is valued.
+                  Explore our diverse career opportunities and join a journey
+                  that drives digital transformation.
                 </div>
                 <div className="flex items-start gap-4">
                   <Link
@@ -170,7 +188,9 @@ export default function Careers() {
                     Our Commitment to Growth and Innovation
                   </div>
                   <div className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
-                    We believe that our employees are our greatest asset at TecNext. Our mission is to foster an environment where creativity thrives and professional growth is encouraged.
+                    We believe that our employees are our greatest asset at
+                    TecNext. Our mission is to foster an environment where
+                    creativity thrives and professional growth is encouraged.
                   </div>
                 </div>
               </div>
@@ -194,10 +214,10 @@ export default function Careers() {
                 </Link>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Team collaboration" 
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
+              alt="Team collaboration"
             />
           </div>
         </div>
@@ -253,7 +273,8 @@ export default function Careers() {
                 Open Positions
               </div>
               <div className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
-                Join our innovative team and help shape the future of digital transformation.
+                Join our innovative team and help shape the future of digital
+                transformation.
               </div>
             </div>
           </div>
@@ -298,7 +319,8 @@ export default function Careers() {
                   Join Our Talented Team
                 </div>
                 <div className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
-                  Explore exciting career opportunities at TecNext and make a meaningful impact in digital transformation.
+                  Explore exciting career opportunities at TecNext and make a
+                  meaningful impact in digital transformation.
                 </div>
               </div>
               <div className="flex items-start gap-4">
@@ -320,10 +342,10 @@ export default function Careers() {
                 </Link>
               </div>
             </div>
-            <img 
-              className="h-[400px] flex-1 aspect-[3/2] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/7631aa7a08030975dd659ad065c99314e39d7dca?width=1200" 
-              alt="Team working together" 
+            <img
+              className="h-[400px] flex-1 aspect-[3/2] rounded-2xl object-cover"
+              src="https://api.builder.io/api/v1/image/assets/TEMP/7631aa7a08030975dd659ad065c99314e39d7dca?width=1200"
+              alt="Team working together"
             />
           </div>
         </div>
@@ -352,14 +374,14 @@ export default function Careers() {
               <div className="flex py-2 flex-col items-start gap-4">
                 <div className="flex items-start gap-4">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
-                    <path 
-                      stroke="#0C0801" 
-                      strokeWidth="1" 
+                    <path
+                      stroke="#0C0801"
+                      strokeWidth="1"
                       d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
                     />
                   </svg>
-                  <Link 
-                    to="mailto:careers@tecnext.com" 
+                  <Link
+                    to="mailto:careers@tecnext.com"
                     className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%] underline hover:no-underline"
                   >
                     careers@tecnext.com
@@ -367,14 +389,14 @@ export default function Careers() {
                 </div>
                 <div className="flex items-start gap-4">
                   <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24">
-                    <path 
-                      stroke="#0C0801" 
-                      strokeWidth="1" 
+                    <path
+                      stroke="#0C0801"
+                      strokeWidth="1"
                       d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
                     />
                   </svg>
-                  <Link 
-                    to="tel:+15551234567" 
+                  <Link
+                    to="tel:+15551234567"
                     className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%] underline hover:no-underline"
                   >
                     +1 (555) 123-4567
@@ -388,9 +410,12 @@ export default function Careers() {
                 </div>
               </div>
             </div>
-            
+
             {/* Contact Form */}
-            <form onSubmit={handleSubmit} className="flex flex-col items-start gap-6 flex-1">
+            <form
+              onSubmit={handleSubmit}
+              className="flex flex-col items-start gap-6 flex-1"
+            >
               <div className="flex flex-col items-start gap-2 self-stretch">
                 <div className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
                   Name
@@ -406,7 +431,7 @@ export default function Careers() {
                   />
                 </div>
               </div>
-              
+
               <div className="flex flex-col items-start gap-2 self-stretch">
                 <div className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
                   Email
@@ -422,7 +447,7 @@ export default function Careers() {
                   />
                 </div>
               </div>
-              
+
               <div className="flex flex-col items-start gap-2 self-stretch">
                 <div className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
                   Message
@@ -437,7 +462,7 @@ export default function Careers() {
                   />
                 </div>
               </div>
-              
+
               <div className="flex pb-4 items-center gap-2">
                 <input
                   type="checkbox"
@@ -450,7 +475,7 @@ export default function Careers() {
                   I agree to the Terms
                 </div>
               </div>
-              
+
               <button
                 type="submit"
                 disabled={!formData.agreeTerms}
