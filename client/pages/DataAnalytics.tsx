@@ -34,7 +34,7 @@ export default function DataAnalytics() {
       <section 
         className="relative flex h-[369px] px-16 py-28 flex-col items-center gap-20 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/85b8e6c434e0507ae0f008fc8bddab4ec0777453?width=2880')"
+          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg')"
         }}
       >
         <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1 self-stretch">
@@ -83,10 +83,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Data Analytics Dashboard"
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
+              alt="Business team analyzing charts during a meeting"
             />
           </div>
         </div>
@@ -96,10 +96,10 @@ export default function DataAnalytics() {
       <section className="flex px-16 py-28 flex-col items-center gap-20 bg-[#173462]">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-center gap-20 self-stretch">
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Real-Time Data Visualization"
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg"
+              alt="Digital monitor with world map and real-time statistics"
             />
             <div className="flex flex-col items-start gap-8 flex-1">
               <div className="flex flex-col items-start gap-8 self-stretch">
@@ -196,10 +196,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
             </div>
-            <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover" 
-              src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200" 
-              alt="Machine Learning Dashboard"
+            <img
+              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              src="https://images.pexels.com/photos/4584830/pexels-photo-4584830.jpeg"
+              alt="Code on screen representing machine learning and AI pipelines"
             />
           </div>
         </div>
@@ -226,10 +226,10 @@ export default function DataAnalytics() {
           <div className="flex flex-col items-start gap-16 self-stretch">
             <div className="flex items-start gap-12 self-stretch">
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/3895a933f2b3b53c23ad71d294464ff0a174d161?width=789" 
-                  alt="Real-World Data Analytics Applications"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/9034221/pexels-photo-9034221.jpeg"
+                  alt="Presenter sharing data insights in a meeting room"
                 />
                 <div className="flex flex-col items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
@@ -241,10 +241,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/34a5cb27985e43bd7922e93bc0dc7a1640636c78?width=789" 
-                  alt="Retail Analytics Success Case Study"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/7289723/pexels-photo-7289723.jpeg"
+                  alt="Retail product photoshoot and inventory management setup"
                 />
                 <div className="flex flex-col items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
@@ -256,10 +256,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/2b03173019a59a9ef01d7cd64f5783603f709235?width=789" 
-                  alt="Financial Insights Case Study"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg"
+                  alt="Business desk with financial charts and a laptop"
                 />
                 <div className="flex flex-col items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
@@ -370,10 +370,10 @@ export default function DataAnalytics() {
           <div className="flex flex-col items-start gap-16 self-stretch">
             <div className="flex justify-center items-start gap-12 self-stretch">
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/69c0de347a3c9edd37c788e5930d5ea17280484b?width=789" 
-                  alt="Transforming Insights into Actionable Strategies"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/9034221/pexels-photo-9034221.jpeg"
+                  alt="Team aligning on strategy using data-driven presentations"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-start gap-4 self-stretch">
@@ -399,10 +399,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/a6671d4caed5002aa60a9decde63463e8a5e2735?width=789" 
-                  alt="Tailored Solutions for Unique Data Challenges"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
+                  alt="Collaborative planning session reviewing analytics"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-start gap-4 self-stretch">
@@ -428,10 +428,10 @@ export default function DataAnalytics() {
                 </div>
               </div>
               <div className="flex flex-col items-start gap-8 flex-1">
-                <img 
-                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover" 
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/faca0c3628018ad986c622061b0852dac956f2ba?width=789" 
-                  alt="Continuous Support and Optimization"
+                <img
+                  className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
+                  src="https://images.pexels.com/photos/5716037/pexels-photo-5716037.jpeg"
+                  alt="Team celebrating success over analytics reports"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-start gap-4 self-stretch">
@@ -465,7 +465,7 @@ export default function DataAnalytics() {
       <section 
         className="flex px-16 py-28 flex-col items-center gap-20 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/f25f8b96b7f6566cd79944b17d23f44353459604?width=2880')"
+          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/34070725/pexels-photo-34070725.jpeg')"
         }}
       >
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
