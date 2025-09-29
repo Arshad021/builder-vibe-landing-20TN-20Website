@@ -381,16 +381,27 @@ export default function MegaMenu({
   const panelRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
+    if (!open) return;
+
     function onKey(e: KeyboardEvent) {
       if (e.key === "Escape") onClose();
     }
+
     function onClick(e: MouseEvent) {
       if (!panelRef.current) return;
-      if (open && !panelRef.current.contains(e.target as Node)) onClose();
+      if (open && !panelRef.current.contains(e.target as Node)) {
+        onClose();
+      }
     }
-    document.addEventListener("keydown", onKey);
-    document.addEventListener("mousedown", onClick);
+
+    // Add a small delay to prevent immediate closing on the same click that opened the menu
+    const timeoutId = setTimeout(() => {
+      document.addEventListener("keydown", onKey);
+      document.addEventListener("mousedown", onClick);
+    }, 100);
+
     return () => {
+      clearTimeout(timeoutId);
       document.removeEventListener("keydown", onKey);
       document.removeEventListener("mousedown", onClick);
     };
