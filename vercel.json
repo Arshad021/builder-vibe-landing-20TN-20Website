@@ -1,7 +1,8 @@
 {
   "version": 2,
-  "buildCommand": "pnpm approve-builds && pnpm run build:client",
-  "installCommand": "pnpm approve-builds && pnpm install",
+  "framework": "vite",
+  "installCommand": "pnpm install --no-frozen-lockfile",
+  "buildCommand": "pnpm run build:client",
   "outputDirectory": "dist/spa",
   "rewrites": [{ "source": "/(.*)", "destination": "/" }]
 }
