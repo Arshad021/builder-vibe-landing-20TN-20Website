@@ -38,7 +38,7 @@ export default function Index() {
             </p>
             <div className="mt-6 flex flex-col md:flex-row items-start gap-4">
               <Link
-                to="/p/learn-more"
+                to="/services"
                 className="w-full md:w-auto text-center rounded-full border border-[#3B82F6] bg-[#3B82F6] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-white hover:opacity-90"
               >
                 Learn More
@@ -62,17 +62,17 @@ export default function Index() {
             <div className="relative hidden h-[638px] md:block">
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/0eff36f822db83c55c9e1aa1f252989cc3478709?width=472"
-                alt=""
+                alt="Team collaborating on digital transformation"
                 className="absolute left-[92px] top-0 h-[638px] w-[424px] rounded-2xl object-cover"
               />
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/6a2bc38e8c481916604d52ad28f546719431ffa1?width=262"
-                alt=""
+                alt="Analytics dashboard"
                 className="absolute left-[364px] top-16 h-[244px] w-[244px] rounded-2xl object-cover"
               />
               <img
                 src="https://api.builder.io/api/v1/image/assets/TEMP/9363dbc7ba53d1e945626a7a1b6d7ab1e9a36a20?width=326"
-                alt=""
+                alt="Customer engagement illustration"
                 className="absolute left-0 top-[372px] h-[202px] w-[304px] rounded-2xl object-cover"
               />
             </div>
@@ -100,7 +100,7 @@ export default function Index() {
                   </p>
                   <div className="pt-2">
                     <Link
-                      to="/p/learn-more"
+                      to="/services"
                       className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
                     >
                       Learn More
@@ -224,7 +224,7 @@ export default function Index() {
           <div className="flex-1">
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/88b5ce4d4cc6830793cb54a5f42d6661139652e7?width=670"
-              alt=""
+              alt="Operations dashboard"
               className="h-64 w-full rounded-2xl object-cover md:h-[640px]"
             />
           </div>
@@ -283,6 +283,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Craft a tailored roadmap to navigate your digital journey.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/digital-transmissions" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="space-y-6">
@@ -298,6 +304,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Elevate your online presence with our comprehensive solutions.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/p/ecommerce" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="space-y-6">
@@ -313,6 +325,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Leverage data-driven insights to make informed decisions.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/p/analytics" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -331,6 +349,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Enhance customer satisfaction through personalized experiences.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/p/customer-experience" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="space-y-6">
@@ -346,6 +370,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Safeguard your business with robust security measures.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/p/cybersecurity" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
               <div className="space-y-6">
@@ -361,6 +391,12 @@ export default function Index() {
                   <p className="mt-5 font-montserrat text-xs md:text-base font-normal leading-[150%] text-white">
                     Ensure project delivery on time and within budget.
                   </p>
+                  <div className="text-center mt-3">
+                    <Link to="/p/project-success" className="inline-flex items-center gap-2 font-montserrat text-sm font-medium text-white underline decoration-white/50 hover:decoration-transparent">
+                      Learn more
+                      <ArrowRight className="h-5 w-5 stroke-white" />
+                    </Link>
+                  </div>
                 </div>
               </div>
             </div>
@@ -368,7 +404,7 @@ export default function Index() {
 
           <div className="mt-12 md:mt-20 flex flex-col md:flex-row items-center justify-center gap-4 md:gap-6">
             <Link
-              to="/p/learn-more"
+              to="/services"
               className="w-full md:w-auto text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
             >
               Learn More
@@ -398,7 +434,7 @@ export default function Index() {
           <div className="flex-1 order-1 md:order-2">
             <img
               src="https://api.builder.io/api/v1/image/assets/TEMP/5914e91683b71309e337644fabe70754b6bfc89a?width=670"
-              alt=""
+              alt="Business potential graphic"
               className="h-64 md:h-[640px] w-full rounded-2xl object-cover"
             />
           </div>
@@ -443,7 +479,7 @@ export default function Index() {
           </div>
           <img
             src="https://api.builder.io/api/v1/image/assets/TEMP/57694efceb54dfce2e49224173b0cc33a07dd2ec?width=670"
-            alt=""
+            alt="AI analytics illustration"
             className="h-64 md:h-[640px] flex-1 rounded-2xl object-cover"
           />
         </div>
