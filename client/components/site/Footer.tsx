@@ -40,7 +40,7 @@ export default function Footer() {
         <div className="h-px w-full bg-[rgba(12,8,1,0.15)]"></div>
 
         {/* Links Section */}
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-6">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-5">
           {/* Quick Links */}
           <div className="space-y-4">
             <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">Quick Links</h4>
