@@ -272,8 +272,9 @@ export default function Index() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/dd6b1e2140a8c485bf860a29ac9915cfbac2ca5c?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+                  alt="Business professionals discussing data charts in a modern office"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
@@ -293,8 +294,9 @@ export default function Index() {
               </div>
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/736f1c5da580893de121febe93020aa87e56b74c?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg"
+                  alt="Online shopping and eCommerce planning on tablet"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
@@ -314,8 +316,9 @@ export default function Index() {
               </div>
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/268acd197d1a9986d464358eaf34256466d03da6?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+                  alt="Business analytics report and dashboard on desk"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
@@ -338,8 +341,9 @@ export default function Index() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/a9537581f2614d0a9719b9b93792a85e60d98bd0?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/6869043/pexels-photo-6869043.jpeg"
+                  alt="Happy service team delivering packages to customers"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
@@ -359,8 +363,9 @@ export default function Index() {
               </div>
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/1929ec7d0bf5a2f138107c3d1d3ccb21208fe17d?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/30965500/pexels-photo-30965500.jpeg"
+                  alt="Tiles spelling SECURITY representing cybersecurity protection"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
@@ -380,8 +385,9 @@ export default function Index() {
               </div>
               <div className="space-y-6">
                 <img
-                  src="https://api.builder.io/api/v1/image/assets/TEMP/5ed151c840a1a4717a2d4c5cbacb9fc7c5002dee?width=670"
-                  alt=""
+                  src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
+                  alt="Project planning and success roadmap at whiteboard"
+                  loading="lazy"
                   className="h-[198px] md:h-[234px] w-full rounded-2xl object-cover"
                 />
                 <div className="text-center">
