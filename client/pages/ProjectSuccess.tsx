@@ -168,7 +168,7 @@ export default function ProjectSuccess() {
         className="relative flex items-center justify-center min-h-[369px] px-16 py-28 bg-gradient-to-b from-black/50 to-black/50"
         style={{
           backgroundImage:
-            "url('https://api.builder.io/api/v1/image/assets/TEMP/85b8e6c434e0507ae0f008fc8bddab4ec0777453?width=2880')",
+            "url('https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
@@ -251,8 +251,8 @@ export default function ProjectSuccess() {
             </div>
             <div className="flex-1">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
-                alt="Project Success Illustration"
+                src="https://images.pexels.com/photos/7792818/pexels-photo-7792818.jpeg"
+                alt="Team collaborating on project plan during a meeting"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
             </div>
@@ -384,8 +384,8 @@ export default function ProjectSuccess() {
             </div>
             <div className="flex-1">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
-                alt="Strategic Planning Illustration"
+                src="https://images.pexels.com/photos/29521529/pexels-photo-29521529.jpeg"
+                alt="Team mapping strategy with sticky notes on a whiteboard"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
             </div>
@@ -399,8 +399,8 @@ export default function ProjectSuccess() {
           <div className="flex items-center gap-20">
             <div className="flex-1">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
-                alt="Execution Excellence Illustration"
+                src="https://images.pexels.com/photos/4623478/pexels-photo-4623478.jpeg"
+                alt="Agile team collaborating during a sprint planning session"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
             </div>
@@ -506,8 +506,8 @@ export default function ProjectSuccess() {
             </div>
             <div className="flex-1">
               <img
-                src="https://api.builder.io/api/v1/image/assets/TEMP/200b73a02feb8fdaaf0fd217400fa4b0540d4dfd?width=1200"
-                alt="Performance Tracking Illustration"
+                src="https://images.pexels.com/photos/34069/pexels-photo.jpg"
+                alt="Analytics dashboard with charts and KPIs on laptop"
                 className="w-full h-[640px] object-cover rounded-2xl"
               />
             </div>
@@ -622,16 +622,8 @@ export default function ProjectSuccess() {
               30% increase in efficiency and on-time delivery."
             </blockquote>
             <div className="flex flex-col items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-gray-200 flex items-center justify-center">
-                <svg
-                  width="64"
-                  height="64"
-                  viewBox="0 0 64 64"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <circle cx="32" cy="32" r="32" fill="#E5E7EB" />
-                </svg>
+              <div className="w-16 h-16 rounded-full overflow-hidden">
+                <img src="https://images.pexels.com/photos/25651531/pexels-photo-25651531.jpeg" alt="Jane Doe portrait" className="w-full h-full object-cover" />
               </div>
               <div className="text-center">
                 <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -651,7 +643,7 @@ export default function ProjectSuccess() {
         className="py-28 px-16 relative"
         style={{
           backgroundImage:
-            "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://api.builder.io/api/v1/image/assets/TEMP/2fcfd92e6f4c707b1a0e56bb612fb87c27a4aaeb?width=2880')",
+            "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
