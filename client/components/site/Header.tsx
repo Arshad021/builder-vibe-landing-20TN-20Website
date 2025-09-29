@@ -159,13 +159,9 @@ export default function Header() {
               >
                 About Us
               </NavLink>
-              <div
-                className="relative"
-                onMouseEnter={() => setOpen(true)}
-                onMouseLeave={() => setOpen(false)}
-              >
+              <div className="relative">
                 <button
-                  className="flex justify-center items-center gap-1 text-[#0C0801] font-montserrat text-base font-normal leading-[150%] focus-visible:outline-none"
+                  className="flex justify-center items-center gap-1 text-[#0C0801] font-montserrat text-base font-normal leading-[150%] focus-visible:outline-none hover:text-[#0C0801]/80 transition-colors"
                   aria-expanded={open}
                   aria-haspopup="true"
                   onClick={() => setOpen((v) => !v)}
@@ -177,6 +173,7 @@ export default function Header() {
                     viewBox="0 0 24 24"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
+                    className={`transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
                   >
                     <path
                       fillRule="evenodd"
