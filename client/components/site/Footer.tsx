@@ -46,28 +46,38 @@ export default function Footer() {
             <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">Quick Links</h4>
             <div className="space-y-0">
               <div className="py-2">
-                <Link to="/p/service-one" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Service One
+                <Link to="/" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Home
                 </Link>
               </div>
               <div className="py-2">
-                <Link to="/p/service-two" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Service Two
+                <Link to="/services" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Services
                 </Link>
               </div>
               <div className="py-2">
-                <Link to="/p/service-three" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Service Three
+                <Link to="/p/ecommerce" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  E‑Commerce Suite
                 </Link>
               </div>
               <div className="py-2">
-                <Link to="/p/service-four" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Service Four
+                <Link to="/p/analytics" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Data Analytics
                 </Link>
               </div>
               <div className="py-2">
-                <Link to="/p/service-five" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Service Five
+                <Link to="/p/customer-experience" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Customer Experience
+                </Link>
+              </div>
+              <div className="py-2">
+                <Link to="/p/cybersecurity" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Cybersecurity Solutions
+                </Link>
+              </div>
+              <div className="py-2">
+                <Link to="/p/project-success" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                  Project Success
                 </Link>
               </div>
             </div>
@@ -137,37 +147,6 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* Follow Us */}
-          <div className="space-y-4">
-            <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">Follow Us</h4>
-            <div className="space-y-0">
-              <div className="py-2">
-                <Link to="/p/linkedin" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  LinkedIn Profile
-                </Link>
-              </div>
-              <div className="py-2">
-                <Link to="/p/twitter" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Twitter Account
-                </Link>
-              </div>
-              <div className="py-2">
-                <Link to="/p/facebook" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Facebook Page
-                </Link>
-              </div>
-              <div className="py-2">
-                <Link to="/p/instagram" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  Instagram Handle
-                </Link>
-              </div>
-              <div className="py-2">
-                <Link to="/p/youtube" className="font-montserrat text-sm text-[#0C0801] hover:underline">
-                  YouTube Channel
-                </Link>
-              </div>
-            </div>
-          </div>
 
           {/* Legal */}
           <div className="space-y-4">
