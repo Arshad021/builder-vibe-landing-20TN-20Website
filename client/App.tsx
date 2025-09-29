@@ -63,4 +63,18 @@ const App = () => (
   </QueryClientProvider>
 );
 
-createRoot(document.getElementById("root")!).render(<App />);
+const container = document.getElementById("root")!;
+const w = window as any;
+if (!w.__app_root) {
+  w.__app_root = createRoot(container);
+}
+w.__app_root.render(<App />);
+
+if (import.meta && (import.meta as any).hot) {
+  (import.meta as any).hot.dispose(() => {
+    if (w.__app_root) {
+      w.__app_root.unmount();
+      w.__app_root = undefined;
+    }
+  });
+}
