@@ -19,6 +19,7 @@ import CustomerExperience from "./pages/CustomerExperience";
 import Cybersecurity from "./pages/Cybersecurity";
 import ProjectSuccess from "./pages/ProjectSuccess";
 import Careers from "./pages/Careers";
+import DigitalStrategy from "./pages/DigitalStrategy";
 import Header from "./components/site/Header";
 import Footer from "./components/site/Footer";
 
