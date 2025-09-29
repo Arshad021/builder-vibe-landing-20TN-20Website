@@ -10,8 +10,19 @@ const navLinkClass = ({ isActive }: { isActive: boolean }) =>
 
 // Mobile menu icons
 const CubeIcon = () => (
-  <svg width="24" height="24" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path fillRule="evenodd" clipRule="evenodd" d="M21.1333 7.24555L20.9933 6.99555C20.8127 6.69324 20.558 6.44198 20.2533 6.26555L13.5433 2.39555C13.2395 2.2193 12.8946 2.12617 12.5433 2.12555H12.2533C11.902 2.12617 11.5571 2.2193 11.2533 2.39555L4.54332 6.27555C4.24029 6.45081 3.98858 6.70252 3.81332 7.00555L3.67332 7.25555C3.49707 7.55939 3.40394 7.90429 3.40332 8.25555V16.0055C3.40394 16.3568 3.49707 16.7017 3.67332 17.0055L3.81332 17.2555C3.99311 17.555 4.24381 17.8057 4.54332 17.9855L11.2633 21.8555C11.5656 22.0354 11.9115 22.1288 12.2633 22.1255H12.5433C12.8946 22.1249 13.2395 22.0318 13.5433 21.8555L20.2533 17.9755C20.5593 17.8042 20.812 17.5515 20.9833 17.2455L21.1333 16.9955C21.3074 16.6908 21.4004 16.3465 21.4033 15.9955V8.24555C21.4027 7.89429 21.3096 7.54939 21.1333 7.24555ZM12.2533 4.12555H12.5433L18.4033 7.50555L12.4033 10.9655L6.40332 7.50555L12.2533 4.12555ZM13.4033 19.6255L19.2533 16.2455L19.4033 15.9955V9.23555L13.4033 12.7055V19.6255Z" fill="#0C0801"/>
+  <svg
+    width="24"
+    height="24"
+    viewBox="0 0 25 25"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      fillRule="evenodd"
+      clipRule="evenodd"
+      d="M21.1333 7.24555L20.9933 6.99555C20.8127 6.69324 20.558 6.44198 20.2533 6.26555L13.5433 2.39555C13.2395 2.2193 12.8946 2.12617 12.5433 2.12555H12.2533C11.902 2.12617 11.5571 2.2193 11.2533 2.39555L4.54332 6.27555C4.24029 6.45081 3.98858 6.70252 3.81332 7.00555L3.67332 7.25555C3.49707 7.55939 3.40394 7.90429 3.40332 8.25555V16.0055C3.40394 16.3568 3.49707 16.7017 3.67332 17.0055L3.81332 17.2555C3.99311 17.555 4.24381 17.8057 4.54332 17.9855L11.2633 21.8555C11.5656 22.0354 11.9115 22.1288 12.2633 22.1255H12.5433C12.8946 22.1249 13.2395 22.0318 13.5433 21.8555L20.2533 17.9755C20.5593 17.8042 20.812 17.5515 20.9833 17.2455L21.1333 16.9955C21.3074 16.6908 21.4004 16.3465 21.4033 15.9955V8.24555C21.4027 7.89429 21.3096 7.54939 21.1333 7.24555ZM12.2533 4.12555H12.5433L18.4033 7.50555L12.4033 10.9655L6.40332 7.50555L12.2533 4.12555ZM13.4033 19.6255L19.2533 16.2455L19.4033 15.9955V9.23555L13.4033 12.7055V19.6255Z"
+      fill="#0C0801"
+    />
   </svg>
 );
 
@@ -20,21 +31,37 @@ const mobileMenuSections = [
   {
     title: "Explore Our Services",
     items: [
-      { icon: CubeIcon, title: "Digital Strategy", href: "/p/digital-strategy" },
-      { icon: CubeIcon, title: "Digital Transmission Strategy", href: "/digital-transmissions" },
+      {
+        icon: CubeIcon,
+        title: "Digital Strategy",
+        href: "/p/digital-strategy",
+      },
+      {
+        icon: CubeIcon,
+        title: "Digital Transmission Strategy",
+        href: "/digital-transmissions",
+      },
       { icon: CubeIcon, title: "eCommerce Suite", href: "/p/ecommerce" },
       { icon: CubeIcon, title: "Data Analytics", href: "/p/analytics" },
-      { icon: CubeIcon, title: "Customer Experience", href: "/p/customer-experience" }
-    ]
+      {
+        icon: CubeIcon,
+        title: "Customer Experience",
+        href: "/p/customer-experience",
+      },
+    ],
   },
   {
-    title: "Additional Resources", 
+    title: "Additional Resources",
     items: [
-      { icon: CubeIcon, title: "Cybersecurity Solutions", href: "/p/cybersecurity" },
+      {
+        icon: CubeIcon,
+        title: "Cybersecurity Solutions",
+        href: "/p/cybersecurity",
+      },
       { icon: CubeIcon, title: "Project Success", href: "/p/project-success" },
       { icon: CubeIcon, title: "Contact Us", href: "/contact" },
-      { icon: CubeIcon, title: "Careers", href: "/p/careers" }
-    ]
+      { icon: CubeIcon, title: "Careers", href: "/p/careers" },
+    ],
   },
   {
     title: "More Information",
@@ -43,8 +70,8 @@ const mobileMenuSections = [
       { icon: CubeIcon, title: "Blog", href: "/p/blog" },
       { icon: CubeIcon, title: "Testimonials", href: "/p/testimonials" },
       { icon: CubeIcon, title: "FAQs", href: "/p/faqs" },
-      { icon: CubeIcon, title: "Events", href: "/p/events" }
-    ]
+      { icon: CubeIcon, title: "Events", href: "/p/events" },
+    ],
   },
   {
     title: "Connect With Us",
@@ -52,9 +79,9 @@ const mobileMenuSections = [
       { icon: CubeIcon, title: "Social Media", href: "/p/social" },
       { icon: CubeIcon, title: "Newsletter", href: "/p/newsletter" },
       { icon: CubeIcon, title: "Support", href: "/p/support" },
-      { icon: CubeIcon, title: "Resources", href: "/p/resources" }
-    ]
-  }
+      { icon: CubeIcon, title: "Resources", href: "/p/resources" },
+    ],
+  },
 ];
 
 export default function Header() {
@@ -64,7 +91,8 @@ export default function Header() {
 
   useEffect(() => {
     if (!mobileOpen) return;
-    const onEsc = (e: KeyboardEvent) => e.key === "Escape" && setMobileOpen(false);
+    const onEsc = (e: KeyboardEvent) =>
+      e.key === "Escape" && setMobileOpen(false);
     document.addEventListener("keydown", onEsc);
     return () => document.removeEventListener("keydown", onEsc);
   }, [mobileOpen]);
@@ -99,19 +127,36 @@ export default function Header() {
         <div className="flex justify-between items-center flex-1">
           <div className="flex items-center gap-6">
             {/* Company Logo */}
-            <Link to="/" className="flex w-[84px] h-9 px-[7px] justify-center items-center">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800" alt="Tecnext" className="h-9 w-auto" />
+            <Link
+              to="/"
+              className="flex w-[84px] h-9 px-[7px] justify-center items-center"
+            >
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800"
+                alt="Tecnext"
+                className="h-9 w-auto"
+              />
             </Link>
 
             {/* Navigation Links */}
             <div className="hidden md:flex items-center gap-8">
-              <NavLink to="/" className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]" end>
+              <NavLink
+                to="/"
+                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
+                end
+              >
                 Home Page
               </NavLink>
-              <NavLink to="/services" className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
+              <NavLink
+                to="/services"
+                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
+              >
                 Our Services
               </NavLink>
-              <NavLink to="/about" className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
+              <NavLink
+                to="/about"
+                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
+              >
                 About Us
               </NavLink>
               <div
@@ -126,8 +171,19 @@ export default function Header() {
                   onClick={() => setOpen((v) => !v)}
                 >
                   More Links
-                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M12.3977 15.6634C12.178 15.8831 11.8219 15.8831 11.6022 15.6634L5.86739 9.92853C5.64772 9.70886 5.64772 9.35276 5.86739 9.13308L6.13256 8.86788C6.35222 8.64821 6.70838 8.64821 6.92805 8.86788L12 13.9398L17.0719 8.86788C17.2916 8.64821 17.6477 8.64821 17.8674 8.86788L18.1326 9.13308C18.3522 9.35276 18.3522 9.70886 18.1326 9.92853L12.3977 15.6634Z" fill="#0C0801"/>
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      clipRule="evenodd"
+                      d="M12.3977 15.6634C12.178 15.8831 11.8219 15.8831 11.6022 15.6634L5.86739 9.92853C5.64772 9.70886 5.64772 9.35276 5.86739 9.13308L6.13256 8.86788C6.35222 8.64821 6.70838 8.64821 6.92805 8.86788L12 13.9398L17.0719 8.86788C17.2916 8.64821 17.6477 8.64821 17.8674 8.86788L18.1326 9.13308C18.3522 9.35276 18.3522 9.70886 18.1326 9.92853L12.3977 15.6634Z"
+                      fill="#0C0801"
+                    />
                   </svg>
                 </button>
                 <MegaMenu open={open} onClose={() => setOpen(false)} />
@@ -157,7 +213,11 @@ export default function Header() {
             aria-label="Toggle menu"
             onClick={() => setMobileOpen((v) => !v)}
           >
-            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {mobileOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
           </button>
         </div>
       </div>
@@ -176,8 +236,15 @@ export default function Header() {
         <div className="fixed inset-0 z-50 bg-[#EBF2FE] md:hidden">
           {/* Mobile navbar */}
           <div className="flex h-16 items-center justify-between px-5 border-b border-[rgba(12,8,1,0.15)]">
-            <Link to="/" className="flex h-9 w-[84px] items-center justify-center">
-              <img src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800" alt="Tecnext" className="h-9 w-auto" />
+            <Link
+              to="/"
+              className="flex h-9 w-[84px] items-center justify-center"
+            >
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800"
+                alt="Tecnext"
+                className="h-9 w-auto"
+              />
             </Link>
             <button
               className="flex h-12 w-12 items-center justify-center rounded-md text-[#0C0801]"
@@ -223,7 +290,9 @@ export default function Header() {
                   aria-expanded={mobileMoreLinksOpen}
                 >
                   More Links
-                  <ChevronDown className={`h-6 w-6 transition-transform ${mobileMoreLinksOpen ? 'rotate-180' : ''}`} />
+                  <ChevronDown
+                    className={`h-6 w-6 transition-transform ${mobileMoreLinksOpen ? "rotate-180" : ""}`}
+                  />
                 </button>
 
                 {/* Mega Menu Content */}
@@ -267,8 +336,8 @@ export default function Header() {
                 <div className="text-xs font-normal font-montserrat text-[#0C0801] leading-[150%]">
                   Ready to elevate your business?
                 </div>
-                <Link 
-                  to="/p/signup" 
+                <Link
+                  to="/p/signup"
                   className="text-xs font-normal font-montserrat text-[#0C0801] leading-[150%] underline"
                   onClick={() => setMobileOpen(false)}
                 >
