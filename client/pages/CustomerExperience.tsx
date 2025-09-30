@@ -1,6 +1,4 @@
 import { Button } from "@/components/ui/button";
-
-import { Button } from "@/components/ui/button";
 import { ResponsiveHero } from "@/components/site/ResponsiveHero";
 
 export default function CustomerExperience() {
