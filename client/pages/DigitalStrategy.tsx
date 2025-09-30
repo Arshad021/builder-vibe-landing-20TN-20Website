@@ -36,7 +36,7 @@ export default function DigitalStrategy() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-4">
                 <button className="flex px-3 py-1.5 justify-center items-center gap-2 rounded-full border border-[rgba(12,8,1,0.15)]">
                   <span className="text-[#0C0801] font-montserrat text-base font-medium leading-[150%]">
                     Learn More
