@@ -375,7 +375,7 @@ export default function DataAnalytics() {
                   src="https://images.pexels.com/photos/9034221/pexels-photo-9034221.jpeg"
                   alt="Team aligning on strategy using data-driven presentations"
                 />
-                <div className="flex flex-col items-center gap-8 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 sm:gap-8 self-stretch text-center lg:text-left">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
                     <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Transforming Insights into Actionable Strategies for Your Business
@@ -404,7 +404,7 @@ export default function DataAnalytics() {
                   src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
                   alt="Collaborative planning session reviewing analytics"
                 />
-                <div className="flex flex-col items-center gap-8 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 sm:gap-8 self-stretch text-center lg:text-left">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
                     <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Tailored Solutions for Your Unique Data Challenges
@@ -433,7 +433,7 @@ export default function DataAnalytics() {
                   src="https://images.pexels.com/photos/5716037/pexels-photo-5716037.jpeg"
                   alt="Team celebrating success over analytics reports"
                 />
-                <div className="flex flex-col items-center gap-8 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 sm:gap-8 self-stretch text-center lg:text-left">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
                     <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Continuous Support and Optimization for Lasting Impact
