@@ -317,7 +317,7 @@ export default function DataAnalytics() {
                 <blockquote className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                   "The data solutions provided by TecNext have revolutionized our operations and decision-making processes."
                 </blockquote>
-                <div className="flex items-center justify-center lg:justify-start gap-5">
+                <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-5 text-center sm:text-left">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
                   <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -342,7 +342,7 @@ export default function DataAnalytics() {
                 <blockquote className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                   "Thanks to TecNext, we have harnessed our data effectively, leading to unprecedented growth and efficiency."
                 </blockquote>
-                <div className="flex items-center justify-center lg:justify-start gap-5">
+                <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 sm:gap-5 text-center sm:text-left">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
                   <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
