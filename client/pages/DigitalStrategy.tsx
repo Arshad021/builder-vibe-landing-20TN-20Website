@@ -357,7 +357,7 @@ export default function DigitalStrategy() {
                 Unlock your potential with our expert guidance.
               </p>
             </div>
-            <div className="flex items-start gap-4">
+            <div className="flex flex-wrap items-center gap-4">
               <button className="flex px-3 py-1.5 justify-center items-center gap-2 rounded-full border border-[#3B82F6] bg-[#3B82F6]">
                 <span className="text-white font-montserrat text-base font-medium leading-[150%]">
                   Consult
