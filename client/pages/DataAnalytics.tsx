@@ -32,12 +32,12 @@ export default function DataAnalytics() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section 
-        className="relative flex h-[369px] px-16 py-28 flex-col items-center gap-20 bg-cover bg-center bg-no-repeat"
+        className="relative flex h-[369px] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg')"
         }}
       >
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 flex-1 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-6 flex-1 self-stretch">
             <h1 className="self-stretch text-white font-alata text-7xl font-normal leading-[120%] tracking-[-0.72px]">
               Unlock Your Data
@@ -50,9 +50,9 @@ export default function DataAnalytics() {
       </section>
 
       {/* Advanced Analytics Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+          <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
               <div className="flex flex-col items-start gap-6 self-stretch">
                 <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
@@ -93,9 +93,9 @@ export default function DataAnalytics() {
       </section>
 
       {/* Real-Time Data Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-[#173462]">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-[#173462]">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+          <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <img
               className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
               src="https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg"
@@ -163,9 +163,9 @@ export default function DataAnalytics() {
       </section>
 
       {/* Machine Learning & AI Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+          <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
               <div className="flex flex-col items-start gap-6 self-stretch">
                 <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
@@ -206,8 +206,8 @@ export default function DataAnalytics() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-4 self-stretch">
             <div className="flex items-center">
               <span className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -294,8 +294,8 @@ export default function DataAnalytics() {
       </section>
 
       {/* Customer Testimonials */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-6 self-stretch">
             <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
               Customer Testimonials
@@ -362,8 +362,8 @@ export default function DataAnalytics() {
       </section>
 
       {/* Analytics Solutions Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 bg-[#173462]">
-        <div className="flex max-w-[1280px] flex-col items-center gap-20 self-stretch">
+      <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-[#173462]">
+        <div className="flex max-w-[1280px] flex-col items-center gap-10 lg:gap-20 self-stretch">
           <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
@@ -463,12 +463,12 @@ export default function DataAnalytics() {
 
       {/* CTA Section */}
       <section 
-        className="flex px-16 py-28 flex-col items-center gap-20 bg-cover bg-center bg-no-repeat"
+        className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-cover bg-center bg-no-repeat"
         style={{
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/34070725/pexels-photo-34070725.jpeg')"
         }}
       >
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-8 self-stretch">
             <div className="flex flex-col items-start gap-6 self-stretch">
               <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
