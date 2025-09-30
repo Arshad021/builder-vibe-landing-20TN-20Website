@@ -347,9 +347,9 @@ export default function DigitalStrategy() {
 
       {/* CTA Section */}
       <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-8 self-stretch">
-            <div className="flex flex-col items-start gap-6 flex-1">
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col gap-12">
+          <div className="flex flex-col gap-6 lg:flex-row lg:items-center lg:gap-8">
+            <div className="flex flex-1 flex-col items-start gap-4">
               <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
                 Transform Your Business Today
               </h2>
