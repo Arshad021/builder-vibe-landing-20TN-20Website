@@ -409,7 +409,7 @@ export default function MegaMenu({
 
   return (
     <div
-      className={`fixed inset-x-0 top-[72px] z-50 w-full ${open ? "block" : "hidden"}`}
+      className={`fixed inset-x-0 top-20 z-50 w-full ${open ? "block" : "hidden"}`}
       aria-hidden={!open}
     >
       <div
@@ -482,7 +482,7 @@ export default function MegaMenu({
             >
               <StartIcon />
               <div className="text-[#0C0801] font-montserrat text-base font-medium leading-[150%]">
-                Button
+                Get Started
               </div>
             </Link>
             <Link
@@ -492,7 +492,7 @@ export default function MegaMenu({
             >
               <JoinIcon />
               <div className="text-[#0C0801] font-montserrat text-base font-medium leading-[150%]">
-                Button
+                Join TecNext
               </div>
             </Link>
           </div>
