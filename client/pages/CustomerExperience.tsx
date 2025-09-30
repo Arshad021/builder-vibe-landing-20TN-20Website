@@ -387,8 +387,8 @@ export default function CustomerExperience() {
                 Unlock the potential of your customer interactions.
               </p>
             </div>
-            <div className="flex items-start gap-4">
-              <Button size="default" className="bg-[#3B82F6] text-white border-[#3B82F6]">
+            <div className="flex flex-wrap items-center gap-4">
+            <Button size="default" className="border-[#3B82F6] bg-[#3B82F6] text-white">
                 Contact
               </Button>
               <Button variant="outline" size="default">
