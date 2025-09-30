@@ -224,7 +224,7 @@ export default function DataAnalytics() {
             </div>
           </div>
           <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
-            <div className="flex items-start gap-12 self-stretch">
+            <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
@@ -305,7 +305,7 @@ export default function DataAnalytics() {
             </p>
           </div>
           <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
-            <div className="flex justify-center items-start gap-16 self-stretch">
+            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-16 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <div className="flex items-start gap-1">
                   {[...Array(5)].map((_, i) => (
@@ -317,7 +317,7 @@ export default function DataAnalytics() {
                 <blockquote className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                   "The data solutions provided by TecNext have revolutionized our operations and decision-making processes."
                 </blockquote>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center justify-center lg:justify-start gap-5">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
                   <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -342,7 +342,7 @@ export default function DataAnalytics() {
                 <blockquote className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                   "Thanks to TecNext, we have harnessed our data effectively, leading to unprecedented growth and efficiency."
                 </blockquote>
-                <div className="flex items-center gap-5">
+                <div className="flex items-center justify-center lg:justify-start gap-5">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
                   <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
