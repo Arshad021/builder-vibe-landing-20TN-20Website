@@ -164,24 +164,24 @@ export default function ProjectSuccess() {
   return (
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
-      <section
-        className="relative flex items-center justify-center min-h-[369px] px-4 md:px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 bg-gradient-to-b from-black/80 via-black/60 to-black/40"
-        style={{
-          backgroundImage:
-            "url('https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg')",
-          backgroundSize: "cover",
-          backgroundPosition: "center",
-        }}
-      >
-        <div className="max-w-[1280px] w-full">
-          <div className="max-w-[768px] space-y-6 bg-black/40 backdrop-blur-sm p-4 md:p-8 rounded-2xl">
-            <h1 className="text-white font-alata text-7xl font-normal leading-[120%] tracking-[-0.72px]">
-              Achieve Project Success
-            </h1>
-            <p className="text-white font-montserrat text-lg font-normal leading-[150%]">
-              Unlock your potential with our tailored strategies for successful
-              project execution and digital transformation.
-            </p>
+      <section className="relative flex min-h-[480px] flex-col justify-center overflow-hidden">
+        <img
+          src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
+          alt="Professionals collaborating during a project planning session"
+          className="absolute inset-0 h-full w-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/60 to-black/40" />
+        <div className="relative z-10 w-full px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
+          <div className="mx-auto flex w-full max-w-[1280px] justify-start">
+            <div className="max-w-[768px] space-y-6 rounded-2xl bg-black/40 p-4 sm:p-6 md:p-8 backdrop-blur-sm">
+              <h1 className="font-alata text-4xl font-normal leading-[120%] tracking-tight text-white sm:text-5xl lg:text-7xl">
+                Achieve Project Success
+              </h1>
+              <p className="font-montserrat text-base font-normal leading-[150%] text-white sm:text-lg">
+                Unlock your potential with our tailored strategies for successful
+                project execution and digital transformation.
+              </p>
+            </div>
           </div>
         </div>
       </section>
