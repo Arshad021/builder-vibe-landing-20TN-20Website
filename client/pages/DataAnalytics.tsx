@@ -232,7 +232,7 @@ export default function DataAnalytics() {
                   alt="Presenter sharing data insights in a meeting room"
                 />
                 <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                  <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
+                  <h3 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Real-World Applications of Data Analytics
                   </h3>
                   <p className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
@@ -247,7 +247,7 @@ export default function DataAnalytics() {
                   alt="Retail product photoshoot and inventory management setup"
                 />
                 <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                  <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
+                  <h3 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Case Study: Retail Analytics Success
                   </h3>
                   <p className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
@@ -262,7 +262,7 @@ export default function DataAnalytics() {
                   alt="Business desk with financial charts and a laptop"
                 />
                 <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                  <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
+                  <h3 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Case Study: Financial Insights for Growth
                   </h3>
                   <p className="self-stretch text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
