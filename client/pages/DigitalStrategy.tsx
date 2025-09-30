@@ -60,7 +60,7 @@ export default function DigitalStrategy() {
       </div>
 
       {/* Blue Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-[#173462]">
+      <div className="flex flex-col items-center gap-16 bg-[#173462] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-center gap-20 self-stretch">
           <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
             Unlock Your Potential with Our Digital Transformation Strategy
@@ -309,7 +309,7 @@ export default function DigitalStrategy() {
       </div>
 
       {/* Testimonial Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-[#173462]">
+      <div className="flex flex-col items-center gap-16 bg-[#173462] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-center gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-center gap-8 self-stretch">
             {/* 5 Stars */}
