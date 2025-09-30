@@ -178,8 +178,8 @@ export default function ProjectSuccess() {
                 Achieve Project Success
               </h1>
               <p className="font-montserrat text-base font-normal leading-[150%] text-white sm:text-lg">
-                Unlock your potential with our tailored strategies for successful
-                project execution and digital transformation.
+                Unlock your potential with our tailored strategies for
+                successful project execution and digital transformation.
               </p>
             </div>
           </div>

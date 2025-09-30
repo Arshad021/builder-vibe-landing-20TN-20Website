@@ -37,7 +37,9 @@ export function ResponsiveHero({
         >
           <div
             className={`flex w-full max-w-[768px] flex-col gap-4 sm:gap-6 rounded-2xl bg-black/40 p-4 sm:p-6 md:p-8 backdrop-blur-sm ${
-              isCenterAligned ? "items-center text-center" : "items-start text-left"
+              isCenterAligned
+                ? "items-center text-center"
+                : "items-start text-left"
             }`}
           >
             {eyebrow ? (
@@ -53,7 +55,11 @@ export function ResponsiveHero({
                 {description}
               </p>
             ) : null}
-            {actions ? <div className="mt-2 flex flex-wrap items-center gap-4">{actions}</div> : null}
+            {actions ? (
+              <div className="mt-2 flex flex-wrap items-center gap-4">
+                {actions}
+              </div>
+            ) : null}
           </div>
         </div>
       </div>
