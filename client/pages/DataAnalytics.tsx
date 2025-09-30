@@ -42,7 +42,7 @@ export default function DataAnalytics() {
             <h1 className="self-stretch text-white font-alata text-4xl sm:text-5xl lg:text-6xl font-normal leading-[120%] tracking-[-0.6px]">
               Unlock Your Data
             </h1>
-            <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
+            <p className="self-stretch text-white font-montserrat text-base sm:text-lg font-normal leading-[150%]">
               Empower your business with data-driven insights for smarter decision-making and enhanced performance.
             </p>
           </div>
