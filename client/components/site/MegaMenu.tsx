@@ -417,7 +417,7 @@ export default function MegaMenu({
         className="w-full bg-[#EBF2FE] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] flex flex-col items-center self-stretch"
       >
         {/* Menu Content */}
-        <div className="flex w-full max-w-[1280px] px-16 py-8 justify-center items-start gap-8 mx-auto">
+        <div className="flex w-full max-w-[1280px] px-6 lg:px-16 py-8 justify-center items-start gap-8 mx-auto">
           <div className="flex justify-center items-start gap-8 flex-1">
             {menuSections.map((section, sectionIndex) => (
               <div
@@ -461,7 +461,7 @@ export default function MegaMenu({
         </div>
 
         {/* Footer Section */}
-        <div className="flex px-16 py-4 justify-between items-start self-stretch border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]">
+        <div className="flex w-full max-w-[1280px] px-6 lg:px-16 py-4 justify-between items-start self-stretch border-t border-[rgba(12,8,1,0.15)] bg-[#EBF2FE] mx-auto">
           <div className="flex items-start gap-2">
             <div className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]">
               Ready to elevate your business?
