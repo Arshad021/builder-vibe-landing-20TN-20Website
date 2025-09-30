@@ -51,7 +51,7 @@ export default function DigitalStrategy() {
               </div>
             </div>
             <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="h-[240px] w-full max-w-[560px] rounded-2xl object-cover sm:h-[360px] lg:h-[640px] lg:max-w-none"
               src="https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Digital transformation concept with modern technology"
             />
@@ -154,7 +154,7 @@ export default function DigitalStrategy() {
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-center gap-20 self-stretch">
             <img 
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="h-[240px] w-full max-w-[560px] rounded-2xl object-cover sm:h-[360px] lg:h-[640px] lg:max-w-none"
               src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Team collaboration on digital transformation strategy"
             />
