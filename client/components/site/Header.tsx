@@ -133,7 +133,7 @@ export default function Header() {
   return (
     <div className="relative z-50 w-full bg-[#EBF2FE]">
       <div className="w-full border-b border-[#0C0801]/10 bg-[#EBF2FE]/95 backdrop-blur supports-[backdrop-filter]:bg-[#EBF2FE]/80">
-        <div className="mx-auto flex h-20 w-full max-w-[1280px] items-center justify-between px-4 sm:px-6 lg:px-10">
+        <div className="mx-auto flex h-[72px] w-full max-w-[1280px] items-center justify-between px-4 sm:px-6 lg:px-10">
           <div className="flex flex-1 items-center gap-6">
             <Link to="/" aria-label="TecNext home" className="flex items-center">
               <BrandLogo className="shrink-0" />
@@ -192,7 +192,7 @@ export default function Header() {
 
       {open && (
         <div
-          className="fixed inset-0 top-20 z-40 bg-[#EBF2FE]/90"
+          className="fixed inset-0 top-[72px] z-40 bg-[#EBF2FE]/90"
           onClick={() => setOpen(false)}
           aria-hidden
         />
@@ -200,7 +200,7 @@ export default function Header() {
 
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-[#EBF2FE] md:hidden">
-          <div className="flex h-20 items-center justify-between px-5 border-b border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]/95">
+          <div className="flex h-[72px] items-center justify-between px-5 border-b border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]/95">
             <Link to="/" aria-label="TecNext home" className="flex items-center">
               <BrandLogo size="sm" className="shrink-0" />
             </Link>
@@ -213,7 +213,7 @@ export default function Header() {
             </button>
           </div>
 
-          <div className="flex h-[calc(100vh-80px)] flex-col overflow-y-auto px-5 py-4 pb-20">
+          <div className="flex h-[calc(100vh-72px)] flex-col overflow-y-auto px-5 py-4 pb-20">
             <div className="mb-6 flex flex-col gap-6">
               {primaryLinks.map(({ to, label, end }) => (
                 <NavLink
