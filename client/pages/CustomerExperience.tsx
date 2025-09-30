@@ -137,7 +137,7 @@ export default function CustomerExperience() {
           </div>
         </div>
         <img
-          className="h-[738px] self-stretch aspect-[640/369] rounded-2xl object-cover"
+          className="h-[260px] w-full rounded-2xl object-cover sm:h-[360px] lg:h-[640px]"
           src="https://images.pexels.com/photos/3799124/pexels-photo-3799124.jpeg"
           alt="Customer engaging across channels using laptop and smartphone"
         />
