@@ -144,7 +144,7 @@ export default function CustomerExperience() {
       </section>
 
       {/* Section: Customer Insights */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-[#F2F2F2]">
+      <section className="flex flex-col items-center gap-16 self-stretch bg-[#F2F2F2] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex h-[640px] items-center gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
