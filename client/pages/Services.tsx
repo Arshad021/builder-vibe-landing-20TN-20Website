@@ -36,9 +36,9 @@ const Services = () => {
           </div>
 
           {/* Services Grid */}
-          <div className="space-y-16 mb-20">
+          <div className="space-y-10 sm:space-y-12 lg:space-y-16 mb-12 sm:mb-16 lg:mb-20">
             {/* First Row */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
@@ -95,7 +95,7 @@ const Services = () => {
             </div>
 
             {/* Second Row */}
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 lg:gap-12">
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img 
@@ -171,8 +171,8 @@ const Services = () => {
       <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="space-y-8">
-              <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -209,7 +209,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Learn More
                 </button>
@@ -243,8 +243,8 @@ const Services = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-8">
-              <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -281,7 +281,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Learn More
                 </button>
@@ -301,8 +301,8 @@ const Services = () => {
       <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="space-y-8">
-              <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -345,7 +345,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Learn More
                 </button>
@@ -379,8 +379,8 @@ const Services = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-8">
-              <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -417,7 +417,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Learn More
                 </button>
@@ -437,7 +437,7 @@ const Services = () => {
       <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Securing Your Digital Future: Comprehensive Technology Risk Management & Cybersecurity Solutions
@@ -489,8 +489,8 @@ const Services = () => {
                 className="w-full h-full object-cover"
               />
             </div>
-            <div className="space-y-8">
-              <div className="space-y-8">
+            <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8 text-center lg:text-left">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -527,7 +527,7 @@ const Services = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-start gap-6">
+              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Learn More
                 </button>
@@ -574,7 +574,7 @@ const Services = () => {
                 Reach out to discover how our services can elevate your digital transformation journey.
               </p>
             </div>
-            <div className="flex flex-col sm:flex-row items-start gap-4">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-4">
               <button className="px-3 py-1.5 border border-white rounded-full text-gray-900 text-base font-medium bg-white hover:bg-gray-100 transition-colors" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                 Contact
               </button>
