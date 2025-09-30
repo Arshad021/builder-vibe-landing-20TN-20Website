@@ -17,7 +17,7 @@ export default function DigitalStrategy() {
       />
 
       {/* First Content Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
+      <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex h-[640px] items-center gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
@@ -150,7 +150,7 @@ export default function DigitalStrategy() {
       </div>
 
       {/* Second Content Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
+      <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-center gap-20 self-stretch">
             <img 
@@ -177,7 +177,7 @@ export default function DigitalStrategy() {
       </div>
 
       {/* Content Article Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
+      <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex justify-between items-start self-stretch">
             {/* Table of Contents */}
@@ -346,7 +346,7 @@ export default function DigitalStrategy() {
       </div>
 
       {/* CTA Section */}
-      <div className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
+      <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-center gap-8 self-stretch">
             <div className="flex flex-col items-start gap-6 flex-1">
