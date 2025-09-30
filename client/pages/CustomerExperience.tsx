@@ -195,8 +195,8 @@ export default function CustomerExperience() {
               Hear from our satisfied clients about their experiences.
             </p>
           </div>
-          <div className="flex flex-col items-start gap-16 self-stretch">
-            <div className="flex justify-center items-start gap-16 self-stretch">
+          <div className="flex flex-col gap-12">
+            <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-16">
               <div className="flex flex-col items-start gap-8 flex-1">
                 <div className="flex items-start gap-1">
                   {[...Array(5)].map((_, i) => (
