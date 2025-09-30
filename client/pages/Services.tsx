@@ -4,13 +4,13 @@ const Services = () => {
   return (
     <div className="min-h-screen bg-white">
       {/* Header Section */}
-      <section className="bg-white py-28 px-4 md:px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="max-w-3xl">
-            <h1 className="text-5xl md:text-7xl font-normal text-gray-900 leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+          <div className="max-w-3xl mx-auto text-center sm:mx-0 sm:text-left">
+            <h1 className="text-4xl sm:text-5xl md:text-7xl font-normal text-gray-900 leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Our Core Services
             </h1>
-            <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+            <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Discover how our six pillars drive digital transformation and elevate your business to new heights.
             </p>
           </div>
@@ -18,19 +18,19 @@ const Services = () => {
       </section>
 
       {/* Main Services Grid Section */}
-      <section className="bg-[#173462] py-28 px-4 md:px-16">
+      <section className="bg-[#173462] py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           {/* Section Header */}
-          <div className="max-w-3xl mx-auto text-center mb-20">
+          <div className="max-w-3xl mx-auto text-center mb-12 sm:mb-16 lg:mb-20">
             <div className="mb-4">
               <span className="text-white text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                 Transform
               </span>
             </div>
-            <h2 className="text-4xl md:text-5xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Empowering Your Digital Transformation Journey
             </h2>
-            <p className="text-lg text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+            <p className="text-base sm:text-lg text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
               At TecNext, we specialize in driving digital transformation across industries. Our six core service pillars ensure that your business achieves measurable impact and sustainable growth.
             </p>
           </div>
@@ -48,7 +48,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     Digital Transformation Strategy
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -66,7 +66,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     eCommerce Excellence Suite
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -84,7 +84,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     Data & Analytics Intelligence
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -105,7 +105,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     Customer Experience Excellence
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -123,7 +123,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     Technology Risk Management & Cybersecurity
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -141,7 +141,7 @@ const Services = () => {
                   />
                 </div>
                 <div className="text-center">
-                  <h3 className="text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                  <h3 className="text-2xl sm:text-3xl font-normal text-white leading-tight tracking-tight mb-6" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                     Project Success Enablement
                   </h3>
                   <p className="text-base text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -168,9 +168,9 @@ const Services = () => {
       </section>
 
       {/* Digital Transformation Detail Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8">
               <div className="space-y-8">
                 <div className="space-y-4">
@@ -180,10 +180,10 @@ const Services = () => {
                     </span>
                   </div>
                   <div className="space-y-6">
-                    <h2 className="text-4xl md:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Empowering Your Digital Transformation Journey
                     </h2>
-                    <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       We help companies navigate the intricacies of digital transformation at TecNext. Our customized strategies guarantee that your organization not only adjusts but flourishes in a digital-centric environment.
                     </p>
                   </div>
@@ -233,9 +233,9 @@ const Services = () => {
       </section>
 
       {/* eCommerce Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg"
@@ -252,10 +252,10 @@ const Services = () => {
                     </span>
                   </div>
                   <div className="space-y-6">
-                    <h2 className="text-4xl md:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Transform Your eCommerce Experience with Us
                     </h2>
-                    <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       At TecNext, we streamline eCommerce platforms to boost sales and improve customer satisfaction. Our customized approaches guarantee smooth user experiences that increase conversions.
                     </p>
                   </div>
@@ -298,9 +298,9 @@ const Services = () => {
       </section>
 
       {/* Data Analytics Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8">
               <div className="space-y-8">
                 <div className="space-y-4">
@@ -310,10 +310,10 @@ const Services = () => {
                     </span>
                   </div>
                   <div className="space-y-6">
-                    <h2 className="text-4xl md:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Unlock the Power of Your Data
                     </h2>
-                    <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       We transform raw data into actionable insights that drive strategic decisions at TecNext. Our Data & Analytics Intelligence services empower businesses to harness the full potential of their data.
                     </p>
                   </div>
@@ -369,9 +369,9 @@ const Services = () => {
       </section>
 
       {/* Customer Experience Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/6869043/pexels-photo-6869043.jpeg"
@@ -388,10 +388,10 @@ const Services = () => {
                     </span>
                   </div>
                   <div className="space-y-6">
-                    <h2 className="text-4xl md:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Transforming Customer Experiences with Innovation
                     </h2>
-                    <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Prioritizing customer experience, we at TecNext leverage cutting-edge technology. Our innovative solutions empower businesses to connect with their customers on a deeper level.
                     </p>
                   </div>
@@ -434,15 +434,15 @@ const Services = () => {
       </section>
 
       {/* Security Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8">
               <div className="space-y-6">
                 <h2 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Securing Your Digital Future: Comprehensive Technology Risk Management & Cybersecurity Solutions
                 </h2>
-                <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   At TecNext, we emphasize the security and compliance of your technology systems. Our skilled team employs strong strategies to reduce risks and protect your digital assets.
                 </p>
               </div>
@@ -479,9 +479,9 @@ const Services = () => {
       </section>
 
       {/* Project Success Section */}
-      <section className="bg-gray-100 py-28 px-4 md:px-16">
+      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
               <img
                 src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
@@ -498,10 +498,10 @@ const Services = () => {
                     </span>
                   </div>
                   <div className="space-y-6">
-                    <h2 className="text-4xl md:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       Ensuring Success in Every Project
                     </h2>
-                    <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                    <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                       At TecNext, we focus on achieving project success through comprehensive planning and execution. Our committed team collaborates effectively to ensure that each project fulfills its objectives and delivers measurable value.
                     </p>
                   </div>
@@ -544,13 +544,13 @@ const Services = () => {
       </section>
 
       {/* Business Potential Section */}
-      <section className="bg-white py-28 px-4 md:px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center space-y-6">
             <h2 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Unlock Your Business Potential with Our Comprehensive Digital Solutions
             </h2>
-            <p className="text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+            <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Our services empower your organization to thrive in the digital landscape. Experience increased efficiency, enhanced customer engagement, and measurable growth with our tailored solutions.
             </p>
           </div>
@@ -559,7 +559,7 @@ const Services = () => {
 
       {/* CTA Section */}
       <section 
-        className="py-28 px-4 md:px-16 bg-cover bg-center relative"
+        className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-cover bg-center relative"
         style={{ 
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg')"
         }}
@@ -567,10 +567,10 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl space-y-8">
             <div className="space-y-6">
-              <h2 className="text-4xl md:text-5xl font-normal text-white leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+              <h2 className="text-3xl sm:text-4xl lg:text-5xl font-normal text-white leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                 Let's Transform Your Business Together
               </h2>
-              <p className="text-lg text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
+              <p className="text-base sm:text-lg text-white leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
                 Reach out to discover how our services can elevate your digital transformation journey.
               </p>
             </div>
