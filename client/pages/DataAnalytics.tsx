@@ -58,7 +58,7 @@ export default function DataAnalytics() {
                 <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Analytics Techniques
                 </h2>
-                <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
+                <p className="self-stretch text-[#0C0801] font-montserrat text-base sm:text-lg font-normal leading-[150%]">
                   Advanced data analytics transforms raw data into strategic insights. Leverage these insights to drive informed decision-making and enhance business performance.
                 </p>
               </div>
@@ -113,7 +113,7 @@ export default function DataAnalytics() {
                     <h2 className="self-stretch text-white font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                       Empower Your Decisions with Real-Time Data
                     </h2>
-                    <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
+                    <p className="self-stretch text-white font-montserrat text-base sm:text-lg font-normal leading-[150%]">
                       Our Business Intelligence solutions provide powerful tools and dashboards that enable decision-makers to access real-time data. Transform your insights into actionable strategies for success.
                     </p>
                   </div>
@@ -171,7 +171,7 @@ export default function DataAnalytics() {
                 <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Machine Learning and AI Solutions
                 </h2>
-                <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
+                <p className="self-stretch text-[#0C0801] font-montserrat text-base sm:text-lg font-normal leading-[150%]">
                   Harness the capabilities of machine learning and AI to drive predictive analytics and streamline your processes. Our tailored solutions empower businesses to make data-driven decisions with confidence.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export default function DataAnalytics() {
               <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                 Transforming Data into Strategic Business Solutions
               </h2>
-              <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
+              <p className="self-stretch text-[#0C0801] font-montserrat text-base sm:text-lg font-normal leading-[150%]">
                 At TecNext, we empower organizations to harness the power of data analytics. Our tailored solutions have enabled clients to make informed decisions and drive impactful results.
               </p>
             </div>
@@ -300,7 +300,7 @@ export default function DataAnalytics() {
             <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
               Customer Testimonials
             </h2>
-            <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
+            <p className="self-stretch text-[#0C0801] font-montserrat text-base sm:text-lg font-normal leading-[150%]">
               Transformative insights that drive our business forward.
             </p>
           </div>
@@ -474,7 +474,7 @@ export default function DataAnalytics() {
               <h2 className="self-stretch text-white font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                 Unlock Your Data Potential
               </h2>
-              <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
+              <p className="self-stretch text-white font-montserrat text-base sm:text-lg font-normal leading-[150%]">
                 Transform your business decisions with our expert data and analytics consultation services today.
               </p>
             </div>
