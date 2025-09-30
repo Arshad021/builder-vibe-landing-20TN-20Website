@@ -84,7 +84,7 @@ export default function DataAnalytics() {
               </div>
             </div>
             <img
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="w-full lg:flex-1 max-w-[560px] h-[320px] sm:h-[420px] lg:h-[640px] rounded-2xl object-cover"
               src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
               alt="Business team analyzing charts during a meeting"
             />
@@ -97,7 +97,7 @@ export default function DataAnalytics() {
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20 self-stretch">
             <img
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="w-full lg:flex-1 max-w-[560px] h-[320px] sm:h-[420px] lg:h-[640px] rounded-2xl object-cover"
               src="https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg"
               alt="Digital monitor with world map and real-time statistics"
             />
@@ -197,7 +197,7 @@ export default function DataAnalytics() {
               </div>
             </div>
             <img
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="w-full lg:flex-1 max-w-[560px] h-[320px] sm:h-[420px] lg:h-[640px] rounded-2xl object-cover"
               src="https://images.pexels.com/photos/4584830/pexels-photo-4584830.jpeg"
               alt="Code on screen representing machine learning and AI pipelines"
             />
