@@ -215,7 +215,7 @@ export default function DigitalStrategy() {
             </div>
 
             {/* Main Content */}
-            <div className="flex max-w-[768px] flex-col items-start flex-1">
+            <div className="flex max-w-[768px] flex-col items-start gap-4 flex-1">
               <div className="flex pb-4 flex-col items-start self-stretch">
                 <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
                   Digital Strategy Overview
