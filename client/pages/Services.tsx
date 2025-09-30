@@ -172,7 +172,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -244,7 +244,7 @@ const Services = () => {
               />
             </div>
             <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -302,7 +302,7 @@ const Services = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -380,7 +380,7 @@ const Services = () => {
               />
             </div>
             <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -439,7 +439,7 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8 text-center lg:text-left">
               <div className="space-y-6">
-                <h2 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+                <h2 className="text-2xl sm:text-3xl lg:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
                   Securing Your Digital Future: Comprehensive Technology Risk Management & Cybersecurity Solutions
                 </h2>
                 <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -490,7 +490,7 @@ const Services = () => {
               />
             </div>
             <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8 text-center lg:text-left">
+              <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
                     <span className="text-gray-900 text-base font-semibold" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
@@ -547,7 +547,7 @@ const Services = () => {
       <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="max-w-3xl mx-auto text-center space-y-6">
-            <h2 className="text-3xl md:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
+            <h2 className="text-2xl sm:text-3xl lg:text-4xl font-normal text-gray-900 leading-tight tracking-tight" style={{ fontFamily: 'Alata, -apple-system, Roboto, Helvetica, sans-serif' }}>
               Unlock Your Business Potential with Our Comprehensive Digital Solutions
             </h2>
             <p className="text-base sm:text-lg text-gray-900 leading-relaxed" style={{ fontFamily: 'Montserrat, -apple-system, Roboto, Helvetica, sans-serif' }}>
