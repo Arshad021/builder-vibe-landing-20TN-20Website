@@ -77,7 +77,7 @@ export default function CustomerExperience() {
       </section>
 
       {/* Section: Omnichannel Support */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-white">
+      <section className="flex flex-col items-center gap-16 self-stretch bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-start gap-20 self-stretch">
             <div className="flex flex-col items-start gap-4 flex-1">
@@ -253,7 +253,7 @@ export default function CustomerExperience() {
       </section>
 
       {/* Content Section with Table of Contents */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-white">
+      <section className="flex flex-col items-center gap-16 self-stretch bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex justify-between items-start self-stretch">
             <div className="flex max-w-[768px] flex-col items-start flex-1">
@@ -376,7 +376,7 @@ export default function CustomerExperience() {
       </section>
 
       {/* CTA Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-white">
+      <section className="flex flex-col items-center gap-16 self-stretch bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex items-center gap-8 self-stretch">
             <div className="flex flex-col items-start gap-6 flex-1">
