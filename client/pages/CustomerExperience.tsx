@@ -14,10 +14,10 @@ export default function CustomerExperience() {
       />
 
       {/* Section: Crafting Unique Experiences */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-20 self-stretch">
-            <div className="flex flex-col items-start gap-8 flex-1">
+      <section className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col items-start gap-16 lg:gap-20">
+          <div className="flex flex-col-reverse gap-12 lg:flex-row lg:items-center lg:gap-16">
+            <div className="flex flex-1 flex-col items-start gap-8">
               <div className="flex flex-col items-start gap-8 self-stretch">
                 <div className="flex flex-col items-start gap-4 self-stretch">
                   <div className="flex items-center">
