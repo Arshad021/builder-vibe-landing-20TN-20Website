@@ -368,7 +368,7 @@ export default function DataAnalytics() {
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
           <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-16 self-stretch">
-            <div className="flex justify-center items-start gap-12 self-stretch">
+            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-12 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
