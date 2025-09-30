@@ -185,7 +185,7 @@ export default function CustomerExperience() {
       </section>
 
       {/* Testimonials Section */}
-      <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-[#173462]">
+      <section className="flex flex-col items-center gap-16 self-stretch bg-[#173462] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
         <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-6 self-stretch">
             <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
