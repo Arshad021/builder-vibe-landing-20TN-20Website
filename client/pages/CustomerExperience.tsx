@@ -339,7 +339,7 @@ export default function CustomerExperience() {
                 </p>
               </div>
             </div>
-            <div className="flex w-80 flex-col items-start gap-6">
+            <div className="flex w-full flex-col items-start gap-6 lg:w-80">
               <h3 className="text-[#0C0801] font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
                 Table of contents
               </h3>
