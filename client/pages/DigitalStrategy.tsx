@@ -151,9 +151,9 @@ export default function DigitalStrategy() {
 
       {/* Second Content Section */}
       <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-center gap-20 self-stretch">
-            <img 
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col gap-12">
+          <div className="flex flex-col gap-12 lg:flex-row lg:items-center lg:gap-16">
+            <img
               className="h-[240px] w-full max-w-[560px] rounded-2xl object-cover sm:h-[360px] lg:h-[640px] lg:max-w-none"
               src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
               alt="Team collaboration on digital transformation strategy"
