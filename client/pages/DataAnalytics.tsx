@@ -53,8 +53,8 @@ export default function DataAnalytics() {
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20 self-stretch">
-            <div className="flex flex-col items-start gap-8 flex-1">
-              <div className="flex flex-col items-start gap-6 self-stretch">
+            <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                 <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Analytics Techniques
                 </h2>
@@ -62,9 +62,9 @@ export default function DataAnalytics() {
                   Advanced data analytics transforms raw data into strategic insights. Leverage these insights to drive informed decision-making and enhance business performance.
                 </p>
               </div>
-              <div className="flex flex-col items-start gap-4 self-stretch">
+              <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                 <div className="flex py-2 items-start gap-6 self-stretch">
-                  <div className="flex flex-col items-start gap-4 flex-1">
+                  <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Data Insights
                     </h3>
@@ -72,7 +72,7 @@ export default function DataAnalytics() {
                       Discover trends and patterns that empower your organization to thrive in a competitive landscape.
                     </p>
                   </div>
-                  <div className="flex flex-col items-start gap-4 flex-1">
+                  <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Actionable Strategies
                     </h3>
@@ -101,15 +101,15 @@ export default function DataAnalytics() {
               src="https://images.pexels.com/photos/6366444/pexels-photo-6366444.jpeg"
               alt="Digital monitor with world map and real-time statistics"
             />
-            <div className="flex flex-col items-start gap-8 flex-1">
-              <div className="flex flex-col items-start gap-8 self-stretch">
-                <div className="flex flex-col items-start gap-4 self-stretch">
+            <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                   <div className="flex items-center">
                     <span className="text-white font-montserrat text-base font-semibold leading-[150%]">
                       Insights
                     </span>
                   </div>
-                  <div className="flex flex-col items-start gap-6 self-stretch">
+                  <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                     <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
                       Empower Your Decisions with Real-Time Data
                     </h2>
@@ -118,9 +118,9 @@ export default function DataAnalytics() {
                     </p>
                   </div>
                 </div>
-                <div className="flex flex-col items-start gap-4 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                   <div className="flex py-2 items-start gap-6 self-stretch">
-                    <div className="flex flex-col items-start gap-4 flex-1">
+                    <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                       <h3 className="self-stretch text-white font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                         Data Visualization
                       </h3>
@@ -128,7 +128,7 @@ export default function DataAnalytics() {
                         Visualize complex data to make informed decisions quickly and effectively.
                       </p>
                     </div>
-                    <div className="flex flex-col items-start gap-4 flex-1">
+                    <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                       <h3 className="self-stretch text-white font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                         Actionable Insights
                       </h3>
@@ -166,8 +166,8 @@ export default function DataAnalytics() {
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20 self-stretch">
-            <div className="flex flex-col items-start gap-8 flex-1">
-              <div className="flex flex-col items-start gap-6 self-stretch">
+            <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                 <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Machine Learning and AI Solutions
                 </h2>
@@ -175,9 +175,9 @@ export default function DataAnalytics() {
                   Harness the capabilities of machine learning and AI to drive predictive analytics and streamline your processes. Our tailored solutions empower businesses to make data-driven decisions with confidence.
                 </p>
               </div>
-              <div className="flex flex-col items-start gap-4 self-stretch">
+              <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                 <div className="flex py-2 items-start gap-6 self-stretch">
-                  <div className="flex flex-col items-start gap-4 flex-1">
+                  <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Predictive Analytics
                     </h3>
@@ -185,7 +185,7 @@ export default function DataAnalytics() {
                       Transform data into actionable insights for smarter business strategies and outcomes.
                     </p>
                   </div>
-                  <div className="flex flex-col items-start gap-4 flex-1">
+                  <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Process Automation
                     </h3>
@@ -214,7 +214,7 @@ export default function DataAnalytics() {
                 Insights
               </span>
             </div>
-            <div className="flex flex-col items-start gap-6 self-stretch">
+            <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
               <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
                 Transforming Data into Strategic Business Solutions
               </h2>
@@ -223,15 +223,15 @@ export default function DataAnalytics() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-start gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
             <div className="flex items-start gap-12 self-stretch">
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/9034221/pexels-photo-9034221.jpeg"
                   alt="Presenter sharing data insights in a meeting room"
                 />
-                <div className="flex flex-col items-start gap-6 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Real-World Applications of Data Analytics
                   </h3>
@@ -240,13 +240,13 @@ export default function DataAnalytics() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/7289723/pexels-photo-7289723.jpeg"
                   alt="Retail product photoshoot and inventory management setup"
                 />
-                <div className="flex flex-col items-start gap-6 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Case Study: Retail Analytics Success
                   </h3>
@@ -255,13 +255,13 @@ export default function DataAnalytics() {
                   </p>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg"
                   alt="Business desk with financial charts and a laptop"
                 />
-                <div className="flex flex-col items-start gap-6 self-stretch">
+                <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
                   <h3 className="self-stretch text-[#0C0801] font-alata text-4xl font-normal leading-[130%] tracking-[-0.36px]">
                     Case Study: Financial Insights for Growth
                   </h3>
@@ -304,9 +304,9 @@ export default function DataAnalytics() {
               Transformative insights that drive our business forward.
             </p>
           </div>
-          <div className="flex flex-col items-start gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
             <div className="flex justify-center items-start gap-16 self-stretch">
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <div className="flex items-start gap-1">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -319,7 +319,7 @@ export default function DataAnalytics() {
                 </blockquote>
                 <div className="flex items-center gap-5">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
                       John Doe
                     </div>
@@ -331,7 +331,7 @@ export default function DataAnalytics() {
                   <div className="w-[120px] h-12 bg-gray-200 rounded"></div>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <div className="flex items-start gap-1">
                   {[...Array(5)].map((_, i) => (
                     <svg key={i} width="20" height="19" viewBox="0 0 20 19" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -344,7 +344,7 @@ export default function DataAnalytics() {
                 </blockquote>
                 <div className="flex items-center gap-5">
                   <div className="w-14 h-14 rounded-full bg-gray-300"></div>
-                  <div className="flex flex-col items-start">
+                  <div className="flex flex-col items-center lg:items-start">
                     <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
                       Jane Smith
                     </div>
@@ -367,16 +367,16 @@ export default function DataAnalytics() {
           <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
-          <div className="flex flex-col items-start gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
             <div className="flex justify-center items-start gap-12 self-stretch">
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/9034221/pexels-photo-9034221.jpeg"
                   alt="Team aligning on strategy using data-driven presentations"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
-                  <div className="flex flex-col items-start gap-4 self-stretch">
+                  <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                     <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
                       Transforming Insights into Actionable Strategies for Your Business
                     </h3>
@@ -398,14 +398,14 @@ export default function DataAnalytics() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/3183153/pexels-photo-3183153.jpeg"
                   alt="Collaborative planning session reviewing analytics"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
-                  <div className="flex flex-col items-start gap-4 self-stretch">
+                  <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                     <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
                       Tailored Solutions for Your Unique Data Challenges
                     </h3>
@@ -427,14 +427,14 @@ export default function DataAnalytics() {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col items-start gap-8 flex-1">
+              <div className="flex flex-col items-center lg:items-start gap-8 flex-1">
                 <img
                   className="h-60 self-stretch aspect-[394.67/240] rounded-2xl object-cover"
                   src="https://images.pexels.com/photos/5716037/pexels-photo-5716037.jpeg"
                   alt="Team celebrating success over analytics reports"
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
-                  <div className="flex flex-col items-start gap-4 self-stretch">
+                  <div className="flex flex-col items-center lg:items-start gap-4 self-stretch">
                     <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
                       Continuous Support and Optimization for Lasting Impact
                     </h3>
@@ -470,7 +470,7 @@ export default function DataAnalytics() {
       >
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-8 self-stretch">
-            <div className="flex flex-col items-start gap-6 self-stretch">
+            <div className="flex flex-col items-center lg:items-start gap-6 self-stretch">
               <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
                 Unlock Your Data Potential
               </h2>
