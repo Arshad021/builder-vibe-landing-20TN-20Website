@@ -249,7 +249,7 @@ export default function DigitalStrategy() {
               </div>
 
               <div className="flex py-5 flex-col items-start self-stretch">
-                <h3 className="self-stretch text-[#0C0801] font-alata text-9 font-normal leading-[130%] tracking-[-0.36px]">
+                <h3 className="self-stretch text-[#0C0801] font-alata text-[36px] font-normal leading-[130%] tracking-[-0.36px]">
                   Technology Integration
                 </h3>
               </div>
