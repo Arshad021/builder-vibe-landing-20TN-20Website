@@ -178,10 +178,10 @@ export default function DigitalStrategy() {
 
       {/* Content Article Section */}
       <div className="flex flex-col items-center gap-16 bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex justify-between items-start self-stretch">
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col gap-12">
+          <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:justify-between">
             {/* Table of Contents */}
-            <div className="flex w-80 flex-col items-start gap-4">
+            <div className="flex w-full flex-col items-start gap-4 lg:w-80">
               <h3 className="text-[#0C0801] font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
                 Table of contents
               </h3>
