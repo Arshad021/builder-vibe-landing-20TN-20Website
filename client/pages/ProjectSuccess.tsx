@@ -165,7 +165,7 @@ export default function ProjectSuccess() {
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section
-        className="relative flex items-center justify-center min-h-[369px] px-4 md:px-16 py-28 bg-gradient-to-b from-black/80 via-black/60 to-black/40"
+        className="relative flex items-center justify-center min-h-[369px] px-4 md:px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 bg-gradient-to-b from-black/80 via-black/60 to-black/40"
         style={{
           backgroundImage:
             "url('https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg')",
@@ -187,9 +187,9 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Empowering Projects Section */}
-      <section className="py-28 px-16 bg-white">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-white">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-10 lg:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-8">
                 <div className="space-y-4">
@@ -261,7 +261,7 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Three Pillars Section */}
-      <section className="py-28 px-16 bg-[#173462]">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-[#173462]">
         <div className="max-w-[1280px] mx-auto space-y-20">
           <div className="max-w-[768px] mx-auto text-center space-y-4">
             <div className="text-white font-montserrat text-base font-semibold leading-[150%]">
@@ -345,9 +345,9 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Strategic Planning Details */}
-      <section className="py-28 px-16 bg-[#F2F2F2]">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-[#F2F2F2]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-10 lg:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-6">
                 <h2 className="text-[#0C0801] font-alata text-4xl font-normal leading-[120%] tracking-[-0.44px]">
@@ -394,9 +394,9 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Execution Excellence Section */}
-      <section className="py-28 px-16 bg-[#EBF2FE]">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-[#EBF2FE]">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-10 lg:gap-20">
             <div className="flex-1">
               <img
                 src="https://images.pexels.com/photos/4623478/pexels-photo-4623478.jpeg"
@@ -444,9 +444,9 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Performance Tracking Section */}
-      <section className="py-28 px-16 bg-white">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-white">
         <div className="max-w-[1280px] mx-auto">
-          <div className="flex items-center gap-20">
+          <div className="flex items-center gap-10 lg:gap-20">
             <div className="flex-1 space-y-8">
               <div className="space-y-8">
                 <div className="space-y-4">
@@ -516,7 +516,7 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Case Studies Section */}
-      <section className="py-28 px-16 bg-[#F2F2F2]">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-[#F2F2F2]">
         <div className="max-w-[1280px] mx-auto space-y-8">
           <div className="space-y-4">
             <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -564,7 +564,7 @@ export default function ProjectSuccess() {
       </section>
 
       {/* Testimonial Section */}
-      <section className="py-28 px-16 bg-white">
+      <section className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-white">
         <div className="max-w-[1280px] mx-auto">
           <div className="max-w-[768px] mx-auto text-center space-y-8">
             <div className="w-30 h-12 mx-auto">
@@ -644,7 +644,7 @@ export default function ProjectSuccess() {
 
       {/* CTA Section */}
       <section
-        className="py-28 px-16 relative"
+        className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 relative"
         style={{
           backgroundImage:
             "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/5256816/pexels-photo-5256816.jpeg')",
