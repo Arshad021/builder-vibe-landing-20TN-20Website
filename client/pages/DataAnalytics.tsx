@@ -208,7 +208,7 @@ export default function DataAnalytics() {
       {/* Case Studies Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-8 lg:gap-16 self-stretch">
-          <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-4 self-stretch">
+          <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
             <div className="flex items-center">
               <span className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
                 Insights
@@ -296,7 +296,7 @@ export default function DataAnalytics() {
       {/* Customer Testimonials */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-8 lg:gap-16 self-stretch">
-          <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-6 self-stretch">
+          <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
             <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
               Customer Testimonials
             </h2>
