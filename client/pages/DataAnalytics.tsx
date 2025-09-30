@@ -63,7 +63,7 @@ export default function DataAnalytics() {
                 </p>
               </div>
               <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                <div className="flex py-2 items-start gap-6 self-stretch">
+                <div className="flex flex-col md:flex-row py-2 items-center md:items-start gap-4 md:gap-6 self-stretch">
                   <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Data Insights
@@ -119,7 +119,7 @@ export default function DataAnalytics() {
                   </div>
                 </div>
                 <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                  <div className="flex py-2 items-start gap-6 self-stretch">
+                  <div className="flex flex-col md:flex-row py-2 items-center md:items-start gap-4 md:gap-6 self-stretch">
                     <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                       <h3 className="self-stretch text-white font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                         Data Visualization
@@ -176,7 +176,7 @@ export default function DataAnalytics() {
                 </p>
               </div>
               <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                <div className="flex py-2 items-start gap-6 self-stretch">
+                <div className="flex flex-col md:flex-row py-2 items-center md:items-start gap-4 md:gap-6 self-stretch">
                   <div className="flex flex-col items-center lg:items-start gap-4 flex-1">
                     <h3 className="self-stretch text-[#0C0801] font-alata text-[22px] font-normal leading-[140%] tracking-[-0.22px]">
                       Predictive Analytics
