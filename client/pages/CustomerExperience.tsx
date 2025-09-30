@@ -68,7 +68,7 @@ export default function CustomerExperience() {
               </div>
             </div>
             <img
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="h-[240px] w-full max-w-[560px] rounded-2xl object-cover sm:h-[360px] lg:h-[640px] lg:max-w-none"
               src="https://images.pexels.com/photos/29521529/pexels-photo-29521529.jpeg"
               alt="Team mapping customer journeys with sticky notes on a whiteboard"
             />
@@ -176,7 +176,7 @@ export default function CustomerExperience() {
               </div>
             </div>
             <img
-              className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
+              className="h-[240px] w-full max-w-[560px] rounded-2xl object-cover sm:h-[360px] lg:h-[640px] lg:max-w-none"
               src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
               alt="Business analytics report with charts and KPIs on desk"
             />
