@@ -1,26 +1,17 @@
 import { Button } from "@/components/ui/button";
 
+import { Button } from "@/components/ui/button";
+import { ResponsiveHero } from "@/components/site/ResponsiveHero";
+
 export default function CustomerExperience() {
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <section 
-        className="flex h-[369px] px-16 py-28 flex-col items-center gap-20 self-stretch relative"
-        style={{
-          background: 'linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url("https://images.pexels.com/photos/8867405/pexels-photo-8867405.jpeg") lightgray 50% / cover no-repeat'
-        }}
-      >
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1 self-stretch">
-          <div className="flex max-w-[768px] flex-col items-start gap-6 flex-1 self-stretch">
-            <h1 className="self-stretch text-white font-alata text-[72px] font-normal leading-[120%] tracking-[-0.72px]">
-              Elevate Customer Experience
-            </h1>
-            <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
-              Transform your customer interactions into meaningful experiences that drive loyalty and satisfaction.
-            </p>
-          </div>
-        </div>
-      </section>
+      <ResponsiveHero
+        title="Elevate Customer Experience"
+        description="Transform your customer interactions into meaningful experiences that drive loyalty and satisfaction."
+        backgroundImage="https://images.pexels.com/photos/8867405/pexels-photo-8867405.jpeg"
+        imageAlt="Customer success managers collaborating in a modern office"
+      />
 
       {/* Section: Crafting Unique Experiences */}
       <section className="flex px-16 py-28 flex-col items-center gap-20 self-stretch bg-white">
