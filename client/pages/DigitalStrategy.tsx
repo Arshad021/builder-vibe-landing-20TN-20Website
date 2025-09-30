@@ -1,5 +1,8 @@
 import { useState } from "react";
+import { useState } from "react";
 import { ChevronRight } from "lucide-react";
+
+import { ResponsiveHero } from "@/components/site/ResponsiveHero";
 
 export default function DigitalStrategy() {
   const [email, setEmail] = useState("");
