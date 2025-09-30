@@ -78,8 +78,8 @@ export default function CustomerExperience() {
 
       {/* Section: Omnichannel Support */}
       <section className="flex flex-col items-center gap-16 self-stretch bg-white px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 self-stretch">
-          <div className="flex items-start gap-20 self-stretch">
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col gap-12 lg:flex-row lg:items-start lg:gap-16">
+          <div className="flex flex-1 flex-col items-start gap-6">
             <div className="flex flex-col items-start gap-4 flex-1">
               <div className="flex items-center">
                 <div className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
