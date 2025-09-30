@@ -37,7 +37,7 @@ export default function DataAnalytics() {
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg')"
         }}
       >
-        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-8 sm:gap-10 lg:gap-16 flex-1 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-8 sm:gap-10 lg:gap-10 lg:gap-16 flex-1 self-stretch">
           <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-4 sm:gap-6 flex-1 self-stretch text-center lg:text-left">
             <h1 className="self-stretch text-white font-alata text-4xl sm:text-5xl lg:text-6xl font-normal leading-[120%] tracking-[-0.6px]">
               Unlock Your Data
@@ -223,7 +223,7 @@ export default function DataAnalytics() {
               </p>
             </div>
           </div>
-          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-16 self-stretch">
             <div className="flex flex-col lg:flex-row items-center lg:items-start gap-8 lg:gap-12 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <img
@@ -304,8 +304,8 @@ export default function DataAnalytics() {
               Transformative insights that drive our business forward.
             </p>
           </div>
-          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
-            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-16 self-stretch">
+            <div className="flex flex-col lg:flex-row justify-center items-center lg:items-start gap-8 lg:gap-10 lg:gap-16 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <div className="flex items-start gap-1">
                   {[...Array(5)].map((_, i) => (
@@ -367,7 +367,7 @@ export default function DataAnalytics() {
           <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
-          <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
+          <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-16 self-stretch">
             <div className="flex justify-center items-start gap-12 self-stretch">
               <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
                 <img
