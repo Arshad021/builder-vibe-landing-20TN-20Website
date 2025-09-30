@@ -9,24 +9,12 @@ export default function DigitalStrategy() {
 
   return (
     <div className="min-h-screen">
-      {/* Hero Section */}
-      <div 
-        className="flex h-[369px] px-16 py-28 flex-col items-center gap-20 bg-cover bg-center bg-no-repeat relative"
-        style={{
-          backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')"
-        }}
-      >
-        <div className="flex max-w-[1280px] flex-col items-start gap-20 flex-1 self-stretch">
-          <div className="flex max-w-[768px] flex-col items-start gap-6 flex-1 self-stretch">
-            <h1 className="self-stretch text-white font-alata text-[72px] font-normal leading-[120%] tracking-[-0.72px]">
-              Transform Your Business
-            </h1>
-            <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
-              Embrace digital transformation to unlock new opportunities and drive your business forward.
-            </p>
-          </div>
-        </div>
-      </div>
+      <ResponsiveHero
+        title="Transform Your Business"
+        description="Embrace digital transformation to unlock new opportunities and drive your business forward."
+        backgroundImage="https://images.pexels.com/photos/3184299/pexels-photo-3184299.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+        imageAlt="Digital strategy team reviewing roadmap around a table"
+      />
 
       {/* First Content Section */}
       <div className="flex px-16 py-28 flex-col items-center gap-20 bg-white">
