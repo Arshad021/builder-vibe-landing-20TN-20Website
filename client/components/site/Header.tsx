@@ -2,13 +2,27 @@ import { Link, NavLink } from "react-router-dom";
 import { useEffect, useState } from "react";
 import MegaMenu from "./MegaMenu";
 import { Menu, X, ChevronDown } from "lucide-react";
+import BrandLogo from "./BrandLogo";
+import { cn } from "@/lib/utils";
 
-const navLinkClass = ({ isActive }: { isActive: boolean }) =>
-  `px-4 py-2 text-base font-normal font-montserrat transition-colors ${
-    isActive ? "text-[#0C0801]" : "text-[#0C0801] hover:text-[#0C0801]/80"
-  }`;
+type NavLinkProps = {
+  isActive: boolean;
+};
 
-// Mobile menu icons
+const navLinkClass = ({ isActive }: NavLinkProps) =>
+  cn(
+    "rounded-full px-3 py-2 text-sm font-medium font-montserrat tracking-[0.02em] transition-colors",
+    isActive
+      ? "bg-white text-[#0C0801] shadow-[0_6px_18px_rgba(12,8,1,0.08)]"
+      : "text-[#0C0801]/80 hover:text-[#0C0801]",
+  );
+
+const primaryLinks = [
+  { to: "/", label: "Home", end: true },
+  { to: "/services", label: "Our Services" },
+  { to: "/about", label: "About Us" },
+];
+
 const CubeIcon = () => (
   <svg
     width="24"
@@ -26,7 +40,6 @@ const CubeIcon = () => (
   </svg>
 );
 
-// Mobile menu data structure
 const mobileMenuSections = [
   {
     title: "Explore Our Services",
@@ -91,25 +104,22 @@ export default function Header() {
 
   useEffect(() => {
     if (!mobileOpen) return;
-    const onEsc = (e: KeyboardEvent) =>
-      e.key === "Escape" && setMobileOpen(false);
+    const onEsc = (e: KeyboardEvent) => e.key === "Escape" && setMobileOpen(false);
     document.addEventListener("keydown", onEsc);
     return () => document.removeEventListener("keydown", onEsc);
   }, [mobileOpen]);
 
-  // Prevent background scroll when mobile menu is open
   useEffect(() => {
     const root = document.documentElement;
     if (mobileOpen) {
       root.classList.add("overflow-hidden");
     } else {
       root.classList.remove("overflow-hidden");
-      setMobileMoreLinksOpen(false); // Close more links when mobile menu closes
+      setMobileMoreLinksOpen(false);
     }
     return () => root.classList.remove("overflow-hidden");
   }, [mobileOpen]);
 
-  // Prevent background scroll when desktop mega menu is open
   useEffect(() => {
     const root = document.documentElement;
     if (open) {
@@ -121,127 +131,78 @@ export default function Header() {
   }, [open]);
 
   return (
-    <div className="flex flex-col items-center self-stretch bg-[#EBF2FE] relative">
-      {/* Header */}
-      <div className="flex h-[72px] px-16 justify-between items-center self-stretch">
-        <div className="flex justify-between items-center flex-1">
-          <div className="flex items-center gap-6">
-            {/* Company Logo */}
-            <Link
-              to="/"
-              className="flex w-[84px] h-9 px-[7px] justify-center items-center"
-            >
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800"
-                alt="Tecnext"
-                className="h-9 w-auto"
-              />
+    <div className="relative z-50 w-full bg-[#EBF2FE]">
+      <div className="w-full border-b border-[#0C0801]/10 bg-[#EBF2FE]/95 backdrop-blur supports-[backdrop-filter]:bg-[#EBF2FE]/80">
+        <div className="mx-auto flex h-20 w-full max-w-[1280px] items-center justify-between px-4 sm:px-6 lg:px-10">
+          <div className="flex flex-1 items-center gap-6">
+            <Link to="/" aria-label="TecNext home" className="flex items-center">
+              <BrandLogo className="shrink-0" />
             </Link>
 
-            {/* Navigation Links */}
-            <div className="hidden md:flex items-center gap-8">
-              <NavLink
-                to="/"
-                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
-                end
-              >
-                Home Page
-              </NavLink>
-              <NavLink
-                to="/services"
-                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
-              >
-                Our Services
-              </NavLink>
-              <NavLink
-                to="/about"
-                className="text-[#0C0801] font-montserrat text-base font-normal leading-[150%]"
-              >
-                About Us
-              </NavLink>
+            <nav className="hidden md:flex items-center gap-4 lg:gap-6">
+              {primaryLinks.map(({ to, label, end }) => (
+                <NavLink key={to} to={to} end={end} className={navLinkClass}>
+                  {label}
+                </NavLink>
+              ))}
               <div className="relative">
                 <button
-                  className="flex justify-center items-center gap-1 text-[#0C0801] font-montserrat text-base font-normal leading-[150%] focus-visible:outline-none hover:text-[#0C0801]/80 transition-colors"
+                  className="inline-flex items-center gap-1 rounded-full px-3 py-2 text-sm font-medium font-montserrat tracking-[0.02em] text-[#0C0801]/80 transition-colors hover:text-[#0C0801] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#3B82F6] focus-visible:ring-offset-2 focus-visible:ring-offset-[#EBF2FE]"
                   aria-expanded={open}
                   aria-haspopup="true"
-                  onClick={() => setOpen((v) => !v)}
+                  onClick={() => setOpen((value) => !value)}
                 >
                   More Links
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
-                    className={`transition-transform duration-200 ${open ? 'rotate-180' : ''}`}
-                  >
-                    <path
-                      fillRule="evenodd"
-                      clipRule="evenodd"
-                      d="M12.3977 15.6634C12.178 15.8831 11.8219 15.8831 11.6022 15.6634L5.86739 9.92853C5.64772 9.70886 5.64772 9.35276 5.86739 9.13308L6.13256 8.86788C6.35222 8.64821 6.70838 8.64821 6.92805 8.86788L12 13.9398L17.0719 8.86788C17.2916 8.64821 17.6477 8.64821 17.8674 8.86788L18.1326 9.13308C18.3522 9.35276 18.3522 9.70886 18.1326 9.92853L12.3977 15.6634Z"
-                      fill="#0C0801"
-                    />
-                  </svg>
+                  <ChevronDown
+                    className={cn(
+                      "h-4 w-4 transition-transform",
+                      open ? "rotate-180" : "rotate-0",
+                    )}
+                  />
                 </button>
                 <MegaMenu open={open} onClose={() => setOpen(false)} />
               </div>
-            </div>
+            </nav>
           </div>
 
-          {/* Actions */}
-          <div className="hidden md:flex justify-center items-center gap-4">
+          <div className="hidden md:flex items-center gap-3 lg:gap-4">
             <Link
               to="/contact"
-              className="flex px-[10px] py-1 justify-center items-center gap-2 rounded-full border border-[rgba(12,8,1,0.15)] text-[#0C0801] font-montserrat text-base font-normal leading-[150%] hover:bg-gray-50"
+              className="inline-flex items-center rounded-full border border-[#0C0801]/15 bg-white px-4 py-2 text-sm font-montserrat font-medium text-[#0C0801] shadow-[0_6px_18px_rgba(12,8,1,0.06)] transition hover:-translate-y-[1px] hover:shadow-[0_10px_22px_rgba(12,8,1,0.12)]"
             >
               Contact
             </Link>
             <Link
               to="/p/explore"
-              className="flex px-[10px] py-1 justify-center items-center gap-2 rounded-full border border-[#3B82F6] bg-[#3B82F6] text-white font-montserrat text-base font-normal leading-[150%] hover:opacity-90"
+              className="inline-flex items-center rounded-full border border-[#1D4ED8] bg-gradient-to-r from-[#1D4ED8] via-[#2563EB] to-[#3B82F6] px-5 py-2 text-sm font-montserrat font-semibold text-white shadow-[0_12px_28px_rgba(59,130,246,0.25)] transition hover:-translate-y-[1px] hover:shadow-[0_16px_36px_rgba(59,130,246,0.35)]"
             >
               Explore
             </Link>
           </div>
 
-          {/* Mobile menu button */}
           <button
             className="inline-flex items-center justify-center rounded-md p-2 text-[#0C0801] md:hidden"
             aria-label="Toggle menu"
-            onClick={() => setMobileOpen((v) => !v)}
+            onClick={() => setMobileOpen((value) => !value)}
           >
-            {mobileOpen ? (
-              <X className="h-6 w-6" />
-            ) : (
-              <Menu className="h-6 w-6" />
-            )}
+            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </button>
         </div>
       </div>
 
-      {/* Backdrop to cover page when mega menu is open (desktop) */}
       {open && (
         <div
-          className="fixed inset-0 top-[72px] z-40 bg-[#EBF2FE]"
+          className="fixed inset-0 top-20 z-40 bg-[#EBF2FE]/90"
           onClick={() => setOpen(false)}
           aria-hidden
         />
       )}
 
-      {/* Mobile menu - New Figma Design */}
       {mobileOpen && (
         <div className="fixed inset-0 z-50 bg-[#EBF2FE] md:hidden">
-          {/* Mobile navbar */}
-          <div className="flex h-16 items-center justify-between px-5 border-b border-[rgba(12,8,1,0.15)]">
-            <Link
-              to="/"
-              className="flex h-9 w-[84px] items-center justify-center"
-            >
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F44a9ec14d98b4c93943d38292d3421a5?format=webp&width=800"
-                alt="Tecnext"
-                className="h-9 w-auto"
-              />
+          <div className="flex h-20 items-center justify-between px-5 border-b border-[rgba(12,8,1,0.15)] bg-[#EBF2FE]/95">
+            <Link to="/" aria-label="TecNext home" className="flex items-center">
+              <BrandLogo size="sm" className="shrink-0" />
             </Link>
             <button
               className="flex h-12 w-12 items-center justify-center rounded-md text-[#0C0801]"
@@ -252,34 +213,20 @@ export default function Header() {
             </button>
           </div>
 
-          {/* Mobile menu content */}
-          <div className="flex flex-col px-5 py-4 pb-20 h-[calc(100vh-64px)] overflow-y-auto">
-            {/* Main navigation links */}
-            <div className="flex flex-col gap-6 mb-6">
-              <NavLink
-                to="/"
-                className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
-                onClick={() => setMobileOpen(false)}
-                end
-              >
-                Home Page
-              </NavLink>
-              <NavLink
-                to="/services"
-                className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
-                onClick={() => setMobileOpen(false)}
-              >
-                Our Services
-              </NavLink>
-              <NavLink
-                to="/about"
-                className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
-                onClick={() => setMobileOpen(false)}
-              >
-                About Us
-              </NavLink>
+          <div className="flex h-[calc(100vh-80px)] flex-col overflow-y-auto px-5 py-4 pb-20">
+            <div className="mb-6 flex flex-col gap-6">
+              {primaryLinks.map(({ to, label, end }) => (
+                <NavLink
+                  key={to}
+                  to={to}
+                  end={end}
+                  className="py-3 text-base font-normal font-montserrat text-[#0C0801]"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  {label}
+                </NavLink>
+              ))}
 
-              {/* More Links Dropdown */}
               <div className="flex flex-col">
                 <button
                   className="flex items-center justify-between py-3 text-base font-normal font-montserrat text-[#0C0801]"
@@ -288,11 +235,13 @@ export default function Header() {
                 >
                   More Links
                   <ChevronDown
-                    className={`h-6 w-6 transition-transform ${mobileMoreLinksOpen ? "rotate-180" : ""}`}
+                    className={cn(
+                      "h-5 w-5 transition-transform",
+                      mobileMoreLinksOpen ? "rotate-180" : "rotate-0",
+                    )}
                   />
                 </button>
 
-                {/* Mega Menu Content */}
                 {mobileMoreLinksOpen && (
                   <div className="mt-4 space-y-6">
                     {mobileMenuSections.map((section) => (
@@ -327,15 +276,14 @@ export default function Header() {
               </div>
             </div>
 
-            {/* Call to action section */}
-            <div className="mt-auto space-y-4 bg-[#EBF2FE] px-6 py-6 -mx-5">
+            <div className="mt-auto -mx-5 space-y-4 bg-[#EBF2FE] px-6 py-6">
               <div className="flex flex-col gap-4">
                 <div className="text-xs font-normal font-montserrat text-[#0C0801] leading-[150%]">
                   Ready to elevate your business?
                 </div>
                 <Link
                   to="/p/signup"
-                  className="text-xs font-normal font-montserrat text-[#0C0801] leading-[150%] underline"
+                  className="text-xs font-medium font-montserrat text-[#1D4ED8] leading-[150%] underline"
                   onClick={() => setMobileOpen(false)}
                 >
                   Sign up for free
@@ -345,39 +293,34 @@ export default function Header() {
               <div className="flex flex-col items-center gap-6">
                 <Link
                   to="/p/learn"
-                  className="flex w-full items-center justify-center gap-2 rounded-full px-2 py-1"
+                  className="flex w-full items-center justify-center gap-2 rounded-full border border-transparent bg-white px-2 py-2 text-xs font-medium font-montserrat text-[#0C0801] shadow-[0_6px_14px_rgba(12,8,1,0.08)]"
                   onClick={() => setMobileOpen(false)}
                 >
                   <CubeIcon />
-                  <span className="text-xs font-medium font-montserrat text-[#0C0801] leading-[150%]">
-                    Learn
-                  </span>
+                  Learn
                 </Link>
                 <Link
                   to="/p/join"
-                  className="flex w-full items-center justify-center gap-2 rounded-full px-2 py-1"
+                  className="flex w-full items-center justify-center gap-2 rounded-full border border-[#1D4ED8] bg-gradient-to-r from-[#1D4ED8] via-[#2563EB] to-[#3B82F6] px-2 py-2 text-xs font-semibold font-montserrat text-white shadow-[0_12px_24px_rgba(59,130,246,0.28)]"
                   onClick={() => setMobileOpen(false)}
                 >
                   <CubeIcon />
-                  <span className="text-xs font-medium font-montserrat text-[#0C0801] leading-[150%]">
-                    Join
-                  </span>
+                  Join TecNext
                 </Link>
               </div>
             </div>
 
-            {/* Bottom buttons */}
             <div className="space-y-4 px-0 pt-6 pb-20">
               <Link
                 to="/contact"
-                className="flex w-full items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 text-xs font-medium font-montserrat text-[#0C0801]"
+                className="flex w-full items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-2 text-xs font-medium font-montserrat text-[#0C0801]"
                 onClick={() => setMobileOpen(false)}
               >
                 Contact
               </Link>
               <Link
                 to="/p/explore"
-                className="flex w-full items-center justify-center rounded-full bg-[#3B82F6] border border-[#3B82F6] px-[10px] py-1 text-xs font-medium font-montserrat text-white"
+                className="flex w-full items-center justify-center rounded-full border border-[#1D4ED8] bg-gradient-to-r from-[#1D4ED8] via-[#2563EB] to-[#3B82F6] px-[10px] py-2 text-xs font-semibold font-montserrat text-white"
                 onClick={() => setMobileOpen(false)}
               >
                 Explore
