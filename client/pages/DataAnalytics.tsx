@@ -55,7 +55,7 @@ export default function DataAnalytics() {
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
               <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
+                <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Analytics Techniques
                 </h2>
                 <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
@@ -110,7 +110,7 @@ export default function DataAnalytics() {
                     </span>
                   </div>
                   <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                    <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
+                    <h2 className="self-stretch text-white font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                       Empower Your Decisions with Real-Time Data
                     </h2>
                     <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
@@ -168,7 +168,7 @@ export default function DataAnalytics() {
           <div className="flex flex-col lg:flex-row items-center gap-8 sm:gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-center lg:items-start gap-8 flex-1 text-center lg:text-left">
               <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-                <h2 className="self-stretch text-[#0C0801] font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
+                <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
                   Unlock the Power of Data with Advanced Machine Learning and AI Solutions
                 </h2>
                 <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
@@ -215,7 +215,7 @@ export default function DataAnalytics() {
               </span>
             </div>
             <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-              <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
+              <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                 Transforming Data into Strategic Business Solutions
               </h2>
               <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
@@ -297,7 +297,7 @@ export default function DataAnalytics() {
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-6 self-stretch">
-            <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
+            <h2 className="self-stretch text-[#0C0801] font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
               Customer Testimonials
             </h2>
             <p className="self-stretch text-[#0C0801] font-montserrat text-lg font-normal leading-[150%]">
@@ -364,7 +364,7 @@ export default function DataAnalytics() {
       {/* Analytics Solutions Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-[#173462]">
         <div className="flex max-w-[1280px] flex-col items-center gap-10 lg:gap-20 self-stretch">
-          <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
+          <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
           <div className="flex flex-col items-center lg:items-start gap-16 self-stretch">
@@ -377,7 +377,7 @@ export default function DataAnalytics() {
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                    <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
+                    <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Transforming Insights into Actionable Strategies for Your Business
                     </h3>
                     <p className="self-stretch text-white text-center font-montserrat text-base font-normal leading-[150%]">
@@ -406,7 +406,7 @@ export default function DataAnalytics() {
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                    <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
+                    <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Tailored Solutions for Your Unique Data Challenges
                     </h3>
                     <p className="self-stretch text-white text-center font-montserrat text-base font-normal leading-[150%]">
@@ -435,7 +435,7 @@ export default function DataAnalytics() {
                 />
                 <div className="flex flex-col items-center gap-8 self-stretch">
                   <div className="flex flex-col items-center lg:items-start gap-4 self-stretch text-center lg:text-left">
-                    <h3 className="self-stretch text-white text-center font-alata text-[28px] font-normal leading-[140%] tracking-[-0.28px]">
+                    <h3 className="self-stretch text-white text-center font-alata text-2xl sm:text-3xl font-normal leading-[140%] tracking-[-0.28px]">
                       Continuous Support and Optimization for Lasting Impact
                     </h3>
                     <p className="self-stretch text-white text-center font-montserrat text-base font-normal leading-[150%]">
@@ -471,7 +471,7 @@ export default function DataAnalytics() {
         <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-8 self-stretch">
             <div className="flex flex-col items-center lg:items-start gap-6 self-stretch text-center lg:text-left">
-              <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
+              <h2 className="self-stretch text-white font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.52px]">
                 Unlock Your Data Potential
               </h2>
               <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
