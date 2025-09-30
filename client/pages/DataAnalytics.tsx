@@ -37,9 +37,9 @@ export default function DataAnalytics() {
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/577195/pexels-photo-577195.jpeg')"
         }}
       >
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 flex-1 self-stretch">
-          <div className="flex max-w-[768px] flex-col items-start gap-6 flex-1 self-stretch">
-            <h1 className="self-stretch text-white font-alata text-7xl font-normal leading-[120%] tracking-[-0.72px]">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-8 sm:gap-10 lg:gap-16 flex-1 self-stretch">
+          <div className="flex max-w-[768px] flex-col items-center lg:items-start gap-4 sm:gap-6 flex-1 self-stretch text-center lg:text-left">
+            <h1 className="self-stretch text-white font-alata text-4xl sm:text-5xl lg:text-6xl font-normal leading-[120%] tracking-[-0.6px]">
               Unlock Your Data
             </h1>
             <p className="self-stretch text-white font-montserrat text-lg font-normal leading-[150%]">
