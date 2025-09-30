@@ -364,7 +364,7 @@ export default function DataAnalytics() {
       {/* Analytics Solutions Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-[#173462]">
         <div className="flex max-w-[1280px] flex-col items-center gap-10 lg:gap-20 self-stretch">
-          <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
+          <h2 className="w-full max-w-[768px] text-white text-center font-alata text-3xl sm:text-4xl lg:text-5xl font-normal leading-[120%] tracking-[-0.44px]">
             Unlock the Power of Data with Our Analytics Solutions
           </h2>
           <div className="flex flex-col items-center lg:items-start gap-10 lg:gap-16 self-stretch">
