@@ -51,7 +51,7 @@ export default function DataAnalytics() {
 
       {/* Advanced Analytics Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
               <div className="flex flex-col items-start gap-6 self-stretch">
@@ -94,7 +94,7 @@ export default function DataAnalytics() {
 
       {/* Real-Time Data Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-[#173462]">
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <img
               className="h-[640px] flex-1 aspect-[15/16] rounded-2xl object-cover"
@@ -164,7 +164,7 @@ export default function DataAnalytics() {
 
       {/* Machine Learning & AI Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex items-center gap-10 lg:gap-20 self-stretch">
             <div className="flex flex-col items-start gap-8 flex-1">
               <div className="flex flex-col items-start gap-6 self-stretch">
@@ -207,7 +207,7 @@ export default function DataAnalytics() {
 
       {/* Case Studies Section */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-4 self-stretch">
             <div className="flex items-center">
               <span className="text-[#0C0801] font-montserrat text-base font-semibold leading-[150%]">
@@ -295,7 +295,7 @@ export default function DataAnalytics() {
 
       {/* Customer Testimonials */}
       <section className="flex px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28 flex-col items-center gap-10 lg:gap-20 bg-white">
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-6 self-stretch">
             <h2 className="self-stretch text-[#0C0801] font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
               Customer Testimonials
@@ -468,7 +468,7 @@ export default function DataAnalytics() {
           backgroundImage: "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/34070725/pexels-photo-34070725.jpeg')"
         }}
       >
-        <div className="flex max-w-[1280px] flex-col items-start gap-10 lg:gap-20 self-stretch">
+        <div className="flex max-w-[1280px] flex-col items-center lg:items-start gap-10 lg:gap-20 self-stretch">
           <div className="flex max-w-[768px] flex-col items-start gap-8 self-stretch">
             <div className="flex flex-col items-start gap-6 self-stretch">
               <h2 className="self-stretch text-white font-alata text-[52px] font-normal leading-[120%] tracking-[-0.52px]">
