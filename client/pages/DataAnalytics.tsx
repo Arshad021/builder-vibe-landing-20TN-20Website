@@ -139,7 +139,7 @@ export default function DataAnalytics() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
                 <Button 
                   variant="secondary" 
                   className="rounded-full border border-[rgba(12,8,1,0.15)] bg-transparent text-[#0C0801] hover:bg-white/10"
@@ -272,7 +272,7 @@ export default function DataAnalytics() {
               </div>
             </div>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6">
             <Button 
               variant="secondary" 
               className="rounded-full border border-[rgba(12,8,1,0.15)]"
@@ -478,7 +478,7 @@ export default function DataAnalytics() {
                 Transform your business decisions with our expert data and analytics consultation services today.
               </p>
             </div>
-            <div className="flex items-start gap-4">
+            <div className="flex flex-col sm:flex-row items-center sm:items-start gap-3 sm:gap-4">
               <Button 
                 className="rounded-full border border-white bg-white text-[#0C0801] hover:bg-gray-100"
               >
