@@ -332,7 +332,11 @@ export default function Footer() {
 
           {/* Logo and Credits */}
           <div className="flex flex-col items-start justify-between gap-4 md:flex-row">
-            <Link to="/" aria-label="TecNext home" className="flex items-center">
+            <Link
+              to="/"
+              aria-label="TecNext home"
+              className="flex items-center"
+            >
               <BrandLogo className="shrink-0" />
             </Link>
             <div className="flex items-center gap-6">
