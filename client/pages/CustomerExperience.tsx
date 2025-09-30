@@ -55,7 +55,7 @@ export default function CustomerExperience() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-4">
                 <Button variant="outline" size="default">
                   Learn More
                 </Button>
@@ -122,7 +122,7 @@ export default function CustomerExperience() {
                   </div>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-4">
                 <Button variant="outline" size="default">
                   Learn More
                 </Button>
@@ -163,7 +163,7 @@ export default function CustomerExperience() {
                   </p>
                 </div>
               </div>
-              <div className="flex items-center gap-6">
+              <div className="flex flex-wrap items-center gap-4">
                 <Button variant="outline" size="default">
                   Learn More
                 </Button>
