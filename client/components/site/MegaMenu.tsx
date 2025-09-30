@@ -409,7 +409,7 @@ export default function MegaMenu({
 
   return (
     <div
-      className={`fixed inset-x-0 top-20 z-50 w-full ${open ? "block" : "hidden"}`}
+      className={`fixed inset-x-0 top-[72px] z-50 w-full ${open ? "block" : "hidden"}`}
       aria-hidden={!open}
     >
       <div
@@ -417,7 +417,7 @@ export default function MegaMenu({
         className="w-full bg-[#EBF2FE] shadow-[0_4px_4px_0_rgba(0,0,0,0.25)] flex flex-col items-center self-stretch"
       >
         {/* Menu Content */}
-        <div className="flex px-16 py-8 justify-center items-start gap-8 self-stretch">
+        <div className="flex w-full max-w-[1280px] px-16 py-8 justify-center items-start gap-8 mx-auto">
           <div className="flex justify-center items-start gap-8 flex-1">
             {menuSections.map((section, sectionIndex) => (
               <div
