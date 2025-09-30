@@ -61,12 +61,12 @@ export default function DigitalStrategy() {
 
       {/* Blue Section */}
       <div className="flex flex-col items-center gap-16 bg-[#173462] px-4 sm:px-8 lg:px-16 py-16 sm:py-24 lg:py-28">
-        <div className="flex max-w-[1280px] flex-col items-center gap-20 self-stretch">
-          <h2 className="w-[768px] max-w-[768px] text-white text-center font-alata text-[44px] font-normal leading-[120%] tracking-[-0.44px]">
+        <div className="mx-auto flex w-full max-w-[1280px] flex-col items-center gap-12">
+          <h2 className="mx-auto w-full max-w-[768px] text-center font-alata text-[36px] font-normal leading-[120%] tracking-tight text-white sm:text-[44px]">
             Unlock Your Potential with Our Digital Transformation Strategy
           </h2>
-          <div className="flex flex-col items-start gap-16 self-stretch">
-            <div className="flex justify-center items-start gap-12 self-stretch">
+          <div className="flex w-full flex-col gap-12">
+            <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:justify-center lg:gap-12">
               {/* Column 1 */}
               <div className="flex flex-col items-center gap-8 flex-1">
                 <div className="flex flex-col items-center gap-6 self-stretch">
