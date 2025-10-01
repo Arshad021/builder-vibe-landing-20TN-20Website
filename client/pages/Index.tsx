@@ -28,16 +28,41 @@ export default function Index() {
   }, []);
 
   const trustedLogos = [
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F72a20a0728e84d37a41bd7cee1de2a0e?format=webp&width=800", alt: "Zeekr", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F50a790f1ad7b44a5a9cf2440ba9d9a2a?format=webp&width=800", alt: "Alektiar", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fa6db15645fd84942a60dcdb9df3b1847?format=webp&width=800", alt: "Lotus", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fae40e420439c42868d92cd156aa02e51?format=webp&width=800", alt: "QA Arabia", darkBg: true },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Faee8a736238046bba0539768585871a3?format=webp&width=800", alt: "Geely", darkBg: true },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fc9508ece851649528adf48fee807f24e?format=webp&width=800", alt: "Wallan Group", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F86dc88f4b6d8470bb232713e5f1817fd?format=webp&width=800", alt: "Wallan Group (alt)", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fadc9ff8a3c7f4bcdbb24c3373b5f8da1?format=webp&width=800", alt: "Hyundai", darkBg: false },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fa4df0237029a4cf9b19498ce39e38db3?format=webp&width=800", alt: "Logo White", darkBg: true },
-    { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F7ee854673e8e410e88532bfdcfc9c494?format=webp&width=800", alt: "Logo 1", darkBg: true }
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F1ce6655f66ba4b04b169d6bfe402adfd?format=webp&width=800",
+      alt: "Zeekr",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F60285e50ee704fe78b5879976f044f1f?format=webp&width=800",
+      alt: "Wallan Group",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F536d5fd596384b58b6fbb67c4afe0c6f?format=webp&width=800",
+      alt: "Hyundai",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fbf3c41bc70234eed96d2135912de8b63?format=webp&width=800",
+      alt: "Lotus",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F67603a9011bd41e0977c676cfe29b0fd?format=webp&width=800",
+      alt: "Alektiar",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Ff6c21520ffb64e0fbbbe99851b9f16ba?format=webp&width=800",
+      alt: "Geely",
+      darkBg: false,
+    },
+    {
+      src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fbd71c2c3fb23411bb7947ca2f93d7833?format=webp&width=800",
+      alt: "Renault",
+      darkBg: false,
+    },
   ];
 
   return (
