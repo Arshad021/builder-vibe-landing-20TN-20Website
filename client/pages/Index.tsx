@@ -53,23 +53,25 @@ export default function Index() {
           </div>
           <div className="order-1 md:order-2">
             <div className="flex justify-center md:hidden">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
-                alt="Hyundai sedan parked at sunset"
-                className="h-[343px] w-full max-w-[320px] rounded-[32px] object-cover shadow-[0_18px_36px_rgba(15,33,66,0.2)]"
-              />
+              <div className="relative w-full max-w-[320px] rounded-[32px] bg-gradient-to-br from-[#eef3ff] via-white to-[#f8fbff] p-4">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
+                  alt="Hyundai sedan parked at sunset"
+                  className="h-[295px] w-full rounded-[28px] object-cover"
+                />
+              </div>
             </div>
             <div className="relative hidden pb-12 md:flex md:justify-end">
-              <div className="relative w-full max-w-[420px]">
+              <div className="relative w-full max-w-[440px] rounded-[48px] bg-gradient-to-br from-[#eef3ff] via-white to-[#f8fbff] p-6">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
                   alt="Hyundai sedan parked at sunset"
-                  className="w-full rounded-[40px] object-cover shadow-[0_24px_45px_rgba(15,33,66,0.22)]"
+                  className="w-full rounded-[36px] object-cover"
                 />
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                   alt="Hyundai Click to Buy mobile interface preview"
-                  className="absolute -bottom-10 left-1/2 w-[220px] -translate-x-1/2 rounded-[36px] object-cover shadow-[0_20px_40px_rgba(15,33,66,0.22)] md:w-[240px] md:-left-16 md:translate-x-0"
+                  className="absolute -bottom-8 left-1/2 w-[220px] -translate-x-1/2 rounded-[32px] object-cover md:w-[240px] md:-left-12 md:translate-x-0"
                 />
               </div>
             </div>
