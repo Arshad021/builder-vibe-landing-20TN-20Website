@@ -54,26 +54,21 @@ export default function Index() {
           <div className="flex-1 order-1 md:order-2 w-full">
             {/* Mobile hero image */}
             <img
-              src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
-              alt="Business professionals discussing data charts in a modern office"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
+              alt="Hyundai sedan parked at sunset"
               className="w-full h-[343px] rounded-2xl object-cover md:hidden"
             />
             {/* Desktop collage */}
             <div className="relative hidden h-[638px] md:block">
               <img
-                src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
-                alt="Business professionals discussing data charts in a modern office"
-                className="absolute left-[92px] top-0 h-[638px] w-[424px] rounded-2xl object-cover"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
+                alt="Hyundai sedan parked at sunset"
+                className="absolute left-1/2 top-0 h-[638px] w-[424px] -translate-x-1/2 rounded-2xl object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
-                alt="Business analytics report on desk"
-                className="absolute left-[364px] top-16 h-[244px] w-[244px] rounded-2xl object-cover"
-              />
-              <img
-                src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
-                alt="Team planning and success roadmap at whiteboard"
-                className="absolute left-0 top-[372px] h-[202px] w-[304px] rounded-2xl object-cover"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
+                alt="Hyundai Click to Buy mobile interface preview"
+                className="absolute right-0 top-16 h-[244px] w-[244px] rounded-2xl object-cover shadow-[0_18px_30px_rgba(11,22,44,0.25)]"
               />
             </div>
           </div>
