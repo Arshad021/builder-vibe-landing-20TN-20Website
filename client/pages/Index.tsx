@@ -154,113 +154,81 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Features Section */}
-      <section className="bg-white px-5 md:px-16 py-16 md:py-28">
-        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-start gap-12 md:gap-20">
-          {/* Left side - Features list */}
-          <div className="flex-1">
-            <div className="space-y-8 md:space-y-8">
-              {/* Mobile: Single column layout, Desktop: 2 columns */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.975 18.6266H5.73899C5.26933 18.6266 4.87949 18.4707 4.56949 18.1591C4.25949 17.8474 4.10449 17.4584 4.10449 16.9921C4.10449 16.5254 4.25949 16.1372 4.56949 15.8276C4.87949 15.5179 5.26933 15.3631 5.73899 15.3631H14.975V8.49705L12.2645 11.2201C11.9345 11.5437 11.5492 11.7056 11.1085 11.7056C10.6675 11.7056 10.278 11.5437 9.93999 11.2201C9.62999 10.8961 9.47699 10.5121 9.48099 10.0681C9.48499 9.62439 9.64899 9.24055 9.97299 8.91655L15.4135 3.47655C15.7532 3.13655 16.1528 2.96655 16.6125 2.96655C17.0725 2.96655 17.4723 3.13655 17.812 3.47655L23.2645 8.92855C23.5805 9.25389 23.7423 9.63605 23.75 10.0751C23.758 10.5144 23.6052 10.8961 23.2915 11.2201C22.9495 11.5437 22.5565 11.7056 22.1125 11.7056C21.6688 11.7056 21.285 11.5397 20.961 11.2081L18.25 8.49705V30.6451H43.083C43.545 30.6451 43.9325 30.8034 44.2455 31.1201C44.5582 31.4367 44.7145 31.8291 44.7145 32.2971C44.7145 32.7617 44.5582 33.1484 44.2455 33.4571C43.9325 33.7657 43.545 33.9201 43.083 33.9201H33.8555V40.7861L36.5665 38.0751C36.8868 37.7434 37.2673 37.5774 37.708 37.5771C38.149 37.5767 38.5437 37.7427 38.892 38.0751C39.201 38.3991 39.3535 38.7811 39.3495 39.2211C39.3455 39.6607 39.1817 40.0426 38.858 40.3666L33.4055 45.8186C33.0652 46.1586 32.6672 46.3266 32.2115 46.3226C31.7562 46.3186 31.3585 46.1506 31.0185 45.8186L25.5665 40.3546C25.2425 40.0386 25.0785 39.6607 25.0745 39.2211C25.0705 38.7811 25.2232 38.3991 25.5325 38.0751C25.8785 37.7427 26.2717 37.5787 26.712 37.5831C27.152 37.5874 27.538 37.7514 27.87 38.0751L30.5685 40.7861V33.9201H18.25C17.3133 33.9201 16.5333 33.6109 15.91 32.9926C15.2867 32.3746 14.975 31.5921 14.975 30.6451V18.6266ZM30.5685 27.6451V18.6266H21.25V15.3631H30.5685C31.5142 15.3631 32.2985 15.6724 32.9215 16.2911C33.5442 16.9094 33.8555 17.6879 33.8555 18.6266V27.6451H30.5685Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Transform Your Future
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Accelerate your decision-making with data-driven insights and real-time analytics.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/services"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Learn More
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.4145 22.2036L4.96199 19.1156C4.69733 18.9759 4.48816 18.7744 4.33449 18.5111C4.18116 18.2481 4.10449 17.9604 4.10449 17.6481V11.3961C4.10449 11.0837 4.18116 10.7961 4.33449 10.5331C4.48816 10.2697 4.69733 10.0682 4.96199 9.92856L10.4145 6.85256C10.6688 6.70323 10.948 6.62856 11.252 6.62856C11.556 6.62856 11.8405 6.70323 12.1055 6.85256L17.57 9.92856C17.8267 10.0682 18.0338 10.2697 18.1915 10.5331C18.3488 10.7961 18.4275 11.0837 18.4275 11.3961V17.6481C18.4275 17.9604 18.3488 18.2481 18.1915 18.5111C18.0338 18.7744 17.8267 18.9759 17.57 19.1156L12.1055 22.2036C11.8512 22.3529 11.572 22.4276 11.268 22.4276C10.964 22.4276 10.6795 22.3529 10.4145 22.2036ZM11.26 18.8806L15.1045 16.6766V12.3676L11.26 10.1631L7.42749 12.3676V16.6766L11.26 18.8806ZM33.2145 23.1361V19.3156L39.011 22.6961C39.55 23.0147 39.9687 23.4299 40.267 23.9416C40.5653 24.4532 40.7145 25.0076 40.7145 25.6046V35.9176C40.7145 36.5069 40.5653 37.0592 40.267 37.5746C39.9687 38.0902 39.55 38.5036 39.011 38.8146L30.262 43.9331C29.7207 44.2394 29.1463 44.3926 28.539 44.3926C27.9313 44.3926 27.3623 44.2394 26.832 43.9331L18.083 38.8146C17.544 38.5036 17.1273 38.0902 16.833 37.5746C16.5387 37.0592 16.3915 36.5069 16.3915 35.9176V25.6046C16.3915 25.0076 16.5387 24.4532 16.833 23.9416C17.1273 23.4299 17.544 23.0147 18.083 22.6961L23.8915 19.3156V23.1361L19.7145 25.5951V35.9531L28.547 41.0701L37.3915 35.9531V25.5951L33.2145 23.1361ZM30.2145 15.6536V25.9981C30.2145 26.4631 30.052 26.8552 29.727 27.1746C29.4017 27.4939 29.0053 27.6536 28.538 27.6536C28.0707 27.6536 27.6795 27.4939 27.3645 27.1746C27.0492 26.8552 26.8915 26.4631 26.8915 25.9981V6.04607C26.8915 5.56507 27.0552 5.1589 27.3825 4.82756C27.7098 4.49623 28.114 4.33057 28.595 4.33057H41.582C42.245 4.33057 42.7422 4.63506 43.0735 5.24406C43.4052 5.8534 43.3803 6.4399 42.999 7.00356L41.6285 9.02856C41.4378 9.31523 41.3425 9.6354 41.3425 9.98907C41.3425 10.3431 41.4378 10.6692 41.6285 10.9676L42.999 12.9806C43.3803 13.5522 43.4052 14.1407 43.0735 14.7461C42.7422 15.3511 42.245 15.6536 41.582 15.6536H30.2145Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Engage Customers Effectively
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Boost customer interactions through personalized experiences and targeted communication strategies.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/p/discover"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Discover
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-              {/* Row 2 */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M17.095 33.0201L27.3265 29.9351C27.8915 29.7611 28.376 29.4721 28.78 29.0681C29.184 28.6641 29.473 28.1796 29.647 27.6146L32.732 17.3831C32.8397 17.0631 32.7713 16.7777 32.527 16.5271C32.2823 16.2767 31.994 16.2054 31.662 16.3131L21.4305 19.3981C20.8655 19.5721 20.381 19.8611 19.977 20.2651C19.573 20.6691 19.284 21.1536 19.11 21.7186L16.025 31.9501C15.9173 32.2701 15.9857 32.5554 16.23 32.8061C16.4747 33.0564 16.763 33.1277 17.095 33.0201ZM24.389 26.4621C23.8877 26.4621 23.4613 26.2816 23.11 25.9206C22.7587 25.5592 22.583 25.1281 22.583 24.6271C22.583 24.1257 22.7635 23.6994 23.1245 23.3481C23.4858 22.9967 23.917 22.8211 24.418 22.8211C24.9193 22.8211 25.3457 23.0016 25.697 23.3626C26.0483 23.7239 26.224 24.1551 26.224 24.6561C26.224 25.1574 26.0435 25.5837 25.6825 25.9351C25.3212 26.2864 24.89 26.4621 24.389 26.4621ZM24.4185 44.9406C21.6118 44.9406 18.9778 44.4092 16.5165 43.3466C14.0552 42.2839 11.9025 40.8306 10.0585 38.9866C8.21449 37.1426 6.76116 34.9892 5.69849 32.5266C4.63583 30.0639 4.10449 27.4277 4.10449 24.6181C4.10449 21.8087 4.63583 19.1721 5.69849 16.7081C6.76116 14.2444 8.21383 12.0987 10.0565 10.2711C11.8992 8.44307 14.0522 6.99607 16.5155 5.93007C18.9788 4.86373 21.6157 4.33057 24.426 4.33057C27.236 4.33057 29.8735 4.8634 32.3385 5.92906C34.8032 6.99473 36.949 8.4409 38.776 10.2676C40.6033 12.0942 42.0498 14.2422 43.1155 16.7116C44.1815 19.1809 44.7145 21.8197 44.7145 24.6281C44.7145 27.4361 44.1813 30.0706 43.115 32.5316C42.049 34.9929 40.602 37.1421 38.774 38.9791C36.9463 40.8157 34.7985 42.2686 32.3305 43.3376C29.8625 44.4062 27.2252 44.9406 24.4185 44.9406ZM24.4255 41.5341C29.1282 41.5341 33.1155 39.8906 36.3875 36.6036C39.6598 33.3166 41.296 29.3219 41.296 24.6196C41.296 19.9169 39.6607 15.9296 36.39 12.6576C33.1193 9.38523 29.1327 7.74907 24.43 7.74907C19.7273 7.74907 15.7318 9.3844 12.4435 12.6551C9.15516 15.9257 7.51099 19.9124 7.51099 24.6151C7.51099 29.3177 9.15449 33.3132 12.4415 36.6016C15.7285 39.8899 19.7232 41.5341 24.4255 41.5341Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Achieve Operational Excellence
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Streamline processes to enhance efficiency and reduce operational costs across your organization.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/p/explore"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Explore
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M14.509 44.6657H6.19501C5.70568 44.6657 5.28918 44.4853 4.94551 44.1247C4.60151 43.7643 4.45018 43.3395 4.49151 42.8502C4.80885 37.9302 6.30518 33.5947 8.98051 29.8437C11.6558 26.093 15.5623 23.8223 20.7 23.0317V16.3687C19.1967 16.1703 17.6068 15.8445 15.9305 15.3912C14.2545 14.9378 12.6713 14.3175 11.181 13.5302C9.69101 12.7428 8.38218 11.7905 7.25451 10.6732C6.12718 9.55584 5.35151 8.23367 4.92751 6.70667C4.77818 6.17634 4.87551 5.69568 5.21951 5.26468C5.56318 4.83334 6.01685 4.61768 6.58051 4.61768H42.2265C42.7902 4.61768 43.2498 4.83334 43.6055 5.26468C43.9615 5.69568 44.0568 6.17634 43.8915 6.70667C43.4755 8.23367 42.7038 9.55984 41.5765 10.6852C40.4488 11.8105 39.1378 12.7648 37.6435 13.5482C36.1495 14.3315 34.5625 14.9498 32.8825 15.4032C31.2022 15.8565 29.6103 16.1783 28.107 16.3687V23.0317C33.2447 23.8223 37.1512 26.093 39.8265 29.8437C42.5018 33.5947 44.0022 37.9302 44.3275 42.8502C44.3608 43.3395 44.2055 43.7643 43.8615 44.1247C43.5178 44.4853 43.1013 44.6657 42.612 44.6657H34.298C33.809 44.6657 33.4028 44.504 33.0795 44.1807C32.7565 43.8577 32.595 43.4515 32.595 42.9622C32.595 42.4732 32.7565 42.067 33.0795 41.7437C33.4028 41.4207 33.809 41.2592 34.298 41.2592H40.787C40.1553 36.4235 38.3532 32.6865 35.3805 30.0482C32.4082 27.4098 28.7452 26.0907 24.3915 26.0907C20.0458 26.0907 16.3908 27.4098 13.4265 30.0482C10.4618 32.6865 8.65968 36.4235 8.02001 41.2592H14.509C14.998 41.2592 15.4042 41.4207 15.7275 41.7437C16.0505 42.067 16.212 42.4732 16.212 42.9622C16.212 43.4515 16.0505 43.8577 15.7275 44.1807C15.4042 44.504 14.998 44.6657 14.509 44.6657ZM24.4035 13.3677C27.7295 13.3677 30.8667 12.7912 33.815 11.6382C36.763 10.4855 38.6647 9.23701 39.52 7.89268H9.28701C10.1423 9.23701 12.044 10.4855 14.992 11.6382C17.9403 12.7912 21.0775 13.3677 24.4035 13.3677ZM24.272 44.6657C23.156 44.6657 22.2003 44.27 21.405 43.4787C20.6097 42.6873 20.212 41.7337 20.212 40.6177C20.212 40.043 20.3203 39.5183 20.537 39.0437C20.7537 38.569 21.0533 38.1445 21.436 37.7702C21.828 37.3702 22.38 36.9637 23.092 36.5507C23.804 36.138 24.6513 35.715 25.634 35.2817L30.4545 33.2917C30.8025 33.1423 31.109 33.2087 31.374 33.4907C31.6393 33.7723 31.6973 34.0832 31.548 34.4232L29.558 39.2557C29.1247 40.2383 28.706 41.0857 28.302 41.7977C27.898 42.5097 27.5 43.0617 27.108 43.4537C26.7333 43.8363 26.3087 44.134 25.834 44.3467C25.3593 44.5593 24.8387 44.6657 24.272 44.6657Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Scale for Tomorrow
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Prepare your business for future challenges with scalable and adaptable solutions.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/contact"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Contact
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-
-            </div>
-          </div>
-
-          {/* Right side - Large image */}
-          <div className="flex-1 flex justify-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
-              alt="TecNext digital platform displayed across multiple devices"
-              className="w-full max-w-[700px] rounded-2xl object-contain"
-            />
-          </div>
+      <section className="bg-white px-5 md:px-16 py-20 md:py-28">
+  <div className="mx-auto max-w-[1280px] grid md:grid-cols-2 gap-12 md:gap-20 items-center">
+    {/* Left side - Features */}
+    <div className="space-y-12">
+      {/* Features Grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-10">
+        {/* Feature Item */}
+        <div className="space-y-3">
+          <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="..." fill="#0C0801"/>
+          </svg>
+          <h3 className="font-alata text-lg md:text-xl text-[#0C0801]">
+            Transform Your Future
+          </h3>
+          <p className="font-montserrat text-sm md:text-base text-[#0C0801]">
+            Accelerate your decision-making with data-driven insights and real-time analytics.
+          </p>
+          <a href="/services" className="inline-flex items-center gap-2 font-montserrat text-sm md:text-base text-[#0C0801]">
+            Learn More →
+          </a>
         </div>
-      </section>
+
+        {/* Repeat feature items */}
+        <div className="space-y-3">
+          <svg width="48" height="48" viewBox="0 0 49 49" fill="none"><path d="..." fill="#0C0801"/></svg>
+          <h3 className="font-alata text-lg md:text-xl text-[#0C0801]">
+            Engage Customers Effectively
+          </h3>
+          <p className="font-montserrat text-sm md:text-base text-[#0C0801]">
+            Boost customer interactions through personalized experiences.
+          </p>
+          <a href="/discover" className="inline-flex items-center gap-2 font-montserrat text-sm md:text-base text-[#0C0801]">
+            Discover →
+          </a>
+        </div>
+
+        <div className="space-y-3">
+          <svg width="48" height="48" viewBox="0 0 49 49" fill="none"><path d="..." fill="#0C0801"/></svg>
+          <h3 className="font-alata text-lg md:text-xl text-[#0C0801]">
+            Achieve Operational Excellence
+          </h3>
+          <p className="font-montserrat text-sm md:text-base text-[#0C0801]">
+            Streamline processes to enhance efficiency and reduce operational costs.
+          </p>
+          <a href="/explore" className="inline-flex items-center gap-2 font-montserrat text-sm md:text-base text-[#0C0801]">
+            Explore →
+          </a>
+        </div>
+
+        <div className="space-y-3">
+          <svg width="48" height="48" viewBox="0 0 49 49" fill="none"><path d="..." fill="#0C0801"/></svg>
+          <h3 className="font-alata text-lg md:text-xl text-[#0C0801]">
+            Scale for Tomorrow
+          </h3>
+          <p className="font-montserrat text-sm md:text-base text-[#0C0801]">
+            Prepare your business with scalable and adaptable solutions.
+          </p>
+          <a href="/contact" className="inline-flex items-center gap-2 font-montserrat text-sm md:text-base text-[#0C0801]">
+            Contact →
+          </a>
+        </div>
+      </div>
+    </div>
+
+    {/* Right side - Image */}
+    <div className="flex justify-center">
+      <img
+        src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
+        alt="TecNext digital platform displayed across multiple devices"
+        className="w-full max-w-[700px] md:max-w-[800px] rounded-2xl object-contain"
+      />
+    </div>
+  </div>
+</section>
+
 
       {/* Trusted by section */}
       <section className="bg-white px-5 md:px-16 py-12 md:py-20">
