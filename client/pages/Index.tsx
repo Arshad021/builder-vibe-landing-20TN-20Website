@@ -271,7 +271,8 @@ export default function Index() {
           <div className="mt-8 flex w-full justify-center">
             <div
               ref={trustedLogosRef}
-              className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2"
+              className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2 [&::-webkit-scrollbar]:hidden"
+              style={{ scrollbarWidth: "none" }}
             >
               {marqueeLogos.map((logo, index) => (
                 <div
