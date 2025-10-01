@@ -24,7 +24,7 @@ export default function Index() {
       } else {
         el.scrollBy({ left: el.clientWidth * 0.6, behavior: "smooth" });
       }
-    }, 3000);
+    }, 500);
 
     return () => window.clearInterval(interval);
   }, []);
