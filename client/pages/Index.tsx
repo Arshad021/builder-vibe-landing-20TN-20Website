@@ -178,58 +178,15 @@ export default function Index() {
                 </div>
               </div>
 
-              {/* Row 3 */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M41.8633 14.8816L41.5833 14.3816C41.2221 13.777 40.7127 13.2745 40.1033 12.9216L26.6833 5.1816C26.0757 4.8291 25.3859 4.64284 24.6833 4.6416H24.1033C23.4007 4.64284 22.7109 4.8291 22.1033 5.1816L8.68332 12.9416C8.07726 13.2921 7.57384 13.7955 7.22332 14.4016L6.94332 14.9016C6.59082 15.5093 6.40456 16.1991 6.40332 16.9016V32.4016C6.40456 33.1042 6.59082 33.794 6.94332 34.4016L7.22332 34.9016C7.5829 35.5006 8.0843 36.002 8.68332 36.3616L22.1233 44.1016C22.7279 44.4614 23.4197 44.6482 24.1233 44.6416H24.6833C25.3859 44.6404 26.0757 44.4542 26.6833 44.1016L40.1033 36.3416C40.7153 35.999 41.2207 35.4936 41.5633 34.8816L41.8633 34.3816C42.2115 33.7722 42.3975 33.0836 42.4033 32.3816V16.8816C42.4021 16.1791 42.2159 15.4893 41.8633 14.8816ZM24.1033 8.6416H24.6833L36.4033 15.4016L24.4033 22.3216L12.4033 15.4016L24.1033 8.6416ZM26.4033 39.6416L38.1033 32.8816L38.4033 32.3816V18.8616L26.4033 25.8016V39.6416Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Short heading here
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/p/button"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Button
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-                <div className="space-y-3">
-                  <svg width="48" height="48" viewBox="0 0 49 49" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path fillRule="evenodd" clipRule="evenodd" d="M41.8633 14.8816L41.5833 14.3816C41.2221 13.777 40.7127 13.2745 40.1033 12.9216L26.6833 5.1816C26.0757 4.8291 25.3859 4.64284 24.6833 4.6416H24.1033C23.4007 4.64284 22.7109 4.8291 22.1033 5.1816L8.68332 12.9416C8.07726 13.2921 7.57384 13.7955 7.22332 14.4016L6.94332 14.9016C6.59082 15.5093 6.40456 16.1991 6.40332 16.9016V32.4016C6.40456 33.1042 6.59082 33.794 6.94332 34.4016L7.22332 34.9016C7.5829 35.5006 8.0843 36.002 8.68332 36.3616L22.1233 44.1016C22.7279 44.4614 23.4197 44.6482 24.1233 44.6416H24.6833C25.3859 44.6404 26.0757 44.4542 26.6833 44.1016L40.1033 36.3416C40.7153 35.999 41.2207 35.4936 41.5633 34.8816L41.8633 34.3816C42.2115 33.7722 42.3975 33.0836 42.4033 32.3816V16.8816C42.4021 16.1791 42.2159 15.4893 41.8633 14.8816ZM24.1033 8.6416H24.6833L36.4033 15.4016L24.4033 22.3216L12.4033 15.4016L24.1033 8.6416ZM26.4033 39.6416L38.1033 32.8816L38.4033 32.3816V18.8616L26.4033 25.8016V39.6416Z" fill="#0C0801"/>
-                  </svg>
-                  <h3 className="font-alata text-5 md:text-[20px] font-normal leading-[140%] tracking-[-0.2px] text-[#0C0801]">
-                    Short heading here
-                  </h3>
-                  <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.
-                  </p>
-                  <div className="pt-2">
-                    <Link
-                      to="/p/button"
-                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                    >
-                      Button
-                      <ArrowRight className="h-6 w-6" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
 
           {/* Right side - Large image */}
           <div className="flex-1">
             <img
-              src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Modern office workspace with computers showing business analytics dashboards"
-              className="h-64 w-full rounded-2xl object-cover md:h-[640px]"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1200"
+              alt="TecNext digital platform displayed across multiple devices"
+              className="h-64 w-full rounded-2xl object-contain md:h-[480px]"
             />
           </div>
         </div>
