@@ -182,11 +182,11 @@ export default function Index() {
           </div>
 
           {/* Right side - Large image */}
-          <div className="flex-1">
+          <div className="flex-1 flex justify-center">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
               alt="TecNext digital platform displayed across multiple devices"
-              className="h-72 w-full rounded-2xl object-cover md:h-[560px]"
+              className="w-full max-w-[640px] rounded-2xl object-contain md:max-h-[520px]"
             />
           </div>
         </div>
