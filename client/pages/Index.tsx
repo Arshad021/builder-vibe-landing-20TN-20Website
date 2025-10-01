@@ -12,21 +12,34 @@ export default function Index() {
   };
 
   useEffect(() => {
-    const el = showcaseRef.current;
-    if (!el) return;
+    let animationId: number;
+    let lastTimestamp: number | null = null;
+    const durationMs = 500;
 
-    const interval = window.setInterval(() => {
-      const maxScroll = el.scrollWidth - el.clientWidth;
-      const threshold = maxScroll - 4;
+    const step = (timestamp: number) => {
+      const el = showcaseRef.current;
+      if (!el) return;
 
-      if (el.scrollLeft >= threshold) {
-        el.scrollTo({ left: 0, behavior: "smooth" });
-      } else {
-        el.scrollBy({ left: el.clientWidth * 0.6, behavior: "smooth" });
+      if (lastTimestamp === null) {
+        lastTimestamp = timestamp;
       }
-    }, 500);
 
-    return () => window.clearInterval(interval);
+      const delta = timestamp - lastTimestamp;
+      lastTimestamp = timestamp;
+
+      const maxScroll = el.scrollWidth - el.clientWidth;
+      if (maxScroll > 0) {
+        const distance = (el.clientWidth * 0.6 * delta) / durationMs;
+        const nextScroll = el.scrollLeft + distance;
+        el.scrollLeft = nextScroll >= maxScroll ? nextScroll % maxScroll : nextScroll;
+      }
+
+      animationId = requestAnimationFrame(step);
+    };
+
+    animationId = requestAnimationFrame(step);
+
+    return () => cancelAnimationFrame(animationId);
   }, []);
 
   const trustedLogos = [
