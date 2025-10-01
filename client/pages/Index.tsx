@@ -3,9 +3,11 @@ import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
 import { useEffect, useRef } from "react";
 
 export default function Index() {
-  const showcaseRef = useRef<HTMLDivElement>(null);
-  const scrollShowcase = (dir: number) => {
-    const el = showcaseRef.current;
+  const projectShowcaseRef = useRef<HTMLDivElement>(null);
+  const trustedLogosRef = useRef<HTMLDivElement>(null);
+
+  const scrollProjectShowcase = (dir: number) => {
+    const el = projectShowcaseRef.current;
     if (!el) return;
     const amount = el.clientWidth * 0.9;
     el.scrollBy({ left: dir * amount, behavior: "smooth" });
@@ -15,12 +17,12 @@ export default function Index() {
     let animationId: number;
     let lastTimestamp: number | null = null;
 
-    const step = (timestamp: number) => {
-      const el = showcaseRef.current;
+    const animateMarquee = (timestamp: number) => {
+      const el = trustedLogosRef.current;
 
       if (!el) {
         lastTimestamp = null;
-        animationId = requestAnimationFrame(step);
+        animationId = requestAnimationFrame(animateMarquee);
         return;
       }
 
@@ -38,16 +40,16 @@ export default function Index() {
         let nextScroll = el.scrollLeft + delta * pixelsPerMs;
 
         if (nextScroll >= maxScroll) {
-          nextScroll %= maxScroll;
+          nextScroll -= maxScroll;
         }
 
         el.scrollLeft = nextScroll;
       }
 
-      animationId = requestAnimationFrame(step);
+      animationId = requestAnimationFrame(animateMarquee);
     };
 
-    animationId = requestAnimationFrame(step);
+    animationId = requestAnimationFrame(animateMarquee);
 
     return () => cancelAnimationFrame(animationId);
   }, []);
@@ -268,7 +270,7 @@ export default function Index() {
           </h2>
           <div className="mt-8 flex w-full justify-center">
             <div
-              ref={showcaseRef}
+              ref={trustedLogosRef}
               className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2"
             >
               {marqueeLogos.map((logo, index) => (
@@ -541,7 +543,7 @@ export default function Index() {
           </div>
 
           <div className="mt-8 md:mt-20 space-y-8 md:space-y-12">
-            <div className="flex gap-6 overflow-x-auto" ref={showcaseRef}>
+            <div className="flex gap-6 overflow-x-auto" ref={projectShowcaseRef}>
               <img
                 src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
                 alt="Digital transformation project showcase - modern business workspace"
@@ -572,10 +574,10 @@ export default function Index() {
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]/20"></div>
               </div>
               <div className="flex gap-4">
-                <button onClick={() => scrollShowcase(-1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
+                <button onClick={() => scrollProjectShowcase(-1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
                   <ChevronLeft className="h-6 w-6 text-[#0C0801]" />
                 </button>
-                <button onClick={() => scrollShowcase(1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
+                <button onClick={() => scrollProjectShowcase(1)} className="flex h-12 w-12 items-center justify-center rounded-full border border-[rgba(12,8,1,0.15)] bg-[#F2F2F2]">
                   <ChevronRight className="h-6 w-6 text-[#0C0801]" />
                 </button>
               </div>
