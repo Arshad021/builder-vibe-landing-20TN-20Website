@@ -27,7 +27,7 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-white px-5 md:px-16 pt-16 pb-12 md:py-24">
+      <section className="bg-white px-6 sm:px-10 lg:px-20 pt-16 pb-12 md:py-24">
         <div className="mx-auto grid max-w-[1280px] items-center gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,520px)]">
           <div className="order-2 space-y-6 md:order-1 md:space-y-8">
             <h1 className="font-alata text-[44px] md:text-[68px] font-normal leading-[115%] tracking-[-0.44px] text-[#0C0801] md:max-w-[540px]">
@@ -53,30 +53,30 @@ export default function Index() {
           </div>
           <div className="order-1 md:order-2">
             <div className="flex justify-center md:hidden">
-              <div className="relative w-full max-w-[260px]">
+              <div className="flex w-full max-w-[300px] items-end justify-center gap-4">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
                   alt="Hyundai sedan parked at sunset"
-                  className="w-full rounded-[28px] object-cover"
+                  className="w-[65%] rounded-[26px] object-cover"
                 />
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                   alt="Hyundai Click to Buy mobile interface preview"
-                  className="absolute -bottom-10 right-0 w-[65%] rounded-[22px] border border-white object-cover"
+                  className="w-[40%] rounded-[20px] object-cover"
                 />
               </div>
             </div>
-            <div className="relative hidden pb-12 md:flex md:justify-end">
-              <div className="relative w-full max-w-[420px]">
+            <div className="hidden pb-12 md:flex md:justify-end">
+              <div className="flex w-full max-w-[520px] items-end justify-end gap-8">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
                   alt="Hyundai sedan parked at sunset"
-                  className="w-full rounded-[32px] object-cover"
+                  className="w-[320px] rounded-[28px] object-cover"
                 />
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                   alt="Hyundai Click to Buy mobile interface preview"
-                  className="absolute -bottom-12 right-0 w-[48%] rounded-[26px] border border-white object-cover"
+                  className="w-[200px] rounded-[24px] object-cover"
                 />
               </div>
             </div>
