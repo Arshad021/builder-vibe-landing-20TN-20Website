@@ -546,23 +546,23 @@ export default function Index() {
           <div className="mt-8 md:mt-20 space-y-8 md:space-y-12">
             <div className="flex gap-6 overflow-x-auto" ref={projectShowcaseRef}>
               <img
-                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Digital transformation project showcase - modern business workspace"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fb251cda8b2424f279153e9cda5f72666?format=webp&width=1200"
+                alt="Tablet showing TecNext automotive shopping experience"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/3184317/pexels-photo-3184317.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Successful project implementation - team celebrating achievement"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fd08c52847b4a499c85d6217135ac72d2?format=webp&width=1200"
+                alt="Desktop configurator interface inside dealership"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Technology integration project showcase - advanced analytics platform"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fbdd16a5b03e04e309c0be073bf2f915b?format=webp&width=1200"
+                alt="Laptop showcasing TecNext vehicle visualization"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
               <img
-                src="https://images.pexels.com/photos/3184357/pexels-photo-3184357.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                alt="Digital transformation success story - business growth metrics"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F3ab33615966e4a08a9da1a147455aaeb?format=webp&width=1200"
+                alt="Desktop display of TecNext all vehicles lineup"
                 className="h-[314px] md:h-[624px] w-[314px] md:w-[624px] flex-shrink-0 rounded-2xl object-cover"
               />
             </div>
