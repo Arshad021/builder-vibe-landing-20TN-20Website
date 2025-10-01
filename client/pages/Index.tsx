@@ -252,14 +252,14 @@ export default function Index() {
           </div>
 
           {/* Right side - Large image */}
-          <div className="flex-1 flex justify-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
-              alt="TecNext digital platform displayed across multiple devices"
-              className="w-full max-w-[850px] rounded-2xl object-fit md:max-h-[820px]"
-            />
-          </div>
+          <div className="relative">
+          <img
+            src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
+            alt="TecNext digital platform displayed across multiple devices"
+            className="w-full h-auto rounded-2xl object-contain shadow-lg"
+          />
         </div>
+      </div>
       </section>
 
       {/* Trusted by section */}
