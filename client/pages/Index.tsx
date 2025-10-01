@@ -11,6 +11,22 @@ export default function Index() {
     el.scrollBy({ left: dir * amount, behavior: "smooth" });
   };
 
+  useEffect(() => {
+    const el = showcaseRef.current;
+    if (!el) return;
+
+    const interval = window.setInterval(() => {
+      const maxScroll = el.scrollWidth - el.clientWidth;
+      if (el.scrollLeft >= maxScroll) {
+        el.scrollTo({ left: 0, behavior: "smooth" });
+      } else {
+        el.scrollBy({ left: el.clientWidth * 0.6, behavior: "smooth" });
+      }
+    }, 1000);
+
+    return () => window.clearInterval(interval);
+  }, []);
+
   const trustedLogos = [
     { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F72a20a0728e84d37a41bd7cee1de2a0e?format=webp&width=800", alt: "Zeekr", darkBg: false },
     { src: "https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F50a790f1ad7b44a5a9cf2440ba9d9a2a?format=webp&width=800", alt: "Alektiar", darkBg: false },
@@ -198,41 +214,25 @@ export default function Index() {
           <h2 className="font-montserrat text-xs md:text-lg font-bold text-[#0C0801]">
             Trusted by industry leaders worldwide
           </h2>
-          <div className="mt-8 flex items-center justify-center gap-3 md:gap-5">
-            <button
-              type="button"
-              onClick={() => scrollShowcase(-1)}
-              className="hidden h-9 w-9 items-center justify-center rounded-full border border-[#E2E8F0] text-[#0C0801] transition-colors hover:bg-[#F7FAFC] md:flex"
-              aria-label="Scroll trusted logos left"
-            >
-              <ChevronLeft className="h-5 w-5" />
-            </button>
+          <div className="mt-8 flex w-full justify-center">
             <div
               ref={showcaseRef}
-              className="flex w-full max-w-[960px] gap-4 overflow-x-auto scroll-smooth px-2 md:gap-6 md:overflow-hidden"
+              className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2"
             >
               {trustedLogos.map((logo) => (
                 <div
                   key={logo.alt}
-                  className="flex h-14 w-[140px] flex-shrink-0 items-center justify-center rounded-2xl border border-[#E2E8F0] bg-white px-4 py-3 md:h-16 md:w-[160px]"
+                  className="flex h-14 flex-shrink-0 items-center justify-center px-4 md:h-16"
                 >
                   <img
                     src={logo.src}
                     alt={logo.alt}
                     loading="lazy"
-                    className="max-h-10 w-auto object-contain md:max-h-12"
+                    className="max-h-12 w-auto object-contain"
                   />
                 </div>
               ))}
             </div>
-            <button
-              type="button"
-              onClick={() => scrollShowcase(1)}
-              className="hidden h-9 w-9 items-center justify-center rounded-full border border-[#E2E8F0] text-[#0C0801] transition-colors hover:bg-[#F7FAFC] md:flex"
-              aria-label="Scroll trusted logos right"
-            >
-              <ChevronRight className="h-5 w-5" />
-            </button>
           </div>
         </div>
       </section>
