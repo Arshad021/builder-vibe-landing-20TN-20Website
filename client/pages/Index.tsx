@@ -127,7 +127,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
                   alt="Hyundai sedan parked at sunset"
-                  className="w-full rounded-[26px] object-cover"
+                  className="w-full max-h[792px] rounded-[26px] object-cover"
                 />
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
