@@ -494,7 +494,7 @@ export default function Index() {
             <h2 className="font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px]">
               Harnessing Agentic AI and Analytics for Transformative Enterprise Solutions
             </h2>
-            <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-white">
+            <p className="mt-4 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-white/80">
               In today's digital landscape, Agentic AI and advanced analytics are pivotal for enterprise transformation. They empower organizations to make data-driven decisions, enhancing operational efficiency and customer engagement.
             </p>
             
