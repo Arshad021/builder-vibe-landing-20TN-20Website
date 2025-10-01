@@ -469,20 +469,20 @@ export default function Index() {
       {/* Business Potential Section */}
       <section className="bg-white px-5 md:px-16 py-16 md:py-28">
         <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-start gap-10 md:gap-20">
-          <div className="flex-1 order-2 md:order-1">
+          <div className="flex-1">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F0113bf1eb340433e8e66583852d063b4?format=webp&width=1200"
+              alt="Laptop displaying TecNext digital sales platform"
+              className="h-64 md:h-[640px] w-full rounded-2xl object-cover"
+            />
+          </div>
+          <div className="flex-1">
             <h2 className="font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px] text-[#0C0801]">
               Unlock Your Business Potential with TecNext's Transformative Solutions
             </h2>
             <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-[#0C0801]">
               At TecNext, we empower businesses to thrive in a digital-first world. Our tailored strategies ensure faster decision-making, enhance customer engagement, and drive operational excellence for future-ready scalability.
             </p>
-          </div>
-          <div className="flex-1 order-1 md:order-2">
-            <img
-              src="https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-              alt="Business team collaborating on digital transformation strategy in modern office"
-              className="h-64 md:h-[640px] w-full rounded-2xl object-cover"
-            />
           </div>
         </div>
       </section>
