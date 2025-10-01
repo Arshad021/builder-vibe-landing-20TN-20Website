@@ -256,7 +256,7 @@ export default function Index() {
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F8ccc1728d82a486ebe77d9a9c2004e39?format=webp&width=1600"
               alt="TecNext digital platform displayed across multiple devices"
-              className="w-full max-w-[850px] rounded-2xl object-cover md:max-h-[820px]"
+              className="w-full max-w-[700px] rounded-2xl object-contain"
             />
           </div>
         </div>
