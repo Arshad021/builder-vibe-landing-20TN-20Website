@@ -490,8 +490,8 @@ export default function Index() {
       {/* AI Section - Dark Blue */}
       <section className="bg-[#173462] px-6 md:px-16 py-16 md:py-28">
         <div className="mx-auto flex max-w-[1100px] flex-col items-center gap-10 md:flex-row md:items-center md:gap-16">
-          <div className="flex-1">
-            <h2 className="font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px] text-white">
+          <div className="flex-1 max-w-[500px] text-center text-white md:text-left">
+            <h2 className="font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px]">
               Harnessing Agentic AI and Analytics for Transformative Enterprise Solutions
             </h2>
             <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-white">
