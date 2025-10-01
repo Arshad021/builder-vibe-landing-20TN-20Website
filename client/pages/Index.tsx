@@ -68,7 +68,7 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                 alt="Hyundai Click to Buy mobile interface preview"
-                className="absolute right-0 top-16 h-[244px] w-[244px] rounded-2xl object-cover shadow-[0_18px_30px_rgba(11,22,44,0.25)]"
+                className="absolute right-0 bottom-12 h-[244px] w-[244px] rounded-2xl object-cover shadow-[0_18px_30px_rgba(11,22,44,0.25)]"
               />
             </div>
           </div>
