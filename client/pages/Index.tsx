@@ -36,7 +36,7 @@ export default function Index() {
       const maxScroll = el.scrollWidth - el.clientWidth;
 
       if (maxScroll > 0) {
-        const pixelsPerMs = (el.clientWidth * 0.6) / 500;
+        const pixelsPerMs = (el.clientWidth * 0.8) / 300;
         let nextScroll = el.scrollLeft + delta * pixelsPerMs;
 
         if (nextScroll >= maxScroll) {
@@ -92,7 +92,7 @@ export default function Index() {
     },
   ];
 
-  const marqueeLogos = [...trustedLogos, ...trustedLogos];
+  const marqueeLogos = [...trustedLogos, ...trustedLogos, ...trustedLogos];
 
   return (
     <div className="min-h-screen bg-white">
@@ -276,7 +276,7 @@ export default function Index() {
               {marqueeLogos.map((logo, index) => (
                 <div
                   key={`${logo.alt}-${index}`}
-                  className="flex h-14 min-w-[160px] flex-shrink-0 items-center justify-center rounded-lg bg-white/80 px-4 shadow-sm md:h-16 md:min-w-[200px]"
+                  className="flex h-14 min-w-[140px] flex-shrink-0 items-center justify-center md:h-16 md:min-w-[180px]"
                 >
                   <img
                     src={logo.src}
