@@ -53,34 +53,31 @@ export default function Index() {
           </div>
           <div className="order-1 md:order-2">
             <div className="flex justify-center md:hidden">
-              <div className="relative w-full max-w-[320px] rounded-[38px] border border-[#e4ebff] bg-gradient-to-br from-[#f3f6ff] via-white to-[#eef2ff] p-6">
-                <div className="overflow-hidden rounded-[30px] border border-[#dbe4ff]">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
-                    alt="Hyundai sedan parked at sunset"
-                    className="h-[280px] w-full object-cover"
-                  />
-                </div>
+              <div className="relative w-full max-w-[260px]">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
+                  alt="Hyundai sedan parked at sunset"
+                  className="w-full rounded-[28px] object-cover"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
+                  alt="Hyundai Click to Buy mobile interface preview"
+                  className="absolute -bottom-10 right-0 w-[65%] rounded-[22px] border border-white object-cover"
+                />
               </div>
             </div>
-            <div className="relative hidden pb-16 md:flex md:justify-end">
-              <div className="relative w-full max-w-[520px] rounded-[54px] border border-[#e1e8ff] bg-gradient-to-br from-[#f3f6ff] via-[#fbfdff] to-[#eef2ff] p-10">
-                <div className="overflow-hidden rounded-[42px] border border-[#d6dfff]">
-                  <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
-                    alt="Hyundai sedan parked at sunset"
-                    className="w-full object-cover"
-                  />
-                </div>
-                <div className="absolute -bottom-10 right-10 w-[230px] rounded-[40px] border border-[#d6dfff] bg-white p-4 md:-bottom-12 md:right-12 md:w-[260px]">
-                  <div className="overflow-hidden rounded-[30px] border border-[#e1e8ff]">
-                    <img
-                      src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
-                      alt="Hyundai Click to Buy mobile interface preview"
-                      className="w-full object-cover"
-                    />
-                  </div>
-                </div>
+            <div className="relative hidden pb-12 md:flex md:justify-end">
+              <div className="relative w-full max-w-[420px]">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
+                  alt="Hyundai sedan parked at sunset"
+                  className="w-full rounded-[32px] object-cover"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
+                  alt="Hyundai Click to Buy mobile interface preview"
+                  className="absolute -bottom-12 right-0 w-[48%] rounded-[26px] border border-white object-cover"
+                />
               </div>
             </div>
           </div>
