@@ -531,11 +531,15 @@ export default function Index() {
               </div>
             </div>
           </div>
-          <img
-            src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-            alt="AI and machine learning analytics dashboard with data visualization"
-            className="h-64 md:h-[640px] flex-1 rounded-2xl object-cover"
-          />
+          <div className="flex-1 w-full md:flex md:justify-end">
+            <div className="w-full max-w-[420px] rounded-[26px] bg-white p-4 shadow-[0_24px_60px_rgba(6,22,72,0.35)]">
+              <img
+                src="https://images.pexels.com/photos/8386434/pexels-photo-8386434.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                alt="AI and machine learning analytics dashboard with data visualization"
+                className="w-full rounded-[18px] object-cover"
+              />
+            </div>
+          </div>
         </div>
       </section>
 
