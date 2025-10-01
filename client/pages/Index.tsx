@@ -17,12 +17,14 @@ export default function Index() {
 
     const interval = window.setInterval(() => {
       const maxScroll = el.scrollWidth - el.clientWidth;
-      if (el.scrollLeft >= maxScroll) {
+      const threshold = maxScroll - 4;
+
+      if (el.scrollLeft >= threshold) {
         el.scrollTo({ left: 0, behavior: "smooth" });
       } else {
         el.scrollBy({ left: el.clientWidth * 0.6, behavior: "smooth" });
       }
-    }, 1000);
+    }, 3000);
 
     return () => window.clearInterval(interval);
   }, []);
@@ -64,6 +66,8 @@ export default function Index() {
       darkBg: false,
     },
   ];
+
+  const marqueeLogos = [...trustedLogos, ...trustedLogos];
 
   return (
     <div className="min-h-screen bg-white">
@@ -244,10 +248,10 @@ export default function Index() {
               ref={showcaseRef}
               className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2"
             >
-              {trustedLogos.map((logo) => (
+              {marqueeLogos.map((logo, index) => (
                 <div
-                  key={logo.alt}
-                  className="flex h-14 flex-shrink-0 items-center justify-center px-4 md:h-16"
+                  key={`${logo.alt}-${index}`}
+                  className="flex h-14 min-w-[160px] flex-shrink-0 items-center justify-center rounded-lg bg-white/80 px-4 shadow-sm md:h-16 md:min-w-[200px]"
                 >
                   <img
                     src={logo.src}
