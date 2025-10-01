@@ -198,17 +198,41 @@ export default function Index() {
           <h2 className="font-montserrat text-xs md:text-lg font-bold text-[#0C0801]">
             Trusted by industry leaders worldwide
           </h2>
-          <div className="mt-6 flex flex-wrap items-center justify-center gap-4 md:gap-8">
-            {trustedLogos.map((logo) => (
-              <div key={logo.alt} className={`h-12 md:h-14 w-[120px] md:w-[140px] rounded flex items-center justify-center p-2 ${logo.darkBg ? "bg-[#173462]" : "bg-gray-100"}`}>
-                <img
-                  src={logo.src}
-                  alt={logo.alt}
-                  loading="lazy"
-                  className="max-h-10 md:max-h-12 w-auto object-contain"
-                />
-              </div>
-            ))}
+          <div className="mt-8 flex items-center justify-center gap-3 md:gap-5">
+            <button
+              type="button"
+              onClick={() => scrollShowcase(-1)}
+              className="hidden h-9 w-9 items-center justify-center rounded-full border border-[#E2E8F0] text-[#0C0801] transition-colors hover:bg-[#F7FAFC] md:flex"
+              aria-label="Scroll trusted logos left"
+            >
+              <ChevronLeft className="h-5 w-5" />
+            </button>
+            <div
+              ref={showcaseRef}
+              className="flex w-full max-w-[960px] gap-4 overflow-x-auto scroll-smooth px-2 md:gap-6 md:overflow-hidden"
+            >
+              {trustedLogos.map((logo) => (
+                <div
+                  key={logo.alt}
+                  className="flex h-14 w-[140px] flex-shrink-0 items-center justify-center rounded-2xl border border-[#E2E8F0] bg-white px-4 py-3 md:h-16 md:w-[160px]"
+                >
+                  <img
+                    src={logo.src}
+                    alt={logo.alt}
+                    loading="lazy"
+                    className="max-h-10 w-auto object-contain md:max-h-12"
+                  />
+                </div>
+              ))}
+            </div>
+            <button
+              type="button"
+              onClick={() => scrollShowcase(1)}
+              className="hidden h-9 w-9 items-center justify-center rounded-full border border-[#E2E8F0] text-[#0C0801] transition-colors hover:bg-[#F7FAFC] md:flex"
+              aria-label="Scroll trusted logos right"
+            >
+              <ChevronRight className="h-5 w-5" />
+            </button>
           </div>
         </div>
       </section>
