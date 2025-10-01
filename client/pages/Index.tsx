@@ -62,7 +62,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                   alt="Hyundai Click to Buy mobile interface preview"
-                  className="absolute -bottom-10 right-0 w-[55%] max-w-[150px] rounded-[20px] border border-white object-cover"
+                  className="absolute -bottom-10 left-0 w-[55%] max-w-[150px] rounded-[20px] border border-white object-cover"
                 />
               </div>
             </div>
@@ -76,7 +76,7 @@ export default function Index() {
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
                   alt="Hyundai Click to Buy mobile interface preview"
-                  className="absolute -bottom-14 right-0 w-[45%] max-w-[220px] rounded-[24px] border border-white object-cover"
+                  className="absolute -bottom-14 left-0 w-[45%] max-w-[220px] rounded-[24px] border border-white object-cover"
                 />
               </div>
             </div>
