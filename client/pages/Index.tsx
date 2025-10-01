@@ -14,11 +14,15 @@ export default function Index() {
   useEffect(() => {
     let animationId: number;
     let lastTimestamp: number | null = null;
-    const durationMs = 500;
 
     const step = (timestamp: number) => {
       const el = showcaseRef.current;
-      if (!el) return;
+
+      if (!el) {
+        lastTimestamp = null;
+        animationId = requestAnimationFrame(step);
+        return;
+      }
 
       if (lastTimestamp === null) {
         lastTimestamp = timestamp;
@@ -28,10 +32,16 @@ export default function Index() {
       lastTimestamp = timestamp;
 
       const maxScroll = el.scrollWidth - el.clientWidth;
+
       if (maxScroll > 0) {
-        const distance = (el.clientWidth * 0.6 * delta) / durationMs;
-        const nextScroll = el.scrollLeft + distance;
-        el.scrollLeft = nextScroll >= maxScroll ? nextScroll % maxScroll : nextScroll;
+        const pixelsPerMs = (el.clientWidth * 0.6) / 500;
+        let nextScroll = el.scrollLeft + delta * pixelsPerMs;
+
+        if (nextScroll >= maxScroll) {
+          nextScroll %= maxScroll;
+        }
+
+        el.scrollLeft = nextScroll;
       }
 
       animationId = requestAnimationFrame(step);
