@@ -27,49 +27,51 @@ export default function Index() {
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
-      <section className="bg-white px-5 md:px-16 py-16 md:py-28">
-        <div className="mx-auto max-w-[1280px] flex flex-col md:flex-row items-center gap-12 md:gap-16">
-          <div className="flex-1 order-2 md:order-1">
-            <h1 className="font-alata text-[44px] md:text-[72px] font-normal leading-[120%] tracking-[-0.44px] text-[#0C0801]">
+      <section className="bg-white px-5 md:px-16 pt-16 pb-12 md:py-24">
+        <div className="mx-auto grid max-w-[1280px] items-center gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,520px)]">
+          <div className="order-2 space-y-6 md:order-1 md:space-y-8">
+            <h1 className="font-alata text-[44px] md:text-[68px] font-normal leading-[115%] tracking-[-0.44px] text-[#0C0801] md:max-w-[540px]">
               Empowering Your Digital Transformation Journey
             </h1>
-            <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-[#0C0801]">
+            <p className="font-montserrat text-sm md:text-lg leading-[160%] text-[#1F2A44]/80 md:max-w-[520px]">
               At TecNext, we drive measurable business impact through innovative digital solutions. Join us in redefining excellence in your enterprise.
             </p>
-            <div className="mt-6 flex flex-col md:flex-row items-start gap-4">
+            <div className="flex flex-col items-start gap-3 sm:flex-row">
               <Link
                 to="/services"
-                className="w-full md:w-auto text-center rounded-full border border-[#3B82F6] bg-[#3B82F6] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-white hover:opacity-90"
+                className="inline-flex w-full items-center justify-center rounded-full bg-[#3A6FF1] px-6 py-3 text-sm font-semibold text-white shadow-[0_12px_22px_rgba(58,111,241,0.25)] transition-all hover:-translate-y-[1px] hover:shadow-[0_16px_28px_rgba(58,111,241,0.3)] md:text-base md:w-auto"
               >
                 Learn More
               </Link>
               <Link
                 to="/contact"
-                className="w-full md:w-auto text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
+                className="inline-flex w-full items-center justify-center rounded-full border border-[#D7DFF3] bg-white px-6 py-3 text-sm font-semibold text-[#1F2A44] transition-colors hover:bg-[#F5F7FD] md:text-base md:w-auto"
               >
                 Contact
               </Link>
             </div>
           </div>
-          <div className="flex-1 order-1 md:order-2 w-full">
-            {/* Mobile hero image */}
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
-              alt="Hyundai sedan parked at sunset"
-              className="w-full h-[343px] rounded-2xl object-cover md:hidden"
-            />
-            {/* Desktop collage */}
-            <div className="relative hidden h-[638px] md:block">
+          <div className="order-1 md:order-2">
+            <div className="flex justify-center md:hidden">
               <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
                 alt="Hyundai sedan parked at sunset"
-                className="absolute left-1/2 top-0 h-[638px] w-[424px] -translate-x-1/2 rounded-2xl object-cover"
+                className="h-[343px] w-full max-w-[320px] rounded-[32px] object-cover shadow-[0_18px_36px_rgba(15,33,66,0.2)]"
               />
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
-                alt="Hyundai Click to Buy mobile interface preview"
-                className="absolute right-0 bottom-12 h-[244px] w-[244px] rounded-2xl object-cover shadow-[0_18px_30px_rgba(11,22,44,0.25)]"
-              />
+            </div>
+            <div className="relative hidden pb-12 md:flex md:justify-end">
+              <div className="relative w-full max-w-[420px]">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
+                  alt="Hyundai sedan parked at sunset"
+                  className="w-full rounded-[40px] object-cover shadow-[0_24px_45px_rgba(15,33,66,0.22)]"
+                />
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fdb1e4561373742b18851d6f9b06c7299?format=webp&width=800"
+                  alt="Hyundai Click to Buy mobile interface preview"
+                  className="absolute -bottom-10 left-1/2 w-[220px] -translate-x-1/2 rounded-[36px] object-cover shadow-[0_20px_40px_rgba(15,33,66,0.22)] md:w-[240px] md:-left-16 md:translate-x-0"
+                />
+              </div>
             </div>
           </div>
         </div>
