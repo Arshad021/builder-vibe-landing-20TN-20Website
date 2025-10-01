@@ -36,10 +36,10 @@ export default function Index() {
       const maxScroll = el.scrollWidth - el.clientWidth;
 
       if (maxScroll > 0) {
-        const pixelsPerMs = (el.clientWidth * 0.8) / 300;
+        const pixelsPerMs = (el.clientWidth * 1.2) / 200;
         let nextScroll = el.scrollLeft + delta * pixelsPerMs;
 
-        if (nextScroll >= maxScroll) {
+        while (nextScroll >= maxScroll) {
           nextScroll -= maxScroll;
         }
 
