@@ -569,7 +569,7 @@ export default function Index() {
               />
             </div>
 
-            <div className="flex items-center justify-start gap-6">
+            <div className="flex items-center justify-between">
               <div className="flex gap-2">
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]"></div>
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]/20"></div>
