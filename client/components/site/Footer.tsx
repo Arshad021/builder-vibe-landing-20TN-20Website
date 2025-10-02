@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="bg-white border-t border-[rgba(12,8,1,0.12)]">
       <div className="mx-auto max-w-[1280px] px-6 md:px-16 py-12 md:py-16 space-y-12">
-        <div className="grid grid-cols-1 gap-10 md:grid-cols-4">
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
           <div className="space-y-4">
             <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">
               Quick Links
@@ -103,24 +103,21 @@ export default function Footer() {
                   Office # 8, Cocospace, Plot 3A, Korang Road, Markaz I-0/3, Islamabad, Pakistan
                 </p>
               </li>
-            </ul>
-          </div>
-
-          <div className="space-y-4">
-            <h4 className="font-montserrat text-base font-semibold text-[#0C0801]">
-              Follow Us
-            </h4>
-            <ul className="space-y-2">
-              <li>
-                <a
-                  href="https://www.linkedin.com"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 font-montserrat text-sm text-[#0C0801] hover:underline"
-                >
-                  <Linkedin className="h-5 w-5" />
-                  LinkedIn
-                </a>
+              <li className="pt-2">
+                <span className="font-montserrat text-sm font-semibold text-[#0C0801]">
+                  Follow Us
+                </span>
+                <div className="mt-2">
+                  <a
+                    href="https://www.linkedin.com"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="inline-flex items-center gap-2 font-montserrat text-sm text-[#0C0801] hover:underline"
+                  >
+                    <Linkedin className="h-5 w-5" />
+                    LinkedIn
+                  </a>
+                </div>
               </li>
             </ul>
           </div>
