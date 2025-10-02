@@ -28,7 +28,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/projects" className="font-montserrat text-sm text-[#0C0801] hover:underline">
+                <Link to="/p/project-success" className="font-montserrat text-sm text-[#0C0801] hover:underline">
                   Projects
                 </Link>
               </li>
@@ -47,7 +47,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <Link
-                  to="/digital-strategy"
+                  to="/p/digital-strategy"
                   className="font-montserrat text-sm text-[#0C0801] hover:underline"
                 >
                   Strategy &amp; Innovation
@@ -55,7 +55,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/data-analytics"
+                  to="/p/analytics"
                   className="font-montserrat text-sm text-[#0C0801] hover:underline"
                 >
                   Data Analytics
@@ -68,7 +68,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link
-                  to="/cybersecurity"
+                  to="/p/cybersecurity"
                   className="font-montserrat text-sm text-[#0C0801] hover:underline"
                 >
                   Cyber Risk Management
