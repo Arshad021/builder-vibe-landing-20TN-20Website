@@ -244,8 +244,8 @@ export default function Index() {
           {/* Right side - Large image */}
           <div className="flex-1 flex justify-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F0113bf1eb340433e8e66583852d063b4?format=webp&width=1200"
-              alt="Laptop displaying TecNext digital sales platform"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F65c9e8f775d944928e27a641be2fd084?format=webp&width=1200"
+              alt="Tablet showcasing TecNext features dashboard"
               className="w-full max-w-[520px] object-contain"
             />
           </div>
