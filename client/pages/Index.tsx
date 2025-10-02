@@ -536,7 +536,7 @@ export default function Index() {
       {/* Project Showcase Section */}
       <section className="bg-[#F2F2F2] px-5 md:px-16 py-16 md:py-28">
         <div className="mx-auto max-w-[1280px]">
-          <div className="mx-auto max-w-[768px] text-center">
+          <div className="max-w-[768px] text-left">
             <h2 className="font-alata text-[40px] md:text-[52px] font-normal leading-[120%] tracking-[-0.4px] md:tracking-[-0.52px] text-[#0C0801]">
               Project Showcase
             </h2>
@@ -569,7 +569,7 @@ export default function Index() {
               />
             </div>
 
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-start gap-6">
               <div className="flex gap-2">
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]"></div>
                 <div className="h-2 w-2 rounded-full bg-[#0C0801]/20"></div>
