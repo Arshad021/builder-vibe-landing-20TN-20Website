@@ -125,8 +125,8 @@ export default function Index() {
             <div className="flex justify-center md:hidden">
               <div className="w-full max-w-[320px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=800"
-                  alt="Hyundai sedan parked at sunset"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F56287135571f4a0f8e7347844952d17d?format=webp&width=800"
+                  alt="Hyundai Click to Buy mobile app banner"
                   className="w-full rounded-[26px] object-cover"
                 />
               </div>
@@ -134,8 +134,8 @@ export default function Index() {
             <div className="hidden pb-12 md:flex md:justify-end">
               <div className="w-full max-w-[520px]">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F76371dea96934020b9f65c8239e04b08?format=webp&width=1200"
-                  alt="Hyundai sedan parked at sunset"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F56287135571f4a0f8e7347844952d17d?format=webp&width=1200"
+                  alt="Hyundai Click to Buy mobile app banner"
                   className="w-full rounded-[28px] object-cover"
                 />
               </div>
