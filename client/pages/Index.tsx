@@ -461,8 +461,8 @@ export default function Index() {
         <div className="mx-auto max-w-[1100px] flex flex-col md:flex-row items-center gap-10 md:gap-16">
           <div className="flex-1 flex justify-center">
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F0113bf1eb340433e8e66583852d063b4?format=webp&width=1200"
-              alt="Laptop displaying TecNext digital sales platform"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fe3b318d0c71649a0b09687e00fd81bbd?format=webp&width=1200"
+              alt="Responsive TecNext platforms on multiple devices"
               className="w-full max-w-[520px] object-contain"
             />
           </div>
