@@ -589,131 +589,133 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Blog Section */}
-      <section className="bg-white px-5 md:px-16 py-16 md:py-28">
-        <div className="mx-auto max-w-[1280px]">
-          <div className="mx-auto max-w-[768px] text-center">
-            <div className="mb-3 md:mb-4">
-              <span className="font-montserrat text-base font-semibold text-[#0C0801]">Blog</span>
+      {/* Blog Section temporarily hidden */}
+      {false && (
+        <section className="bg-white px-5 md:px-16 py-16 md:py-28">
+          <div className="mx-auto max-w-[1280px]">
+            <div className="mx-auto max-w-[768px] text-center">
+              <div className="mb-3 md:mb-4">
+                <span className="font-montserrat text-base font-semibold text-[#0C0801]">Blog</span>
+              </div>
+              <h2 className="font-alata text-[40px] md:text-[52px] font-normal leading-[120%] tracking-[-0.4px] md:tracking-[-0.52px] text-[#0C0801]">
+                Insights on Digital Transformation
+              </h2>
+              <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-[#0C0801]">
+                Explore our latest thoughts and innovations in the field.
+              </p>
             </div>
-            <h2 className="font-alata text-[40px] md:text-[52px] font-normal leading-[120%] tracking-[-0.4px] md:tracking-[-0.52px] text-[#0C0801]">
-              Insights on Digital Transformation
-            </h2>
-            <p className="mt-5 font-montserrat text-xs md:text-lg font-normal leading-[150%] text-[#0C0801]">
-              Explore our latest thoughts and innovations in the field.
-            </p>
+
+            <div className="mt-12 md:mt-20 space-y-12 md:space-y-16">
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
+                {/* Blog Card 1 */}
+                <div className="space-y-6">
+                  <img
+                    src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="AI and machine learning technology for business growth"
+                    className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
+                  />
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-4">
+                      <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
+                        Insights
+                      </span>
+                      <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
+                    </div>
+                    <div className="space-y-2">
+                      <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
+                        Harnessing AI for Business Growth
+                      </h3>
+                      <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
+                        Discover how AI is reshaping digital transformation strategies today.
+                      </p>
+                    </div>
+                    <Link
+                      to="/p/blog/ai-business-growth"
+                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
+                    >
+                      Read more
+                      <ArrowRight className="h-6 w-6" />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Blog Card 2 */}
+                <div className="space-y-6">
+                  <img
+                    src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="Online shopping and eCommerce platform interface"
+                    className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
+                  />
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-4">
+                      <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
+                        Trends
+                      </span>
+                      <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
+                    </div>
+                    <div className="space-y-2">
+                      <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
+                        The Future of eCommerce
+                      </h3>
+                      <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
+                        Explore the evolving landscape of eCommerce and its challenges.
+                      </p>
+                    </div>
+                    <Link
+                      to="/p/blog/future-ecommerce"
+                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
+                    >
+                      Read more
+                      <ArrowRight className="h-6 w-6" />
+                    </Link>
+                  </div>
+                </div>
+
+                {/* Blog Card 3 */}
+                <div className="space-y-6">
+                  <img
+                    src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
+                    alt="Data analytics and decision making dashboard with charts and graphs"
+                    className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
+                  />
+                  <div className="space-y-4">
+                    <div className="flex items-center gap-4">
+                      <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
+                        Analysis
+                      </span>
+                      <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
+                    </div>
+                    <div className="space-y-2">
+                      <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
+                        Data-Driven Decision Making
+                      </h3>
+                      <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
+                        Learn how data analytics can drive better business outcomes.
+                      </p>
+                    </div>
+                    <Link
+                      to="/p/blog/data-driven-decisions"
+                      className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
+                    >
+                      Read more
+                      <ArrowRight className="h-6 w-6" />
+                    </Link>
+                  </div>
+                </div>
+              </div>
+
+              <div className="text-center">
+                <Link
+                  to="/p/blog"
+                  className="w-full md:w-auto inline-block text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
+                >
+                  View all
+                </Link>
+              </div>
+            </div>
           </div>
-
-          <div className="mt-12 md:mt-20 space-y-12 md:space-y-16">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 md:gap-8">
-              {/* Blog Card 1 */}
-              <div className="space-y-6">
-                <img
-                  src="https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="AI and machine learning technology for business growth"
-                  className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
-                />
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
-                      Insights
-                    </span>
-                    <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
-                  </div>
-                  <div className="space-y-2">
-                    <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
-                      Harnessing AI for Business Growth
-                    </h3>
-                    <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                      Discover how AI is reshaping digital transformation strategies today.
-                    </p>
-                  </div>
-                  <Link
-                    to="/p/blog/ai-business-growth"
-                    className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                  >
-                    Read more
-                    <ArrowRight className="h-6 w-6" />
-                  </Link>
-                </div>
-              </div>
-
-              {/* Blog Card 2 */}
-              <div className="space-y-6">
-                <img
-                  src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Online shopping and eCommerce platform interface"
-                  className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
-                />
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
-                      Trends
-                    </span>
-                    <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
-                  </div>
-                  <div className="space-y-2">
-                    <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
-                      The Future of eCommerce
-                    </h3>
-                    <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                      Explore the evolving landscape of eCommerce and its challenges.
-                    </p>
-                  </div>
-                  <Link
-                    to="/p/blog/future-ecommerce"
-                    className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                  >
-                    Read more
-                    <ArrowRight className="h-6 w-6" />
-                  </Link>
-                </div>
-              </div>
-
-              {/* Blog Card 3 */}
-              <div className="space-y-6">
-                <img
-                  src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
-                  alt="Data analytics and decision making dashboard with charts and graphs"
-                  className="h-[221px] md:h-[270px] w-full rounded-2xl object-cover"
-                />
-                <div className="space-y-4">
-                  <div className="flex items-center gap-4">
-                    <span className="rounded-full border border-[rgba(12,8,1,0.15)] px-[10px] py-1 font-montserrat text-xs font-bold text-[#0C0801]">
-                      Analysis
-                    </span>
-                    <span className="font-montserrat text-xs font-bold text-[#0C0801]">5 min read</span>
-                  </div>
-                  <div className="space-y-2">
-                    <h3 className="font-alata text-5 md:text-[28px] font-normal leading-[140%] tracking-[-0.2px] md:tracking-[-0.28px] text-[#0C0801]">
-                      Data-Driven Decision Making
-                    </h3>
-                    <p className="font-montserrat text-xs md:text-base font-normal leading-[150%] text-[#0C0801]">
-                      Learn how data analytics can drive better business outcomes.
-                    </p>
-                  </div>
-                  <Link
-                    to="/p/blog/data-driven-decisions"
-                    className="inline-flex items-center gap-2 font-montserrat text-xs md:text-base font-normal text-[#0C0801]"
-                  >
-                    Read more
-                    <ArrowRight className="h-6 w-6" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-
-            <div className="text-center">
-              <Link
-                to="/p/blog"
-                className="w-full md:w-auto inline-block text-center rounded-full border border-[rgba(12,8,1,0.15)] px-3 py-[6px] font-montserrat text-xs md:text-base font-medium text-[#0C0801] hover:bg-gray-50"
-              >
-                View all
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
+        </section>
+      )}
     </div>
   );
 }
