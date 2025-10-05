@@ -5,6 +5,7 @@ import { useEffect, useRef } from "react";
 export default function Index() {
   const projectShowcaseRef = useRef<HTMLDivElement>(null);
   const trustedLogosRef = useRef<HTMLDivElement>(null);
+  const logoDistanceRef = useRef<number | null>(null);
 
   const scrollProjectShowcase = (dir: number) => {
     const el = projectShowcaseRef.current;
@@ -16,6 +17,39 @@ export default function Index() {
   useEffect(() => {
     let animationId: number;
     let lastTimestamp: number | null = null;
+
+    const resetDistance = () => {
+      logoDistanceRef.current = null;
+    };
+
+    const computeDistancePerLogo = (el: HTMLDivElement) => {
+      if (logoDistanceRef.current !== null) {
+        return logoDistanceRef.current;
+      }
+
+      const children = Array.from(el.children) as HTMLElement[];
+
+      if (children.length > 1) {
+        const firstRect = children[0].getBoundingClientRect();
+        const secondRect = children[1].getBoundingClientRect();
+        const distance = secondRect.left - firstRect.left;
+
+        if (distance > 0) {
+          logoDistanceRef.current = distance;
+          return distance;
+        }
+      } else if (children.length === 1) {
+        const width = children[0].getBoundingClientRect().width;
+        if (width > 0) {
+          logoDistanceRef.current = width;
+          return width;
+        }
+      }
+
+      const fallback = el.clientWidth * 0.25;
+      logoDistanceRef.current = fallback;
+      return fallback;
+    };
 
     const animateMarquee = (timestamp: number) => {
       const el = trustedLogosRef.current;
@@ -36,7 +70,8 @@ export default function Index() {
       const maxScroll = el.scrollWidth - el.clientWidth;
 
       if (maxScroll > 0) {
-        const pixelsPerMs = (el.clientWidth * 3.2) / 12;
+        const distancePerLogo = computeDistancePerLogo(el);
+        const pixelsPerMs = distancePerLogo / 1000;
         let nextScroll = el.scrollLeft + delta * pixelsPerMs;
 
         while (nextScroll >= maxScroll) {
@@ -49,9 +84,13 @@ export default function Index() {
       animationId = requestAnimationFrame(animateMarquee);
     };
 
+    window.addEventListener("resize", resetDistance);
     animationId = requestAnimationFrame(animateMarquee);
 
-    return () => cancelAnimationFrame(animationId);
+    return () => {
+      window.removeEventListener("resize", resetDistance);
+      cancelAnimationFrame(animationId);
+    };
   }, []);
 
   const trustedLogos = [
