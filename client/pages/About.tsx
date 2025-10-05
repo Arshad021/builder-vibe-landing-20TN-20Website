@@ -274,14 +274,14 @@ export default function About() {
       {/* Partnership Philosophy Section */}
       <section className="bg-[#173462] px-4 py-16 md:px-16 md:py-28">
         <div className="mx-auto max-w-[1280px] flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
-          <div className="flex-1 h-[640px]">
+          <div className="flex-1 h-[640px] order-2 lg:order-1">
             <img
               src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F35cce0e684ef4d7ca1d58e211f96f69e?format=webp&width=1200"
               alt="Hands stacked in unity"
               className="w-full h-full rounded-2xl object-cover"
             />
           </div>
-          <div className="flex flex-col items-start gap-8 flex-1">
+          <div className="flex flex-col items-start gap-8 flex-1 order-1 lg:order-2">
             <div className="flex flex-col items-start gap-6 w-full">
               <h2 className="w-full text-white font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px]">
                 Our Collaborative Partnership Philosophy: Empowering Success
