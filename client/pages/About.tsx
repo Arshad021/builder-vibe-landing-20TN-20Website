@@ -216,8 +216,8 @@ export default function About() {
         <div className="mx-auto max-w-[1280px] flex flex-col lg:flex-row items-center gap-12 lg:gap-20">
           <div className="flex-1 h-[640px]">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/2439e35dc01af1edd5f3a16e36768ba89f545bdb?width=1200"
-              alt="Partnership illustration"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F35cce0e684ef4d7ca1d58e211f96f69e?format=webp&width=1200"
+              alt="Hands stacked in unity"
               className="w-full h-full rounded-2xl object-cover"
             />
           </div>
