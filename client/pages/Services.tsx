@@ -1101,7 +1101,7 @@ const Services = () => {
         className="py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16 bg-cover bg-center relative"
         style={{
           backgroundImage:
-            "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg')",
+            "linear-gradient(0deg, rgba(0, 0, 0, 0.50) 0%, rgba(0, 0, 0, 0.50) 100%), url('https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F81612b1c11204c0b9c0d3200cacdf50c?format=webp&width=1600')",
         }}
       >
         <div className="max-w-7xl mx-auto">
