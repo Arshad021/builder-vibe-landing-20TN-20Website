@@ -720,14 +720,14 @@ const Services = () => {
       <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="flex justify-center">
+            <div className="flex justify-center order-2 lg:order-1">
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F831326e6e6bd4c1ea10ad8bc72601189?format=webp&width=1200"
                 alt="CRM experience illustration"
                 className="w-full max-w-xl h-auto object-contain"
               />
             </div>
-            <div className="space-y-8 text-center lg:text-left">
+            <div className="space-y-8 text-center lg:text-left order-1 lg:order-2">
               <div className="space-y-8">
                 <div className="space-y-4">
                   <div>
