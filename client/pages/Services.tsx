@@ -421,8 +421,8 @@ const Services = () => {
             </div>
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
-                alt="Digital transformation team collaborating in office"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F5afec3ab6bc64791847451622f36f7e9?format=webp&width=1200"
+                alt="Team collaborating over analytics dashboard"
                 className="w-full h-full object-cover"
               />
             </div>
