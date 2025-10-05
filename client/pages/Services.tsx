@@ -937,11 +937,11 @@ const Services = () => {
       <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
+            <div className="flex justify-center">
               <img
-                src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
-                alt="Project success planning at whiteboard"
-                className="w-full h-full object-cover"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F0cee41ca58e74975a4086468cd9312ac?format=webp&width=1200"
+                alt="Target with arrows representing project success"
+                className="w-full max-w-xl h-auto object-contain"
               />
             </div>
             <div className="space-y-8 text-center lg:text-left">
