@@ -922,11 +922,11 @@ const Services = () => {
                 </div>
               </div>
             </div>
-            <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
+            <div className="flex justify-center">
               <img
-                src="https://images.pexels.com/photos/30965500/pexels-photo-30965500.jpeg"
-                alt="Cybersecurity concept with SECURITY tiles"
-                className="w-full h-full object-cover"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fb83da0fa6fc24e80bb50bec1ad5693bb?format=webp&width=1200"
+                alt="Cybersecurity shield illustration"
+                className="w-full max-w-xl h-auto object-contain"
               />
             </div>
           </div>
