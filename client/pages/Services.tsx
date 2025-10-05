@@ -471,7 +471,9 @@ const Services = () => {
                         "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
                     }}
                   >
-                    At TecNext, we streamline eCommerce platforms to boost sales and improve customer satisfaction. Our customized approaches guarantee smooth user experiences that increase conversions.
+                    At TecNext, we streamline eCommerce platforms to boost sales
+                    and improve customer satisfaction. Our customized approaches
+                    guarantee smooth user experiences that increase conversions.
                   </p>
                 </div>
               </div>
@@ -513,7 +515,8 @@ const Services = () => {
                         "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
                     }}
                   >
-                    Enhance customer loyalty through personalized shopping experiences.
+                    Enhance customer loyalty through personalized shopping
+                    experiences.
                   </p>
                 </div>
               </div>
