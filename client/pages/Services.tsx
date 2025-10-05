@@ -702,11 +702,11 @@ const Services = () => {
                 </button>
               </div>
             </div>
-            <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
+            <div className="flex justify-center">
               <img
-                src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
-                alt="Data analytics dashboard and report"
-                className="w-full h-full object-cover"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F97c776e4cc6b49699c5eb93126f50c9b?format=webp&width=1200"
+                alt="Digital data visualization dashboards"
+                className="w-full max-w-xl h-auto object-contain"
               />
             </div>
           </div>
