@@ -287,15 +287,15 @@ export default function About() {
           </div>
           <div className="flex-1 h-[640px]">
             <img
-              src="https://api.builder.io/api/v1/image/assets/TEMP/d09c40aa1e568b993e93fb7a9719fd2e9e800eea?width=1200"
-              alt="Digital transformation illustration"
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F6eed2cb2617c47a497de167ee22f5bbd?format=webp&width=1200"
+              alt="Futuristic digital analytics interface"
               className="w-full h-full rounded-2xl object-cover"
             />
           </div>
         </div>
       </section>
 
-      {/* Team Section */}
+      {/*
       <section className="bg-white px-4 py-16 md:px-16 md:py-28">
         <div className="mx-auto max-w-[1280px] flex flex-col items-start gap-20">
           <div className="max-w-[768px] flex flex-col items-start gap-4 w-full">
@@ -314,7 +314,6 @@ export default function About() {
             </div>
           </div>
           <div className="flex flex-col items-start gap-16 w-full">
-            {/* First row of team members */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
               {teamMembers.slice(0, 4).map((member) => (
                 <div key={member.id} className="flex flex-col items-start gap-6">
@@ -349,7 +348,6 @@ export default function About() {
                 </div>
               ))}
             </div>
-            {/* Second row of team members */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
               {teamMembers.slice(4, 8).map((member) => (
                 <div key={member.id} className="flex flex-col items-start gap-6">
@@ -385,7 +383,6 @@ export default function About() {
               ))}
             </div>
           </div>
-          {/* We're hiring section */}
           <div className="max-w-[768px] flex flex-col items-start gap-6 w-full">
             <div className="w-[768px] flex flex-col items-center gap-4">
               <h2 className="w-full text-center text-[#0C0801] font-alata text-[28px] md:text-[36px] font-normal leading-[130%] tracking-[-0.28px] md:tracking-[-0.36px]">
@@ -406,6 +403,7 @@ export default function About() {
           </div>
         </div>
       </section>
+      */}
 
     </div>
   );
