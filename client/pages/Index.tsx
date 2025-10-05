@@ -467,6 +467,13 @@ export default function Index() {
               At TecNext, we empower businesses to thrive in a digital-first world. Our tailored strategies ensure faster decision-making, enhance customer engagement, and drive operational excellence for future-ready scalability.
             </p>
           </div>
+          <div className="flex-1 flex justify-center order-2 md:order-1">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fe3b318d0c71649a0b09687e00fd81bbd?format=webp&width=1200"
+              alt="Responsive TecNext platforms on multiple devices"
+              className="w-full max-w-[520px] object-contain"
+            />
+          </div>
         </div>
       </section>
 
