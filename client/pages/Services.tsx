@@ -434,7 +434,7 @@ const Services = () => {
       <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-center">
-            <div className="w-full">
+            <div className="w-full order-2 lg:order-1">
               <div className="flex justify-center">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F12d5427bcf6547a0983d1f1488efbe72?format=webp&width=1200"
@@ -443,7 +443,7 @@ const Services = () => {
                 />
               </div>
             </div>
-            <div className="space-y-8 text-left">
+            <div className="space-y-8 text-left order-1 lg:order-2">
               <div className="space-y-6">
                 <span
                   className="text-gray-900 text-base font-semibold"
