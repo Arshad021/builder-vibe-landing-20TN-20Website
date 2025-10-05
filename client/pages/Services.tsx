@@ -431,102 +431,93 @@ const Services = () => {
       </section>
 
       {/* eCommerce Section */}
-      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
-        <div className="max-w-7xl mx-auto">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
-            <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F12d5427bcf6547a0983d1f1488efbe72?format=webp&width=1200"
-                alt="Digital screens showcasing automotive eCommerce"
-                className="w-full h-full object-cover"
-              />
+      <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-center">
+            <div className="w-full">
+              <div className="overflow-hidden rounded-2xl shadow-xl">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F12d5427bcf6547a0983d1f1488efbe72?format=webp&width=1200"
+                  alt="Digital screens showcasing automotive eCommerce"
+                  className="w-full h-auto object-cover"
+                />
+              </div>
             </div>
-            <div className="space-y-8 text-center lg:text-left">
-              <div className="space-y-8">
-                <div className="space-y-4">
-                  <div>
-                    <span
-                      className="text-gray-900 text-base font-semibold"
-                      style={{
-                        fontFamily:
-                          "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
-                      }}
-                    >
-                      Elevate
-                    </span>
-                  </div>
-                  <div className="space-y-6">
-                    <h2
-                      className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight"
-                      style={{
-                        fontFamily:
-                          "Alata, -apple-system, Roboto, Helvetica, sans-serif",
-                      }}
-                    >
-                      Transform Your eCommerce Experience with Us
-                    </h2>
-                    <p
-                      className="text-base sm:text-lg text-gray-900 leading-relaxed"
-                      style={{
-                        fontFamily:
-                          "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
-                      }}
-                    >
-                      At TecNext, we streamline eCommerce platforms to boost
-                      sales and improve customer satisfaction. Our customized
-                      approaches guarantee smooth user experiences that increase
-                      conversions.
-                    </p>
-                  </div>
-                </div>
-                <div className="space-y-4">
-                  <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-2">
-                    <div className="space-y-4">
-                      <h3
-                        className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
-                        style={{
-                          fontFamily:
-                            "Alata, -apple-system, Roboto, Helvetica, sans-serif",
-                        }}
-                      >
-                        Sales Growth
-                      </h3>
-                      <p
-                        className="text-base text-gray-900 leading-relaxed"
-                        style={{
-                          fontFamily:
-                            "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
-                        }}
-                      >
-                        Boost your revenue with our data-driven eCommerce
-                        solutions.
-                      </p>
-                    </div>
-                    <div className="space-y-4">
-                      <h3
-                        className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
-                        style={{
-                          fontFamily:
-                            "Alata, -apple-system, Roboto, Helvetica, sans-serif",
-                        }}
-                      >
-                        Customer Satisfaction
-                      </h3>
-                      <p
-                        className="text-base text-gray-900 leading-relaxed"
-                        style={{
-                          fontFamily:
-                            "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
-                        }}
-                      >
-                        Enhance customer loyalty through personalized shopping
-                        experiences.
-                      </p>
-                    </div>
-                  </div>
+            <div className="space-y-8 text-left">
+              <div className="space-y-6">
+                <span
+                  className="text-gray-900 text-base font-semibold"
+                  style={{
+                    fontFamily:
+                      "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
+                  }}
+                >
+                  Elevate
+                </span>
+                <div className="space-y-6">
+                  <h2
+                    className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight"
+                    style={{
+                      fontFamily:
+                        "Alata, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    Transform Your eCommerce Experience with Us
+                  </h2>
+                  <p
+                    className="text-base sm:text-lg text-gray-900 leading-relaxed max-w-xl"
+                    style={{
+                      fontFamily:
+                        "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    At TecNext, we streamline eCommerce platforms to boost sales and improve customer satisfaction. Our customized approaches guarantee smooth user experiences that increase conversions.
+                  </p>
                 </div>
               </div>
-              <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                <div className="space-y-3">
+                  <h3
+                    className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
+                    style={{
+                      fontFamily:
+                        "Alata, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    Sales Growth
+                  </h3>
+                  <p
+                    className="text-base text-gray-900 leading-relaxed"
+                    style={{
+                      fontFamily:
+                        "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    Boost your revenue with our data-driven eCommerce solutions.
+                  </p>
+                </div>
+                <div className="space-y-3">
+                  <h3
+                    className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
+                    style={{
+                      fontFamily:
+                        "Alata, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    Customer Satisfaction
+                  </h3>
+                  <p
+                    className="text-base text-gray-900 leading-relaxed"
+                    style={{
+                      fontFamily:
+                        "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
+                    }}
+                  >
+                    Enhance customer loyalty through personalized shopping experiences.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col sm:flex-row items-start gap-4 sm:gap-6">
                 <button
                   className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors"
                   style={{
