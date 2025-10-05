@@ -436,8 +436,8 @@ const Services = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="aspect-[15/16] rounded-2xl bg-gray-300 overflow-hidden">
               <img
-                src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg"
-                alt="eCommerce planning and online shopping on tablet"
+                src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F12d5427bcf6547a0983d1f1488efbe72?format=webp&width=1200"
+                alt="Digital screens showcasing automotive eCommerce"
                 className="w-full h-full object-cover"
               />
             </div>
