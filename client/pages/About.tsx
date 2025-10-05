@@ -187,7 +187,7 @@ export default function About() {
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
       <section className="bg-white px-4 py-16 md:px-16 md:py-28">
-        <div className="mx-auto max-w-[1280px] flex flex-col items-center gap-20">
+        <div className="mx-auto max-w-[1280px] flex flex-col items-start gap-20">
           <div className="max-w-[768px] flex flex-col items-start gap-8 w-full">
             <div className="flex flex-col items-start gap-4 w-full">
               <div className="flex items-center w-full">
