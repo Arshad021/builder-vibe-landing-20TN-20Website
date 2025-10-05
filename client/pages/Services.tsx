@@ -75,7 +75,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/5716001/pexels-photo-5716001.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/fa539b180204ed917c99c860ab57d7a66c62cf6f?width=1200"
                     alt="Digital Transformation Strategy"
                     className="w-full h-full object-cover"
                   />
@@ -105,7 +105,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/7552326/pexels-photo-7552326.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/c7e4646340ffb947ffa148847e98c780e7472c40?width=1200"
                     alt="eCommerce Excellence Suite"
                     className="w-full h-full object-cover"
                   />
@@ -136,7 +136,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/68355d725b0e1cc14c7c0a41bf3577f02f72c6c3?width=1200"
                     alt="Data & Analytics Intelligence"
                     className="w-full h-full object-cover"
                   />
@@ -169,7 +169,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/6869043/pexels-photo-6869043.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/c07fe0d3d7e1fb582bc13d0df69b427cfacc86c5?width=1200"
                     alt="Customer Experience Excellence"
                     className="w-full h-full object-cover"
                   />
@@ -200,7 +200,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/30965500/pexels-photo-30965500.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/cc161c31b0235fccda847e6872b8ccf3b1395958?width=1200"
                     alt="Technology Risk Management & Cybersecurity"
                     className="w-full h-full object-cover"
                   />
@@ -230,7 +230,7 @@ const Services = () => {
               <div className="flex flex-col">
                 <div className="aspect-[394/234] rounded-2xl bg-gradient-to-br from-blue-600 to-blue-800 mb-8 overflow-hidden">
                   <img
-                    src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg"
+                    src="https://api.builder.io/api/v1/image/assets/TEMP/354b21512f057dd445b3b6f176ea44204071acd0?width=1200"
                     alt="Project Success Enablement"
                     className="w-full h-full object-cover"
                   />
