@@ -435,11 +435,11 @@ const Services = () => {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[minmax(0,0.9fr)_minmax(0,1.1fr)] gap-10 lg:gap-16 items-center">
             <div className="w-full">
-              <div className="overflow-hidden rounded-2xl shadow-xl">
+              <div className="flex justify-center">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2F12d5427bcf6547a0983d1f1488efbe72?format=webp&width=1200"
                   alt="Digital screens showcasing automotive eCommerce"
-                  className="w-full h-auto object-cover"
+                  className="w-full max-w-xl h-auto object-contain"
                 />
               </div>
             </div>
