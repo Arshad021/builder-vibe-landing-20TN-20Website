@@ -121,7 +121,7 @@ export default function Index() {
               </Link>
             </div>
           </div>
-          <div className="order-1 md:order-2">
+          <div className="order-2 md:order-2">
             <div className="flex justify-center md:hidden">
               <div className="w-full max-w-[320px]">
                 <img
