@@ -51,7 +51,7 @@ export default function Index() {
     },
   ];
 
-  const marqueeLogos = [...trustedLogos, ...trustedLogos, ...trustedLogos];
+  const marqueeLogos = [...trustedLogos, ...trustedLogos];
 
   return (
     <div className="min-h-screen bg-white">
