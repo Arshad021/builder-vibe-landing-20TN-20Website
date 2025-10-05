@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
 import { ArrowRight, ChevronLeft, ChevronRight } from "lucide-react";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 export default function Index() {
   const projectShowcaseRef = useRef<HTMLDivElement>(null);
-  const trustedLogosRef = useRef<HTMLDivElement>(null);
-  const logoDistanceRef = useRef<number | null>(null);
 
   const scrollProjectShowcase = (dir: number) => {
     const el = projectShowcaseRef.current;
@@ -14,84 +12,6 @@ export default function Index() {
     el.scrollBy({ left: dir * amount, behavior: "smooth" });
   };
 
-  useEffect(() => {
-    let animationId: number;
-    let lastTimestamp: number | null = null;
-
-    const resetDistance = () => {
-      logoDistanceRef.current = null;
-    };
-
-    const computeDistancePerLogo = (el: HTMLDivElement) => {
-      if (logoDistanceRef.current !== null) {
-        return logoDistanceRef.current;
-      }
-
-      const children = Array.from(el.children) as HTMLElement[];
-
-      if (children.length > 1) {
-        const firstRect = children[0].getBoundingClientRect();
-        const secondRect = children[1].getBoundingClientRect();
-        const distance = secondRect.left - firstRect.left;
-
-        if (distance > 0) {
-          logoDistanceRef.current = distance;
-          return distance;
-        }
-      } else if (children.length === 1) {
-        const width = children[0].getBoundingClientRect().width;
-        if (width > 0) {
-          logoDistanceRef.current = width;
-          return width;
-        }
-      }
-
-      const fallback = el.clientWidth * 0.25;
-      logoDistanceRef.current = fallback;
-      return fallback;
-    };
-
-    const animateMarquee = (timestamp: number) => {
-      const el = trustedLogosRef.current;
-
-      if (!el) {
-        lastTimestamp = null;
-        animationId = requestAnimationFrame(animateMarquee);
-        return;
-      }
-
-      if (lastTimestamp === null) {
-        lastTimestamp = timestamp;
-      }
-
-      const delta = timestamp - lastTimestamp;
-      lastTimestamp = timestamp;
-
-      const maxScroll = el.scrollWidth - el.clientWidth;
-
-      if (maxScroll > 0) {
-        const distancePerLogo = computeDistancePerLogo(el);
-        const pixelsPerMs = distancePerLogo / 1000;
-        let nextScroll = el.scrollLeft + delta * pixelsPerMs;
-
-        while (nextScroll >= maxScroll) {
-          nextScroll -= maxScroll;
-        }
-
-        el.scrollLeft = nextScroll;
-      }
-
-      animationId = requestAnimationFrame(animateMarquee);
-    };
-
-    window.addEventListener("resize", resetDistance);
-    animationId = requestAnimationFrame(animateMarquee);
-
-    return () => {
-      window.removeEventListener("resize", resetDistance);
-      cancelAnimationFrame(animationId);
-    };
-  }, []);
 
   const trustedLogos = [
     {
@@ -297,25 +217,23 @@ export default function Index() {
           <h2 className="font-montserrat text-xs md:text-lg font-bold text-[#0C0801]">
             Trusted by industry leaders worldwide
           </h2>
-          <div className="mt-8 flex w-full justify-center">
-            <div
-              ref={trustedLogosRef}
-              className="flex w-full max-w-[960px] gap-8 overflow-x-auto scroll-smooth px-2 [&::-webkit-scrollbar]:hidden"
-              style={{ scrollbarWidth: "none" }}
-            >
-              {marqueeLogos.map((logo, index) => (
-                <div
-                  key={`${logo.alt}-${index}`}
-                  className="flex h-14 min-w-[140px] flex-shrink-0 items-center justify-center md:h-16 md:min-w-[180px]"
-                >
-                  <img
-                    src={logo.src}
-                    alt={logo.alt}
-                    loading="lazy"
-                    className="max-h-12 w-auto object-contain"
-                  />
-                </div>
-              ))}
+          <div className="mt-8 md:mt-12">
+            <div className="marquee">
+              <div className="marquee-track">
+                {marqueeLogos.map((logo, index) => (
+                  <div
+                    key={`${logo.alt}-${index}`}
+                    className="flex h-14 min-w-[140px] flex-shrink-0 items-center justify-center md:h-16 md:min-w-[180px]"
+                  >
+                    <img
+                      src={logo.src}
+                      alt={logo.alt}
+                      loading="lazy"
+                      className="max-h-12 w-auto object-contain"
+                    />
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         </div>
