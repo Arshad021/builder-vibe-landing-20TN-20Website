@@ -99,7 +99,7 @@ export default function Index() {
       {/* Hero Section */}
       <section className="bg-white px-6 sm:px-12 lg:px-20 xl:px-24 pt-16 pb-12 md:py-24">
         <div className="mx-auto grid w-full max-w-[1280px] items-center gap-12 md:grid-cols-[minmax(0,1fr)_minmax(0,520px)]">
-          <div className="order-2 space-y-6 md:order-1 md:space-y-8">
+          <div className="order-1 space-y-6 md:order-1 md:space-y-8">
             <h1 className="font-alata text-[44px] md:text-[68px] font-normal leading-[115%] tracking-[-0.44px] text-[#0C0801] md:max-w-[540px]">
               Empowering Your Digital Transformation Journey
             </h1>
