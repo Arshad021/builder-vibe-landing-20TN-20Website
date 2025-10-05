@@ -459,14 +459,7 @@ export default function Index() {
       {/* Business Potential Section */}
       <section className="bg-white px-5 md:px-16 py-16 md:py-28 border-y-2 border-[#173462]">
         <div className="mx-auto max-w-[1100px] flex flex-col md:flex-row items-center gap-10 md:gap-16">
-          <div className="flex-1 flex justify-center">
-            <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F7bb87cd5bb024b629afd2d6c4ad7eecb%2Fe3b318d0c71649a0b09687e00fd81bbd?format=webp&width=1200"
-              alt="Responsive TecNext platforms on multiple devices"
-              className="w-full max-w-[520px] object-contain"
-            />
-          </div>
-          <div className="flex-1 max-w-[460px] text-center md:text-left">
+          <div className="flex-1 max-w-[460px] text-center md:text-left order-1 md:order-2">
             <h2 className="font-alata text-[32px] md:text-[44px] font-normal leading-[120%] tracking-[-0.32px] md:tracking-[-0.44px] text-[#0C0801]">
               Unlock Your Business Potential with TecNext's Transformative Solutions
             </h2>
