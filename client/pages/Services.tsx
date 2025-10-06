@@ -814,7 +814,7 @@ const Services = () => {
               </div>
               <div className="flex flex-col sm:flex-row items-center sm:items-start gap-6">
                 <button
-                  className="px-3 py-1.5 border border-gray-800/15 rounded-full text-gray-900 text-base font-medium hover:bg-gray-50 transition-colors"
+                  className="px-3 py-1.5 border border-white/40 rounded-full text-[#173462] text-base font-medium bg-white hover:bg-white/90 transition-colors"
                   style={{
                     fontFamily:
                       "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
@@ -823,7 +823,7 @@ const Services = () => {
                   Learn More
                 </button>
                 <button
-                  className="flex items-center gap-2 text-gray-900 text-base font-medium hover:opacity-80 transition-opacity"
+                  className="flex items-center gap-2 text-white text-base font-medium hover:opacity-80 transition-opacity"
                   style={{
                     fontFamily:
                       "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
@@ -838,9 +838,9 @@ const Services = () => {
                     xmlns="http://www.w3.org/2000/svg"
                   >
                     <path
-                      d="M9.38708 7.04102C9.48791 7.04102 9.56488 7.07143 9.64294 7.14941L14.5873 12.0938C14.6412 12.1477 14.6663 12.1896 14.6781 12.2178V12.2188C14.6929 12.2543 14.7015 12.2941 14.7015 12.3428C14.7015 12.3915 14.6929 12.4312 14.6781 12.4668V12.4678C14.6663 12.4959 14.6412 12.5379 14.5873 12.5918L9.61853 17.5605C9.54076 17.6383 9.47362 17.6602 9.39294 17.6572C9.29892 17.6537 9.21805 17.6219 9.1322 17.5361C9.05408 17.458 9.02283 17.3812 9.02283 17.2803C9.02283 17.1794 9.05408 17.1025 9.1322 17.0244L13.8138 12.3428L9.10681 7.63574C9.02915 7.55804 9.0072 7.99174 9.01013 7.41113C9.01358 7.81687 9.04615 7.73547 9.1322 7.14941C9.21013 7.0716 9.28649 7.04109 9.38708 7.04102Z"
-                      fill="#0C0801"
-                      stroke="#0C0801"
+                      d="M9.38708 7.04102C9.48791 7.04102 9.56488 7.07143 9.64294 7.14941L14.5873 12.0938C14.6412 12.1477 14.6663 12.1896 14.6781 12.2178V12.2188C14.6929 12.2543 14.7015 12.2941 14.7015 12.3428C14.7015 12.3915 14.6929 12.4312 14.6781 12.4668V12.4678C14.6663 12.4959 14.6412 12.5379 14.5873 12.5918L9.61853 17.5605C9.54076 17.6383 9.47362 17.6602 9.39294 17.6572C9.29892 17.6537 9.21805 17.6219 9.1322 17.5361C9.05408 17.458 9.02283 17.3812 9.02283 17.2803C9.02283 17.1794 9.05408 17.1025 9.1322 17.0244L13.8138 12.3428L9.10681 7.63574C9.02915 7.55804 9.0072 7.49174 9.01013 7.41113C9.01358 7.81687 9.04615 7.73547 9.1322 7.14941C9.21013 7.0716 9.28649 7.04109 9.38708 7.04102Z"
+                      fill="white"
+                      stroke="white"
                     />
                   </svg>
                 </button>
