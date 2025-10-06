@@ -717,7 +717,7 @@ const Services = () => {
       </section>
 
       {/* Customer Experience Section */}
-      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
+      <section className="bg-[#173462] py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="flex justify-center order-2 lg:order-1">
@@ -732,7 +732,7 @@ const Services = () => {
                 <div className="space-y-4">
                   <div>
                     <span
-                      className="text-gray-900 text-base font-semibold"
+                      className="text-white text-base font-semibold"
                       style={{
                         fontFamily:
                           "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
@@ -743,7 +743,7 @@ const Services = () => {
                   </div>
                   <div className="space-y-6">
                     <h2
-                      className="text-3xl sm:text-4xl lg:text-5xl font-normal text-gray-900 leading-tight tracking-tight"
+                      className="text-3xl sm:text-4xl lg:text-5xl font-normal text-white leading-tight tracking-tight"
                       style={{
                         fontFamily:
                           "Alata, -apple-system, Roboto, Helvetica, sans-serif",
@@ -752,7 +752,7 @@ const Services = () => {
                       Transforming Customer Experiences with Innovation
                     </h2>
                     <p
-                      className="text-base sm:text-lg text-gray-900 leading-relaxed"
+                      className="text-base sm:text-lg text-white leading-relaxed"
                       style={{
                         fontFamily:
                           "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
@@ -769,7 +769,7 @@ const Services = () => {
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 py-2">
                     <div className="space-y-4">
                       <h3
-                        className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
+                        className="text-xl font-normal text-white leading-tight tracking-tight"
                         style={{
                           fontFamily:
                             "Alata, -apple-system, Roboto, Helvetica, sans-serif",
@@ -778,7 +778,7 @@ const Services = () => {
                         Personalized Solutions
                       </h3>
                       <p
-                        className="text-base text-gray-900 leading-relaxed"
+                        className="text-base text-white leading-relaxed"
                         style={{
                           fontFamily:
                             "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
@@ -790,7 +790,7 @@ const Services = () => {
                     </div>
                     <div className="space-y-4">
                       <h3
-                        className="text-xl font-normal text-gray-900 leading-tight tracking-tight"
+                        className="text-xl font-normal text-white leading-tight tracking-tight"
                         style={{
                           fontFamily:
                             "Alata, -apple-system, Roboto, Helvetica, sans-serif",
@@ -799,7 +799,7 @@ const Services = () => {
                         Data-Driven Insights
                       </h3>
                       <p
-                        className="text-base text-gray-900 leading-relaxed"
+                        className="text-base text-white leading-relaxed"
                         style={{
                           fontFamily:
                             "Montserrat, -apple-system, Roboto, Helvetica, sans-serif",
