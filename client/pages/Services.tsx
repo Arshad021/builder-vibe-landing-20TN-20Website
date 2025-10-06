@@ -851,7 +851,7 @@ const Services = () => {
       </section>
 
       {/* Security Section */}
-      <section className="bg-gray-100 py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
+      <section className="bg-white py-16 sm:py-24 lg:py-28 px-4 sm:px-8 lg:px-16">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20 items-center">
             <div className="space-y-8 text-center lg:text-left">
