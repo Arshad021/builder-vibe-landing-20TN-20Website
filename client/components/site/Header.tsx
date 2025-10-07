@@ -167,12 +167,6 @@ export default function Header() {
             >
               Contact
             </Link>
-            <Link
-              to="/p/explore"
-              className="flex px-5 py-2 items-center justify-center rounded-full bg-[#3A6FF1] text-sm font-montserrat font-semibold text-white shadow-[0_10px_20px_rgba(58,111,241,0.25)] transition-transform hover:-translate-y-[1px]"
-            >
-              Explore
-            </Link>
           </div>
 
           <button
@@ -329,13 +323,6 @@ export default function Header() {
                 onClick={() => setMobileOpen(false)}
               >
                 Contact
-              </Link>
-              <Link
-                to="/p/explore"
-                className="flex w-full items-center justify-center rounded-full bg-[#3A6FF1] px-[10px] py-2 text-xs font-semibold font-montserrat text-white"
-                onClick={() => setMobileOpen(false)}
-              >
-                Explore
               </Link>
             </div>
           </div>
