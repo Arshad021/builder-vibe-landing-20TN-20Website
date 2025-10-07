@@ -6,12 +6,11 @@ import BrandLogo from "./BrandLogo";
 
 const navLinkClass = ({ isActive }: { isActive: boolean }) =>
   `px-4 py-2 text-sm font-medium font-montserrat transition-colors ${
-    isActive
-      ? "text-[#1F2A44]"
-      : "text-[#55627C] hover:text-[#1F2A44]"
+    isActive ? "text-[#1F2A44]" : "text-[#55627C] hover:text-[#1F2A44]"
   }`;
 
-const mobileLinkClass = "py-3 text-base font-medium font-montserrat text-[#1F2A44]";
+const mobileLinkClass =
+  "py-3 text-base font-medium font-montserrat text-[#1F2A44]";
 
 const CubeIcon = () => (
   <svg
@@ -174,7 +173,11 @@ export default function Header() {
             aria-label="Toggle menu"
             onClick={() => setMobileOpen((v) => !v)}
           >
-            {mobileOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+            {mobileOpen ? (
+              <X className="h-6 w-6" />
+            ) : (
+              <Menu className="h-6 w-6" />
+            )}
           </button>
         </div>
       </div>
