@@ -122,7 +122,7 @@ export default function Header() {
   }, [open]);
 
   return (
-    <div className="flex flex-col items-center self-stretch bg-[#EDF2FC] relative">
+    <div className="sticky top-0 z-50 flex flex-col items-center self-stretch bg-white shadow-sm">
       <div className="flex h-[72px] w-full max-w-[1440px] px-6 md:px-10 xl:px-16 justify-between items-center">
         <div className="flex justify-between items-center flex-1">
           <div className="flex items-center gap-8">
@@ -187,14 +187,14 @@ export default function Header() {
 
       {open && (
         <div
-          className="fixed inset-0 top-[72px] z-40 bg-[#EDF2FC]"
+          className="fixed inset-0 top-[72px] z-40 bg-white/80"
           onClick={() => setOpen(false)}
           aria-hidden
         />
       )}
 
       {mobileOpen && (
-        <div className="fixed inset-0 z-50 bg-[#EDF2FC] md:hidden">
+        <div className="fixed inset-0 z-50 bg-white md:hidden">
           <div className="flex h-16 items-center justify-between px-5 border-b border-[rgba(12,8,1,0.1)]">
             <Link to="/" className="flex items-center">
               <BrandLogo size="sm" className="h-9" />
@@ -288,7 +288,7 @@ export default function Header() {
               </div>
             </div>
 
-            <div className="mt-auto space-y-4 bg-[#EDF2FC] px-6 py-6 -mx-5">
+            <div className="mt-auto space-y-4 bg-white px-6 py-6 -mx-5">
               <div className="flex flex-col gap-4">
                 <div className="text-xs font-normal font-montserrat text-[#55627C] leading-[150%]">
                   Ready to elevate your business?
